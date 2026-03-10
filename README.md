@@ -50,7 +50,7 @@ cd haqdaar
 # Install dependencies
 npm install
 
-# Add your API key
+# Add your API key as follows
 # Create a .env file:
 echo "VITE_ANTHROPIC_API_KEY=your_api_key_here" > .env
 
