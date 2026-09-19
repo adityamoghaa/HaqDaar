@@ -7,4 +7,11 @@ export default defineConfig({
     port: 5173,
     host: true,
   },
+  build: {
+    target: "esnext",
+    minify: "esbuild",
+  },
+  resolve: {
+    extensions: [".js", ".jsx", ".json"],
+  },
 });

@@ -1,27 +1,34 @@
-// server.js — HaqDaar API Proxy
-// Supports: Anthropic Claude, Google Gemini, Groq
-// Set LLM_PROVIDER in .env to switch between them
+// server.js — HaqDaar v2 API Proxy
+// Gemini 3.5 Flash (Google AI Pro) — single provider, clean architecture
 // Run: node server.js
 
 import express from "express";
 import cors from "cors";
-import fetch from "node-fetch";
 import dotenv from "dotenv";
 
 dotenv.config();
 
 const app = express();
-app.use(cors({ origin: ["http://localhost:5173", "http://localhost:4173"] }));
-app.use(express.json());
+app.use(cors({ origin: true }));
+app.use(express.json({ limit: "1mb" }));
 
-const PROVIDER = process.env.LLM_PROVIDER || "gemini"; // gemini | anthropic | groq
+const GEMINI_MODEL = "gemini-3.5-flash";
 
-// ─── GEMINI ───────────────────────────────────────────────────────────────────
-async function callGemini(systemPrompt, messages) {
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function isTransientError(err, statusCode) {
+  if (statusCode === 429 || statusCode === 503) return true;
+  const msg = (err?.message || err || "").toString().toLowerCase();
+  return msg.includes("high demand") || msg.includes("overloaded") || msg.includes("rate limit") || msg.includes("resource exhausted");
+}
+
+// ─── Gemini API Call (with retry) ────────────────────────────────────────────
+async function callGemini(systemPrompt, messages, maxTokens = 2000) {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) throw new Error("GEMINI_API_KEY not set in .env");
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`;
 
   // Convert messages to Gemini format
   const contents = messages.map((m) => ({
@@ -34,95 +41,148 @@ async function callGemini(systemPrompt, messages) {
     contents,
     generationConfig: {
       temperature: 0.7,
-      maxOutputTokens: 1000,
+      maxOutputTokens: maxTokens,
+      responseMimeType: "application/json",
     },
   };
 
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
+  const MAX_RETRIES = 3;
+  const BASE_DELAY_MS = 1000;
 
-  const data = await res.json();
-  if (data.error) throw new Error(data.error.message);
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
 
-  const text = data.candidates?.[0]?.content?.parts?.[0]?.text || "{}";
-  // Return in Anthropic-compatible format so frontend doesn't need changes
-  return { content: [{ type: "text", text }] };
+      const data = await res.json();
+
+      if (data.error) {
+        if (attempt < MAX_RETRIES && isTransientError(data.error.message, res.status)) {
+          const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+          console.warn(`[Gemini] Transient error (attempt ${attempt + 1}/${MAX_RETRIES}), retrying in ${delay}ms:`, data.error.message);
+          await sleep(delay);
+          continue;
+        }
+        throw new Error(data.error.message);
+      }
+
+      if (!res.ok) {
+        if (attempt < MAX_RETRIES && isTransientError("", res.status)) {
+          const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+          console.warn(`[Gemini] HTTP ${res.status} (attempt ${attempt + 1}/${MAX_RETRIES}), retrying in ${delay}ms`);
+          await sleep(delay);
+          continue;
+        }
+        throw new Error(`Gemini API returned HTTP ${res.status}`);
+      }
+
+      const text = data.candidates?.[0]?.content?.parts?.[0]?.text || "{}";
+      return { content: [{ type: "text", text }] };
+    } catch (err) {
+      if (attempt < MAX_RETRIES && isTransientError(err, 0)) {
+        const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+        console.warn(`[Gemini] Network error (attempt ${attempt + 1}/${MAX_RETRIES}), retrying in ${delay}ms:`, err.message);
+        await sleep(delay);
+        continue;
+      }
+      throw err;
+    }
+  }
 }
 
-// ─── ANTHROPIC ────────────────────────────────────────────────────────────────
-async function callAnthropic(systemPrompt, messages, model) {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) throw new Error("ANTHROPIC_API_KEY not set in .env");
-
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({ model, max_tokens: 1000, system: systemPrompt, messages }),
-  });
-
-  return res.json();
-}
-
-// ─── GROQ ─────────────────────────────────────────────────────────────────────
-async function callGroq(systemPrompt, messages) {
-  const apiKey = process.env.GROQ_API_KEY;
-  if (!apiKey) throw new Error("GROQ_API_KEY not set in .env");
-
-  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
-      max_tokens: 1000,
-      messages: [{ role: "system", content: systemPrompt }, ...messages],
-    }),
-  });
-
-  const data = await res.json();
-  if (data.error) throw new Error(data.error.message);
-
-  const text = data.choices?.[0]?.message?.content || "{}";
-  return { content: [{ type: "text", text }] };
-}
-
-// ─── MAIN ROUTE ───────────────────────────────────────────────────────────────
+// ─── Chat Endpoint (Profile Extraction) ──────────────────────────────────────
 app.post("/api/chat", async (req, res) => {
-  const { system, messages, model } = req.body;
+  const { system, messages } = req.body;
+
+  if (!system || !messages || !Array.isArray(messages)) {
+    return res.status(400).json({ error: "Missing required fields: system, messages" });
+  }
 
   try {
-    let result;
-    if (PROVIDER === "gemini") {
-      result = await callGemini(system, messages);
-    } else if (PROVIDER === "anthropic") {
-      result = await callAnthropic(system, messages, model);
-    } else if (PROVIDER === "groq") {
-      result = await callGroq(system, messages);
-    } else {
-      throw new Error(`Unknown LLM_PROVIDER: ${PROVIDER}`);
-    }
-
+    const result = await callGemini(system, messages);
     res.json(result);
   } catch (err) {
-    console.error(`[${PROVIDER}] Error:`, err.message);
+    console.error("[Gemini Chat] Error:", err.message);
     res.status(500).json({ error: err.message });
   }
 });
 
+// ─── RAG Match Endpoint ──────────────────────────────────────────────────────
+app.post("/api/match", async (req, res) => {
+  const { profile, candidates } = req.body;
+
+  if (!profile || !candidates) {
+    return res.status(400).json({ error: "Missing required fields: profile, candidates" });
+  }
+
+  const systemPrompt = `You are an expert Indian government scheme matcher. Given a user profile and a list of candidate schemes, rank and score each scheme by relevance.
+
+Return a JSON array of objects with:
+- id: scheme ID
+- score: 0-99 (relevance score)
+- reason: one-line explanation of why this scheme matches (in the user's language if Hindi, else English)
+- relevant: true/false
+
+Only include schemes with score >= 30. Sort by score descending. Return at most 15 schemes.
+
+User Profile:
+${JSON.stringify(profile, null, 2)}`;
+
+  const message = {
+    role: "user",
+    content: `Here are the candidate schemes to evaluate:\n\n${JSON.stringify(candidates.map(c => ({
+      id: c.id, name: c.name, category: c.category, state: c.state, level: c.level,
+      benefit: c.benefit, eligibility: c.eligibility, tags: c.tags
+    })), null, 2)}`
+  };
+
+  try {
+    const result = await callGemini(systemPrompt, [message], 3000);
+    res.json(result);
+  } catch (err) {
+    console.error("[Gemini Match] Error:", err.message);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ─── Explain Endpoint ────────────────────────────────────────────────────────
+app.post("/api/explain", async (req, res) => {
+  const { profile, scheme, language } = req.body;
+
+  const lang = language === "hi" ? "Hindi" : "English";
+  const systemPrompt = `You are HaqDaar, explaining a government scheme to an Indian citizen in simple ${lang}.
+
+Explain:
+1. Why they qualify for this scheme
+2. How much benefit they'll get
+3. Step-by-step how to apply
+4. Documents they need to keep ready
+
+Be warm, simple, and encouraging. No bureaucratic jargon. Return JSON: { "explanation": "your explanation text" }`;
+
+  const message = {
+    role: "user",
+    content: `User Profile: ${JSON.stringify(profile)}\n\nScheme: ${JSON.stringify(scheme)}`
+  };
+
+  try {
+    const result = await callGemini(systemPrompt, [message], 1500);
+    res.json(result);
+  } catch (err) {
+    console.error("[Gemini Explain] Error:", err.message);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ─── Health Check ────────────────────────────────────────────────────────────
 app.get("/health", (_, res) =>
-  res.json({ status: "ok", provider: PROVIDER, service: "HaqDaar API Proxy" })
+  res.json({ status: "ok", model: GEMINI_MODEL, service: "HaqDaar v2 API" })
 );
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`✅ HaqDaar proxy → http://localhost:${PORT}  [provider: ${PROVIDER}]`);
+  console.log(`✅ HaqDaar v2 API → http://localhost:${PORT}  [model: ${GEMINI_MODEL}]`);
 });
