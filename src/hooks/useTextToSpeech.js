@@ -4,7 +4,7 @@ import { useCallback } from "react";
 export default function useTextToSpeech(language = "hi") {
   const speak = useCallback(
     (text) => {
-      if (!("speechSynthesis" in window) || !text) return;
+      if (typeof window === "undefined" || !("speechSynthesis" in window) || !text) return;
       window.speechSynthesis.cancel();
 
       const utt = new SpeechSynthesisUtterance(text);
@@ -21,7 +21,9 @@ export default function useTextToSpeech(language = "hi") {
   );
 
   const stop = useCallback(() => {
-    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
   }, []);
 
   return { speak, stop };
