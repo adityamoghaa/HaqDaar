@@ -62,16 +62,27 @@ export default function VoicePage() {
     setFallbackText("");
 
     const voiceStore = useVoiceStore.getState();
+    const chatStore = useChatStore.getState();
+    const appStore = useAppStore.getState();
+
     voiceStore.setInputTranscript(text);
     voiceStore.setIsThinking(true);
+    chatStore.addMessage({ role: "user", content: text });
 
     try {
+      const historyToSend = chatStore.messages.slice(-6).map((m) => ({
+        role: m.role === "assistant" ? "assistant" : "user",
+        content: m.content,
+      }));
+
       const res = await fetch("/api/voice", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           text,
           language,
+          history: historyToSend,
+          profile: appStore.profile,
         }),
       });
 
@@ -79,6 +90,11 @@ export default function VoicePage() {
       const data = await res.json();
       const reply = data.message || "";
       voiceStore.setOutputTranscript(reply);
+
+      if (reply) {
+        chatStore.addMessage({ role: "assistant", content: reply });
+      }
+
       if (data.profile) {
         useAppStore.getState().mergeProfile(data.profile);
       }
@@ -113,29 +129,45 @@ export default function VoicePage() {
       <main className="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-8 flex flex-col items-center justify-between">
         {/* Top Status Header */}
         <div className="text-center space-y-2 mb-4">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-gray-300">
+          <div
+            className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border text-xs font-semibold transition-all duration-300 shadow-md ${
+              isListening
+                ? "bg-red-500/20 border-red-500/50 text-red-200 ring-2 ring-red-500/20"
+                : isThinking
+                ? "bg-amber-500/20 border-amber-400/60 text-amber-100 ring-2 ring-amber-400/30 shadow-amber-500/10"
+                : isSpeaking
+                ? "bg-emerald-500/20 border-emerald-400/50 text-emerald-200 ring-2 ring-emerald-500/20"
+                : "bg-white/10 border-white/15 text-gray-200"
+            }`}
+          >
             <span
-              className={`w-2 h-2 rounded-full ${
+              className={`w-2.5 h-2.5 rounded-full shrink-0 ${
                 isListening
                   ? "bg-red-500 animate-ping"
                   : isSpeaking
                   ? "bg-emerald-400 animate-pulse"
                   : isThinking
-                  ? "bg-amber-400 animate-pulse"
+                  ? "bg-amber-400 animate-ping"
                   : "bg-orange-400"
               }`}
             />
-            <span>
+            <span className="flex items-center gap-1.5">
               {isListening ? (
-                <span className="text-red-400 font-bold">
-                  Recording Audio ({formatTimer(recordingDuration)}) — Tap to Finish
+                <span className="text-red-300 font-bold tracking-wide">
+                  Recording Audio ({formatTimer(recordingDuration)}) — Tap button to finish
                 </span>
               ) : isThinking ? (
-                <TextShimmer>Gemini 2.5 Flash is analyzing your voice...</TextShimmer>
+                <span className="text-amber-200 font-extrabold tracking-wide flex items-center gap-1.5 animate-pulse">
+                  <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-spin" />
+                  Gemini is analyzing your voice...
+                </span>
               ) : isSpeaking ? (
-                <span className="text-emerald-400 font-medium">HaqDaar is speaking aloud...</span>
+                <span className="text-emerald-300 font-bold tracking-wide flex items-center gap-1.5">
+                  <Volume2 className="w-3.5 h-3.5 text-emerald-300 animate-bounce" />
+                  HaqDaar is speaking aloud...
+                </span>
               ) : (
-                <span>One-Way Push to Talk • Tap to Speak</span>
+                <span className="text-gray-200 font-medium">One-Way Push to Talk • Tap to Speak</span>
               )}
             </span>
           </div>

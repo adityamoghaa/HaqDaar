@@ -247,6 +247,15 @@ input, button, textarea {
   }
 }
 
+@keyframes news-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @keyframes shimmer {
   0% {
     background-position: 200% 0;

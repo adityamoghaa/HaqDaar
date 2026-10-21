@@ -12,8 +12,13 @@ import {
   Menu,
   X,
   Globe,
+  Scale,
+  Bookmark,
+  MapPin,
+  TrendingUp,
 } from "lucide-react";
 import useAppStore from "@/stores/appStore";
+import NotificationCenter from "@/components/features/NotificationCenter";
 
 interface HeaderProps {
   showBack?: boolean;
@@ -36,14 +41,17 @@ export default function Header({ rightAction = "reset" }: HeaderProps) {
   };
 
   const navLinks = [
-    { href: "/chat", label: language === "hi" ? "चैट" : "Chat", icon: MessageSquare },
-    { href: "/voice", label: language === "hi" ? "वॉइस" : "Voice", icon: Mic },
     { href: "/schemes", label: language === "hi" ? "योजनाएं" : "Schemes", icon: Search },
+    { href: "/compare", label: language === "hi" ? "तुलना" : "Compare", icon: Scale },
+    { href: "/dashboard", label: language === "hi" ? "मेरी तिजोरी" : "My Vault", icon: Bookmark },
+    { href: "/csc-locator", label: language === "hi" ? "जन सेवा केंद्र" : "CSC Centers", icon: MapPin },
+    { href: "/impact", label: language === "hi" ? "कैलकुलेटर" : "Impact & Calculator", icon: TrendingUp },
+    { href: "/chat", label: language === "hi" ? "एआई चैट" : "AI Chat", icon: MessageSquare },
     ...(matchedSchemes.length > 0
       ? [
           {
             href: "/results",
-            label: `${language === "hi" ? "परिणाम" : "Results"} (${matchedSchemes.length})`,
+            label: `${language === "hi" ? "पात्र योजनाएं" : "Matched"} (${matchedSchemes.length})`,
             icon: Sparkles,
           },
         ]
@@ -97,6 +105,9 @@ export default function Header({ rightAction = "reset" }: HeaderProps) {
 
         {/* Right Actions */}
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Notification Center Popover */}
+          <NotificationCenter />
+
           {/* Language Switcher */}
           <button
             onClick={toggleLanguage}

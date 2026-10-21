@@ -133,7 +133,7 @@ export default function ToolbarDynamic() {
                   {/* All Schemes Directory */}
                   <ToolbarButton
                     onClick={() => router.push("/schemes")}
-                    ariaLabel="All 46 Schemes"
+                    ariaLabel="All 150+ Schemes"
                   >
                     <Layers className="h-4 w-4" />
                   </ToolbarButton>
@@ -169,7 +169,7 @@ export default function ToolbarDynamic() {
                       placeholder={
                         language === "hi"
                           ? "योजना खोजें (जैसे: किसान, छात्रवृत्ति)..."
-                          : "Search 46+ schemes (e.g. Kisan, PMAY)..."
+                          : "Search 150+ schemes (e.g. Kisan, PMAY)..."
                       }
                     />
                   </div>

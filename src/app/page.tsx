@@ -19,6 +19,7 @@ import useChatStore from "@/stores/chatStore";
 import { categories, schemes } from "@/lib/schemeSearch";
 import { GovernmentLogosMarquee } from "@/components/ui/InfiniteSlider";
 import ToolbarDynamic from "@/components/ui/ToolbarDynamic";
+import { NewsTickerBar } from "@/components/ui/NewsTicker";
 import { TextShimmer } from "@/components/ui/TextShimmer";
 import { TextEffect } from "@/components/ui/TextEffect";
 import { AnimatedNumber } from "@/components/ui/AnimatedNumber";
@@ -88,14 +89,22 @@ export default function HomePage() {
     }, 400);
   };
 
+  const countByCategory = (cat: string) => schemes.filter(s => s.category === cat).length;
+
   const tabItems: TabItem[] = [
     { id: "all", label: "All Schemes", count: schemes.length },
-    { id: "agriculture", label: "Agriculture", icon: "🌾", count: 5 },
-    { id: "health", label: "Health & Ayushman", icon: "💊", count: 4 },
-    { id: "scholarship", label: "Education", icon: "🎓", count: 5 },
-    { id: "housing", label: "Housing & PMAY", icon: "🏠", count: 4 },
-    { id: "women", label: "Women & Child", icon: "👩", count: 5 },
-    { id: "startup", label: "MSME & Startup", icon: "🚀", count: 4 },
+    { id: "agriculture", label: "Agriculture", icon: "🌾", count: countByCategory("agriculture") },
+    { id: "health", label: "Health", icon: "💊", count: countByCategory("health") },
+    { id: "scholarship", label: "Education", icon: "🎓", count: countByCategory("scholarship") },
+    { id: "housing", label: "Housing", icon: "🏠", count: countByCategory("housing") },
+    { id: "women", label: "Women & Child", icon: "👩", count: countByCategory("women") },
+    { id: "startup", label: "MSME & Startup", icon: "🚀", count: countByCategory("startup") },
+    { id: "financial", label: "Financial", icon: "🏦", count: countByCategory("financial") },
+    { id: "skill", label: "Skills & Jobs", icon: "🔧", count: countByCategory("skill") },
+    { id: "energy", label: "Energy", icon: "⚡", count: countByCategory("energy") },
+    { id: "tribal", label: "Tribal Welfare", icon: "🏔️", count: countByCategory("tribal") },
+    { id: "digital", label: "Digital India", icon: "📱", count: countByCategory("digital") },
+    { id: "transport", label: "Transport", icon: "🚌", count: countByCategory("transport") },
   ];
 
   const displayedSchemes = schemes.filter(
@@ -150,7 +159,7 @@ export default function HomePage() {
                   className="w-full sm:w-auto px-6 py-3.5 rounded-xl font-semibold text-sm text-gray-300 hover:text-white bg-transparent hover:bg-white/5 flex items-center justify-center gap-2 transition-colors cursor-pointer"
                 >
                   <Search className="w-4 h-4 text-gray-400" />
-                  <span>{language === "hi" ? "योजनाएं देखें" : "Browse All 46"}</span>
+                  <span>{language === "hi" ? "योजनाएं देखें" : "Browse All 150+"}</span>
                 </Link>
               </div>
 
@@ -261,6 +270,16 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ─── LIVE News Ticker Bar ──────────────────────────────── */}
+        <section className="my-4">
+          <div className="text-center mb-2">
+            <span className="text-[11px] uppercase tracking-widest text-gray-400 font-semibold">
+              Scheme Updates • Deadlines • New Additions
+            </span>
+          </div>
+          <NewsTickerBar />
+        </section>
+
         {/* ─── 1. Infinite Scroll Bar with Government Department Logos ── */}
         <section className="my-4">
           <div className="text-center mb-3">
@@ -277,7 +296,7 @@ export default function HomePage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div>
                 <div className="text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-400">
-                  <AnimatedNumber value={46} suffix="+" />
+                  <AnimatedNumber value={150} suffix="+" />
                 </div>
                 <div className="text-xs text-gray-400 uppercase tracking-wider font-semibold mt-1.5">
                   Verified Schemes
@@ -295,7 +314,7 @@ export default function HomePage() {
 
               <div>
                 <div className="text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
-                  <AnimatedNumber value={12} suffix=" Sectors" />
+                  <AnimatedNumber value={15} suffix=" Sectors" />
                 </div>
                 <div className="text-xs text-gray-400 uppercase tracking-wider font-semibold mt-1.5">
                   Focus Categories
@@ -329,7 +348,7 @@ export default function HomePage() {
               href="/schemes"
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400 hover:text-orange-300"
             >
-              <span>View Full Directory (46 Schemes)</span>
+              <span>View Full Directory (150+ Schemes)</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -346,9 +365,9 @@ export default function HomePage() {
 
           {/* Filtered Schemes Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {displayedSchemes.map((s) => (
+            {displayedSchemes.map((s, idx) => (
               <div
-                key={s.id}
+                key={`${s.id}-${idx}`}
                 className="p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-orange-500/30 transition-all flex flex-col justify-between group"
               >
                 <div>

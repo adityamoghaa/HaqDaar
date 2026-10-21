@@ -1,0 +1,140 @@
+{
+  "lastUpdated": "2026-10-17",
+  "items": [
+    {
+      "id": "news-001",
+      "type": "deadline",
+      "urgency": "high",
+      "text": "⏰ PM-KISAN eKYC Deadline: Complete your Aadhaar-based eKYC by 31 March 2027 to receive next installment",
+      "textHindi": "⏰ पीएम-किसान ई-केवाईसी: अगली किस्त पाने के लिए 31 मार्च 2027 तक आधार ई-केवाईसी करवाएं",
+      "schemeId": "PM-KISAN-001",
+      "url": "https://pmkisan.gov.in",
+      "expiresAt": "2027-03-31"
+    },
+    {
+      "id": "news-002",
+      "type": "update",
+      "urgency": "medium",
+      "text": "📢 Ayushman Bharat: Coverage increased to ₹10 Lakh for senior citizens aged 70+ under AB-PMJAY",
+      "textHindi": "📢 आयुष्मान भारत: 70+ आयु वर्ग के वरिष्ठ नागरिकों का कवरेज बढ़ाकर ₹10 लाख किया गया",
+      "schemeId": "ABPMJAY-001",
+      "url": "https://pmjay.gov.in"
+    },
+    {
+      "id": "news-003",
+      "type": "new_scheme",
+      "urgency": "medium",
+      "text": "🆕 New: PM Vishwakarma Yojana — ₹3 Lakh collateral-free loan at 5% for traditional artisans & craftsmen",
+      "textHindi": "🆕 नई योजना: पीएम विश्वकर्मा — पारंपरिक कारीगरों के लिए 5% ब्याज पर ₹3 लाख बिना गारंटी ऋण",
+      "schemeId": "PMVISHWAKARMA-001",
+      "url": "https://pmvishwakarma.gov.in"
+    },
+    {
+      "id": "news-004",
+      "type": "application",
+      "urgency": "high",
+      "text": "📋 Post-Matric Scholarship 2026-27: Applications open for SC/ST/OBC students — Apply before 30 November 2026",
+      "textHindi": "📋 पोस्ट-मैट्रिक छात्रवृत्ति 2026-27: SC/ST/OBC छात्रों के आवेदन शुरू — 30 नवंबर 2026 तक आवेदन करें",
+      "schemeId": "NSP-POSTMATRIC-001",
+      "url": "https://scholarships.gov.in"
+    },
+    {
+      "id": "news-005",
+      "type": "update",
+      "urgency": "low",
+      "text": "✅ PM Awas Yojana Gramin: ₹1.30 Lakh assistance for hilly areas & ₹1.20 Lakh for plains — 3 Crore houses sanctioned",
+      "textHindi": "✅ पीएम आवास योजना ग्रामीण: पहाड़ी क्षेत्रों में ₹1.30 लाख और मैदानी क्षेत्रों में ₹1.20 लाख — 3 करोड़ मकान स्वीकृत",
+      "schemeId": "PMAYG-001",
+      "url": "https://pmayg.nic.in"
+    },
+    {
+      "id": "news-006",
+      "type": "deadline",
+      "urgency": "high",
+      "text": "⏰ PM Fasal Bima: Kharif crop insurance enrollment deadline — Register through your bank or CSC before sowing season",
+      "textHindi": "⏰ पीएम फसल बीमा: खरीफ फसल बीमा नामांकन की अंतिम तिथि — बुवाई से पहले बैंक या CSC से पंजीकरण करें",
+      "schemeId": "PMFBY-001",
+      "url": "https://pmfby.gov.in"
+    },
+    {
+      "id": "news-007",
+      "type": "new_scheme",
+      "urgency": "medium",
+      "text": "🆕 Rajasthan Chiranjeevi Health Insurance: Free treatment up to ₹25 Lakh per family per year at empanelled hospitals",
+      "textHindi": "🆕 राजस्थान चिरंजीवी स्वास्थ्य बीमा: सूचीबद्ध अस्पतालों में प्रति परिवार ₹25 लाख तक मुफ्त इलाज",
+      "schemeId": "RJ-CHIRANJEEVI-001",
+      "url": "https://chiranjeevi.rajasthan.gov.in"
+    },
+    {
+      "id": "news-008",
+      "type": "update",
+      "urgency": "medium",
+      "text": "📢 e-Shram Portal: 30 Crore+ workers registered — Accident insurance of ₹2 Lakh for all registered informal workers",
+      "textHindi": "📢 ई-श्रम पोर्टल: 30 करोड़+ कामगार पंजीकृत — सभी पंजीकृत असंगठित कामगारों को ₹2 लाख का दुर्घटना बीमा",
+      "schemeId": "ESHRAM-001",
+      "url": "https://eshram.gov.in"
+    },
+    {
+      "id": "news-009",
+      "type": "application",
+      "urgency": "medium",
+      "text": "📋 Sukanya Samriddhi Yojana: Open account for your girl child (0-10 yrs) — 8.2% interest rate, fully tax-free returns",
+      "textHindi": "📋 सुकन्या समृद्धि योजना: अपनी बेटी (0-10 वर्ष) के लिए खाता खोलें — 8.2% ब्याज, पूरी तरह कर-मुक्त",
+      "schemeId": "SSY-001",
+      "url": "https://www.india.gov.in/sukanya-samriddhi-yojna"
+    },
+    {
+      "id": "news-010",
+      "type": "update",
+      "urgency": "low",
+      "text": "✅ PM Mudra Yojana: Over ₹27 Lakh Crore disbursed — Shishu (₹50K), Kishore (₹5L), Tarun (₹10L) loans available at all banks",
+      "textHindi": "✅ पीएम मुद्रा योजना: ₹27 लाख करोड़+ वितरित — शिशु (₹50K), किशोर (₹5L), तरुण (₹10L) ऋण सभी बैंकों में उपलब्ध",
+      "schemeId": "MUDRA-001",
+      "url": "https://www.mudra.org.in"
+    },
+    {
+      "id": "news-011",
+      "type": "new_scheme",
+      "urgency": "medium",
+      "text": "🆕 PM Surya Ghar Muft Bijli Yojana: Get 300 units free electricity/month with rooftop solar — ₹78,000 subsidy for 3kW",
+      "textHindi": "🆕 पीएम सूर्य घर मुफ्त बिजली योजना: छत पर सोलर लगाकर 300 यूनिट मुफ्त बिजली — 3kW पर ₹78,000 सब्सिडी",
+      "schemeId": "PMSURYAGHAR-001",
+      "url": "https://pmsuryaghar.gov.in"
+    },
+    {
+      "id": "news-012",
+      "type": "deadline",
+      "urgency": "high",
+      "text": "⏰ PMEGP Loan: Apply for ₹50 Lakh manufacturing / ₹20 Lakh service enterprise loan — Applications open year-round via Kvic.gov.in",
+      "textHindi": "⏰ PMEGP ऋण: ₹50 लाख विनिर्माण / ₹20 लाख सेवा उद्यम ऋण — Kvic.gov.in पर साल भर आवेदन खुले",
+      "schemeId": "PMEGP-001",
+      "url": "https://www.kviconline.gov.in"
+    },
+    {
+      "id": "news-013",
+      "type": "update",
+      "urgency": "low",
+      "text": "📢 HaqDaar now covers 150+ verified government schemes across 15 categories — Central + State welfare initiatives from 15 states",
+      "textHindi": "📢 हक़दार पर अब 15 श्रेणियों में 150+ सत्यापित सरकारी योजनाएं — केंद्र + 15 राज्यों की कल्याणकारी पहलें",
+      "url": "/"
+    },
+    {
+      "id": "news-014",
+      "type": "application",
+      "urgency": "medium",
+      "text": "📋 Atal Pension Yojana: Join before age 40 — Get guaranteed ₹1,000 to ₹5,000 monthly pension after 60 years of age",
+      "textHindi": "📋 अटल पेंशन योजना: 40 वर्ष से पहले जुड़ें — 60 वर्ष के बाद ₹1,000 से ₹5,000 मासिक पेंशन की गारंटी",
+      "schemeId": "APY-001",
+      "url": "https://www.npscra.nsdl.co.in/scheme-details.php"
+    },
+    {
+      "id": "news-015",
+      "type": "new_scheme",
+      "urgency": "medium",
+      "text": "🆕 PM Kaushal Vikas Yojana 4.0: Free skill training in 600+ courses with ₹8,000 stipend — Industry-recognized certification",
+      "textHindi": "🆕 पीएम कौशल विकास योजना 4.0: 600+ कोर्स में मुफ्त कौशल प्रशिक्षण + ₹8,000 स्टाइपेंड — उद्योग प्रमाणपत्र",
+      "schemeId": "PMKVY-001",
+      "url": "https://www.pmkvyofficial.org"
+    }
+  ]
+}

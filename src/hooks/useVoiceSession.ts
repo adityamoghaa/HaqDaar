@@ -202,6 +202,7 @@ export default function useVoiceSession() {
               mimeType: audioBlob.type || "audio/webm",
               language: appStore.language,
               history: contextHistory,
+              profile: appStore.profile,
             }),
           });
 

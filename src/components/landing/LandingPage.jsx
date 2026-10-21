@@ -4,9 +4,9 @@ import useAppStore from "../../stores/appStore";
 import { LANGUAGES } from "../../data/states";
 
 const stats = [
-  ["46+", "Schemes"],
-  ["12", "Categories"],
-  ["5+", "States"],
+  ["150+", "Schemes"],
+  ["16", "Categories"],
+  ["15+", "States"],
   ["₹0", "Cost"],
 ];
 

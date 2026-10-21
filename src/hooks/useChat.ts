@@ -50,20 +50,47 @@ export default function useChat() {
       if (chatState.loading) return;
 
       const userMsg = { role: "user" as const, content: text };
-      const currentMessages = [...chatState.messages, userMsg];
       chatState.addMessage(userMsg);
-      chatState.addToHistory(userMsg);
       chatState.setLoading(true);
 
-      const updatedHistory = [...chatState.conversationHistory, userMsg];
+      // Gather full chronological message history from the store
+      const messagesToSend = chatState.messages
+        .filter((m) => m.content && m.content.trim())
+        .map((m) => ({
+          role: m.role === "assistant" ? "assistant" : "user",
+          content: m.content,
+        }));
+      messagesToSend.push(userMsg);
+
+      // Build context of already extracted profile facts
+      const currentProfile = appState.profile || {};
+      const knownEntries = Object.entries(currentProfile).filter(
+        ([k, v]) => v !== null && v !== undefined && v !== "" && k !== "raw_text"
+      );
+      const knownProfileText =
+        knownEntries.length > 0
+          ? knownEntries.map(([k, v]) => `${k}: ${v}`).join(", ")
+          : "None yet";
+
+      const dynamicSystemPrompt = `${CHAT_SYSTEM_PROMPT}
+
+CURRENT KNOWN CITIZEN PROFILE FACTS:
+${knownProfileText}
+
+MANDATORY RULES:
+1. The facts listed above have ALREADY been shared by the citizen in this session (voice or chat).
+2. NEVER ask the citizen again for any fact that is already known!
+3. If the citizen provides an update or correction (e.g. "Haryana se hu na ki Rajasthan"), update that specific field immediately and acknowledge the correction warmly.
+4. In your returned "profile" JSON, RETAIN all existing known facts and merge them with any updates.
+5. If the citizen asks if you remember what they told you, confirm their details warmly and accurately.`;
 
       try {
         const response = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            system: CHAT_SYSTEM_PROMPT,
-            messages: updatedHistory,
+            system: dynamicSystemPrompt,
+            messages: messagesToSend.slice(-10),
           }),
         });
 

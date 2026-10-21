@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "lastUpdated": "2026-09-17",
   "source": "MyScheme.gov.in + Government Gazette",
-  "totalSchemes": 46,
+  "totalSchemes": 155,
   "categories": {
     "agriculture": {
       "label": "Agriculture",
@@ -75,6 +75,30 @@
       "labelHindi": "सामाजिक कल्याण",
       "emoji": "🤝",
       "color": "#0ea5e9"
+    },
+    "transport": {
+      "label": "Transport & Infrastructure",
+      "labelHindi": "परिवहन और बुनियादी ढांचा",
+      "emoji": "🚌",
+      "color": "#64748b"
+    },
+    "energy": {
+      "label": "Energy & Clean Fuel",
+      "labelHindi": "ऊर्जा और स्वच्छ ईंधन",
+      "emoji": "⚡",
+      "color": "#facc15"
+    },
+    "digital": {
+      "label": "Digital India",
+      "labelHindi": "डिजिटल इंडिया",
+      "emoji": "📱",
+      "color": "#06b6d4"
+    },
+    "tribal": {
+      "label": "Tribal Welfare",
+      "labelHindi": "जनजातीय कल्याण",
+      "emoji": "🏔️",
+      "color": "#10b981"
     }
   },
   "schemes": [
@@ -1830,7 +1854,7 @@
       "nameHindi": "कन्या सुमंगला योजना (उत्तर प्रदेश)",
       "category": "women",
       "level": "state",
-      "state": "UP",
+      "state": "Uttar Pradesh",
       "benefit": "₹15,000 in 6 installments from birth to graduation — ₹2,000 at birth, ₹1,000 at vaccination, ₹2,000 at Class 1, ₹2,000 at Class 6, ₹3,000 at Class 9, ₹5,000 at graduation",
       "benefitHindi": "₹15,000 छह किस्तों में — जन्म से स्नातक तक बेटियों के लिए",
       "eligibility": {
@@ -1879,7 +1903,7 @@
       "nameHindi": "यूपी वृद्धावस्था पेंशन योजना",
       "category": "senior",
       "level": "state",
-      "state": "UP",
+      "state": "Uttar Pradesh",
       "benefit": "₹1,000/month pension for senior citizens (60+) from BPL families in Uttar Pradesh",
       "benefitHindi": "₹1,000 प्रतिमाह पेंशन — 60 वर्ष से अधिक BPL वृद्ध नागरिकों के लिए",
       "eligibility": {
@@ -1927,7 +1951,7 @@
       "nameHindi": "लेक लाडकी योजना (महाराष्ट्र)",
       "category": "women",
       "level": "state",
-      "state": "MH",
+      "state": "Maharashtra",
       "benefit": "₹1,01,000 in installments from birth to age 18 for girls from economically weaker families — Yellow/Orange ration card holders",
       "benefitHindi": "₹1,01,000 किस्तों में — जन्म से 18 वर्ष तक बेटियों के लिए (पीला/नारंगी राशन कार्ड धारक)",
       "eligibility": {
@@ -1974,7 +1998,7 @@
       "nameHindi": "माझी कन्या भाग्यश्री (महाराष्ट्र)",
       "category": "women",
       "level": "state",
-      "state": "MH",
+      "state": "Maharashtra",
       "benefit": "₹50,000 fixed deposit for girl child after mother undergoes sterilization (1 daughter) or ₹25,000 each (2 daughters)",
       "benefitHindi": "₹50,000 FD बेटी के नाम — नसबंदी के बाद (1 बेटी) या ₹25,000 प्रत्येक (2 बेटियां)",
       "eligibility": {
@@ -2020,7 +2044,7 @@
       "nameHindi": "मूवलूर रामामिर्थम विवाह सहायता (तमिलनाडु)",
       "category": "women",
       "level": "state",
-      "state": "TN",
+      "state": "Tamil Nadu",
       "benefit": "₹25,000 marriage assistance + 4g gold for thali (mangalsutra) for women graduates from poor families in Tamil Nadu",
       "benefitHindi": "₹25,000 विवाह सहायता + 4 ग्राम सोना थाली के लिए — तमिलनाडु की गरीब स्नातक महिलाओं के लिए",
       "eligibility": {
@@ -2067,7 +2091,7 @@
       "nameHindi": "चिरंजीवी स्वास्थ्य बीमा योजना (राजस्थान)",
       "category": "health",
       "level": "state",
-      "state": "RJ",
+      "state": "Rajasthan",
       "benefit": "₹25 lakh/year free health insurance per family for hospitalization — covers 1,576 packages + ₹10 lakh for critical illnesses like cancer, heart disease",
       "benefitHindi": "₹25 लाख/वर्ष मुफ्त स्वास्थ्य बीमा + ₹10 लाख गंभीर बीमारियों (कैंसर, हृदय रोग) के लिए",
       "eligibility": {
@@ -2113,7 +2137,7 @@
       "nameHindi": "लक्ष्मीर भंडार (पश्चिम बंगाल)",
       "category": "women",
       "level": "state",
-      "state": "WB",
+      "state": "West Bengal",
       "benefit": "₹500/month (General) or ₹1,000/month (SC/ST) direct income support for women aged 25-60 — head of household",
       "benefitHindi": "₹500/माह (सामान्य) या ₹1,000/माह (SC/ST) — 25-60 वर्ष की महिला परिवार प्रमुख को सीधे बैंक में",
       "eligibility": {
@@ -2349,6 +2373,4682 @@
         "green_energy"
       ],
       "description": "Massive subsidy on rooftop solar installations enabling households to generate free electricity and become energy independent."
+    },
+    {
+      "id": "PMKMY-001",
+      "name": "PM Kisan Maandhan Yojana",
+      "nameHindi": "प्रधानमंत्री किसान मानधन योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "Monthly pension of ₹3,000 for small and marginal farmers after 60",
+      "briefHindi": "छोटे और सीमांत किसानों को 60 वर्ष के बाद ₹3,000 मासिक पेंशन",
+      "benefit": "₹3,000/month guaranteed pension after age 60 for small/marginal farmers with up to 2 hectares land",
+      "benefitHindi": "60 वर्ष के बाद ₹3,000/माह पेंशन — 2 हेक्टेयर तक भूमि वाले किसानों के लिए",
+      "benefitType": "pension",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "maxAge": 40,
+        "maxIncome": 1500000,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Passbook",
+        "Land Records",
+        "Age Proof"
+      ],
+      "apply_mode": [
+        "CSC Center",
+        "PM-SYM Portal"
+      ],
+      "apply_url": "https://maandhan.in",
+      "tags": [
+        "pension",
+        "farmer",
+        "kisan",
+        "retirement",
+        "old_age"
+      ],
+      "emoji": "👴",
+      "description": "Voluntary pension scheme for small and marginal farmers to ensure old age protection."
+    },
+    {
+      "id": "SHC-001",
+      "name": "Soil Health Card Scheme",
+      "nameHindi": "मृदा स्वास्थ्य कार्ड योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "Free soil testing and crop-specific nutrient recommendations",
+      "briefHindi": "मुफ्त मिट्टी परीक्षण और फसल-विशिष्ट पोषक तत्व सिफारिशें",
+      "benefit": "Free soil testing with personalized crop-wise fertilizer recommendations for all farmers — issued every 2 years",
+      "benefitHindi": "सभी किसानों को मुफ्त मिट्टी परीक्षण — हर 2 साल में फसलवार खाद सिफारिशें",
+      "benefitType": "service",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records"
+      ],
+      "apply_mode": [
+        "Agriculture Department",
+        "Krishi Vigyan Kendra"
+      ],
+      "apply_url": "https://soilhealth.dac.gov.in",
+      "tags": [
+        "soil",
+        "testing",
+        "farmer",
+        "kheti",
+        "fertilizer"
+      ],
+      "emoji": "🌱",
+      "description": "Provides soil health cards to farmers with crop-wise nutrient recommendations."
+    },
+    {
+      "id": "PKVY-001",
+      "name": "Paramparagat Krishi Vikas Yojana",
+      "nameHindi": "परम्परागत कृषि विकास योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "₹50,000/hectare subsidy for organic farming clusters",
+      "briefHindi": "जैविक खेती के लिए ₹50,000/हेक्टेयर सब्सिडी",
+      "benefit": "₹50,000 per hectare over 3 years for organic farming cluster formation — covers inputs, certification & marketing",
+      "benefitHindi": "3 वर्षों में ₹50,000/हेक्टेयर जैविक खेती के लिए — इनपुट, प्रमाणीकरण और विपणन",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records",
+        "Farmer Group Registration"
+      ],
+      "apply_mode": [
+        "Agriculture Department",
+        "Block Development Office"
+      ],
+      "apply_url": "https://pgsindia-ncof.gov.in",
+      "tags": [
+        "organic",
+        "farming",
+        "subsidy",
+        "jaivik",
+        "kheti"
+      ],
+      "emoji": "🥬",
+      "description": "Promotes organic farming through cluster approach with financial assistance."
+    },
+    {
+      "id": "PMMSAY-001",
+      "name": "PM Matsya Sampada Yojana",
+      "nameHindi": "प्रधानमंत्री मत्स्य संपदा योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Fisheries, Animal Husbandry & Dairying",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "40-60% subsidy for fisheries infrastructure and aquaculture",
+      "briefHindi": "मत्स्य पालन बुनियादी ढांचे के लिए 40-60% सब्सिडी",
+      "benefit": "40% subsidy (60% for SC/ST/women) on fisheries infrastructure — ponds, boats, cold storage, feed mills up to ₹25 Lakh",
+      "benefitHindi": "मत्स्य पालन पर 40% सब्सिडी (SC/ST/महिलाओं के लिए 60%) — तालाब, नाव, कोल्ड स्टोरेज",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account",
+        "Land/Water Body Proof",
+        "Project Proposal"
+      ],
+      "apply_mode": [
+        "State Fisheries Department",
+        "Online Portal"
+      ],
+      "apply_url": "https://pmmsy.dof.gov.in",
+      "tags": [
+        "fishery",
+        "matsya",
+        "aquaculture",
+        "subsidy",
+        "machli"
+      ],
+      "emoji": "🐟",
+      "description": "Blue Revolution scheme for sustainable fisheries development with subsidy support."
+    },
+    {
+      "id": "MIF-001",
+      "name": "Micro Irrigation Fund (PMKSY)",
+      "nameHindi": "सूक्ष्म सिंचाई कोष (पीएमकेएसवाई)",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "55% subsidy on drip and sprinkler irrigation systems",
+      "briefHindi": "ड्रिप और स्प्रिंकलर सिंचाई पर 55% सब्सिडी",
+      "benefit": "55% subsidy for small/marginal farmers (45% for others) on drip & sprinkler micro irrigation systems",
+      "benefitHindi": "छोटे/सीमांत किसानों को 55% सब्सिडी (अन्य को 45%) ड्रिप और स्प्रिंकलर सिंचाई पर",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records",
+        "Bank Account",
+        "Quotation from Supplier"
+      ],
+      "apply_mode": [
+        "Agriculture Department",
+        "District Horticulture Office"
+      ],
+      "apply_url": "https://pmksy.gov.in",
+      "tags": [
+        "irrigation",
+        "drip",
+        "sprinkler",
+        "water",
+        "sinchai"
+      ],
+      "emoji": "💧",
+      "description": "Promotes micro-irrigation for water-use efficiency and crop productivity."
+    },
+    {
+      "id": "RKVY-001",
+      "name": "Rashtriya Krishi Vikas Yojana",
+      "nameHindi": "राष्ट्रीय कृषि विकास योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "Infrastructure grants for agricultural innovation projects",
+      "briefHindi": "कृषि नवाचार परियोजनाओं के लिए अवसंरचना अनुदान",
+      "benefit": "Project-based grants for agri-innovation, agri-startups (up to ₹25 Lakh), and farm mechanization",
+      "benefitHindi": "कृषि नवाचार, कृषि-स्टार्टअप (₹25 लाख तक), और कृषि यंत्रीकरण के लिए अनुदान",
+      "benefitType": "grant",
+      "eligibility": {
+        "occupation": [
+          "farmer",
+          "self_employed"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Project Proposal",
+        "Aadhaar Card",
+        "Bank Account",
+        "Registration Certificate"
+      ],
+      "apply_mode": [
+        "State Agriculture Dept",
+        "Online Portal"
+      ],
+      "apply_url": "https://rkvy.nic.in",
+      "tags": [
+        "innovation",
+        "startup",
+        "agri",
+        "infrastructure",
+        "grant"
+      ],
+      "emoji": "🚜",
+      "description": "Incentivizes states to increase public investment in agriculture and allied sectors."
+    },
+    {
+      "id": "NPY-001",
+      "name": "Nikshay Poshan Yojana",
+      "nameHindi": "निक्षय पोषण योजना",
+      "category": "health",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Health & Family Welfare",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹500/month nutrition support for TB patients",
+      "briefHindi": "टीबी रोगियों को ₹500/माह पोषण सहायता",
+      "benefit": "₹500 per month direct benefit transfer for nutritional support to all notified TB patients during treatment",
+      "benefitHindi": "सभी अधिसूचित टीबी रोगियों को उपचार के दौरान पोषण सहायता के लिए ₹500 प्रति माह DBT",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "all",
+        "minAge": 0,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account",
+        "TB Notification on Nikshay Portal"
+      ],
+      "apply_mode": [
+        "DOTS Center",
+        "Government Hospital",
+        "Nikshay Portal"
+      ],
+      "apply_url": "https://nikshay.in",
+      "tags": [
+        "TB",
+        "tuberculosis",
+        "nutrition",
+        "health",
+        "treatment"
+      ],
+      "emoji": "🫁",
+      "description": "Monthly nutritional support for TB patients to improve treatment outcomes."
+    },
+    {
+      "id": "PMDP-001",
+      "name": "PM National Dialysis Programme",
+      "nameHindi": "प्रधानमंत्री राष्ट्रीय डायलिसिस कार्यक्रम",
+      "category": "health",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Health & Family Welfare",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "Free dialysis for BPL patients at district hospitals",
+      "briefHindi": "जिला अस्पतालों में BPL रोगियों को मुफ्त डायलिसिस",
+      "benefit": "Free hemodialysis at district hospitals for BPL patients — covers 3 sessions/week at PPP dialysis units",
+      "benefitHindi": "BPL रोगियों को जिला अस्पतालों में मुफ्त हीमोडायलिसिस — सप्ताह में 3 सत्र",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all",
+        "bpl": true,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "BPL Card",
+        "Medical Certificate",
+        "Referral from Doctor"
+      ],
+      "apply_mode": [
+        "District Hospital Dialysis Unit"
+      ],
+      "apply_url": "https://nhm.gov.in",
+      "tags": [
+        "dialysis",
+        "kidney",
+        "renal",
+        "free",
+        "BPL",
+        "health"
+      ],
+      "emoji": "🏥",
+      "description": "Free dialysis services for BPL patients at district hospital PPP units."
+    },
+    {
+      "id": "AYUSH-001",
+      "name": "National AYUSH Mission",
+      "nameHindi": "राष्ट्रीय आयुष मिशन",
+      "category": "health",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of AYUSH",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "Free Ayurveda, Yoga, Unani, Siddha, Homeopathy services",
+      "briefHindi": "मुफ्त आयुर्वेद, योग, यूनानी, सिद्ध, होम्योपैथी सेवाएं",
+      "benefit": "Free AYUSH treatment at government health centres and AYUSH hospitals — traditional Indian medicine access",
+      "benefitHindi": "सरकारी स्वास्थ्य केंद्रों और AYUSH अस्पतालों में मुफ्त AYUSH उपचार",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Government AYUSH Hospital",
+        "PHC/CHC"
+      ],
+      "apply_url": "https://namayush.gov.in",
+      "tags": [
+        "ayurveda",
+        "yoga",
+        "homeopathy",
+        "traditional",
+        "medicine"
+      ],
+      "emoji": "🧘",
+      "description": "Provides free access to traditional Indian medicine systems through government facilities."
+    },
+    {
+      "id": "YASASVI-001",
+      "name": "PM YASASVI Scholarship",
+      "nameHindi": "पीएम यशस्वी छात्रवृत्ति",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Social Justice & Empowerment",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹75,000-₹1,25,000/year for OBC/EBC/DNT students",
+      "briefHindi": "OBC/EBC/DNT छात्रों को ₹75,000-₹1,25,000/वर्ष छात्रवृत्ति",
+      "benefit": "₹75,000/year for Class 9-10 and ₹1,25,000/year for Class 11-12 students from OBC, EBC, and DNT categories",
+      "benefitHindi": "कक्षा 9-10 के लिए ₹75,000/वर्ष और कक्षा 11-12 के लिए ₹1,25,000/वर्ष — OBC/EBC/DNT छात्र",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 13,
+        "maxAge": 18,
+        "maxIncome": 250000,
+        "caste": [
+          "obc",
+          "ebc",
+          "dnt"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Income Certificate",
+        "Caste Certificate",
+        "School ID",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "National Scholarship Portal (NSP)",
+        "NTA YASASVI Exam"
+      ],
+      "apply_url": "https://yet.nta.ac.in",
+      "tags": [
+        "scholarship",
+        "OBC",
+        "student",
+        "education",
+        "school"
+      ],
+      "emoji": "📚",
+      "description": "Merit-cum-means scholarship for OBC/EBC/DNT students in Class 9 to 12."
+    },
+    {
+      "id": "INSPIRE-001",
+      "name": "INSPIRE Scholarship (DST)",
+      "nameHindi": "इंस्पायर छात्रवृत्ति (विज्ञान एवं प्रौद्योगिकी विभाग)",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Department of Science & Technology",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "₹80,000/year for top 1% science students in BSc/BS",
+      "briefHindi": "BSc/BS में शीर्ष 1% विज्ञान छात्रों को ₹80,000/वर्ष",
+      "benefit": "₹80,000 per year scholarship for BSc/BS/integrated MS students among top 1% in Class 12 Science board exams",
+      "benefitHindi": "कक्षा 12 विज्ञान बोर्ड परीक्षा में शीर्ष 1% छात्रों को BSc/BS के लिए ₹80,000/वर्ष",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 17,
+        "maxAge": 22,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Class 12 Marksheet",
+        "College Admission Letter",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Online at inspire-dst.gov.in"
+      ],
+      "apply_url": "https://online-inspire.gov.in",
+      "tags": [
+        "science",
+        "scholarship",
+        "BSc",
+        "merit",
+        "research",
+        "INSPIRE"
+      ],
+      "emoji": "🔬",
+      "description": "Scholarship for top science students to pursue basic and natural sciences."
+    },
+    {
+      "id": "NMMS-001",
+      "name": "National Means-cum-Merit Scholarship",
+      "nameHindi": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Education",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "₹12,000/year for meritorious Class 9-12 students from EWS",
+      "briefHindi": "EWS के मेधावी कक्षा 9-12 छात्रों को ₹12,000/वर्ष",
+      "benefit": "₹12,000 per year (₹1,000/month) for meritorious students from economically weaker sections studying in Class 9-12 at government schools",
+      "benefitHindi": "सरकारी स्कूलों में कक्षा 9-12 के EWS मेधावी छात्रों को ₹12,000/वर्ष (₹1,000/माह)",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 13,
+        "maxAge": 18,
+        "maxIncome": 350000,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Income Certificate",
+        "School Marksheet",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "National Scholarship Portal",
+        "School Principal"
+      ],
+      "apply_url": "https://scholarships.gov.in",
+      "tags": [
+        "merit",
+        "school",
+        "scholarship",
+        "Class9",
+        "NMMS"
+      ],
+      "emoji": "🏆",
+      "description": "Encourages meritorious students from economically weaker families to continue education."
+    },
+    {
+      "id": "MANF-001",
+      "name": "Maulana Azad National Fellowship",
+      "nameHindi": "मौलाना आजाद राष्ट्रीय फेलोशिप",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Minority Affairs",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹31,000/month for minority PhD scholars",
+      "briefHindi": "अल्पसंख्यक पीएचडी शोधार्थियों को ₹31,000/माह",
+      "benefit": "₹31,000/month (JRF) escalating to ₹35,000/month (SRF) for minority community students pursuing MPhil/PhD + HRA + contingency",
+      "benefitHindi": "MPhil/PhD कर रहे अल्पसंख्यक छात्रों को ₹31,000/माह (JRF) से ₹35,000/माह (SRF) + HRA",
+      "benefitType": "fellowship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 21,
+        "maxIncome": 600000,
+        "caste": [
+          "minority"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "UGC-NET Qualification",
+        "Minority Certificate",
+        "PhD Admission Letter",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "UGC Portal"
+      ],
+      "apply_url": "https://ugc.gov.in",
+      "tags": [
+        "PhD",
+        "research",
+        "minority",
+        "fellowship",
+        "postgraduate"
+      ],
+      "emoji": "🎓",
+      "description": "Research fellowship for minority community students pursuing MPhil/PhD."
+    },
+    {
+      "id": "TOPCLASS-001",
+      "name": "Top Class Education for SC Students",
+      "nameHindi": "अनुसूचित जाति छात्रों के लिए उत्कृष्ट शिक्षा",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Social Justice & Empowerment",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "Full tuition at IITs/IIMs/NITs/AIIMS for SC students",
+      "briefHindi": "SC छात्रों को IIT/IIM/NIT/AIIMS में पूर्ण ट्यूशन",
+      "benefit": "Full tuition fees + maintenance allowance at premier institutions (IITs, IIMs, NITs, AIIMS, NLUs) for SC students with family income below ₹8 Lakh",
+      "benefitHindi": "₹8 लाख से कम आय वाले SC छात्रों को IIT/IIM/NIT/AIIMS में पूर्ण ट्यूशन + रखरखाव भत्ता",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 17,
+        "maxIncome": 800000,
+        "caste": [
+          "sc"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Caste Certificate",
+        "Income Certificate",
+        "Admission Letter",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Institute Scholarship Portal",
+        "scholarships.gov.in"
+      ],
+      "apply_url": "https://scholarships.gov.in",
+      "tags": [
+        "SC",
+        "IIT",
+        "IIM",
+        "NIT",
+        "scholarship",
+        "premier"
+      ],
+      "emoji": "🏛️",
+      "description": "Covers full tuition for SC students at India's top educational institutions."
+    },
+    {
+      "id": "BHMNS-001",
+      "name": "Begum Hazrat Mahal National Scholarship",
+      "nameHindi": "बेगम हजरत महल राष्ट्रीय छात्रवृत्ति",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Minority Affairs (Maulana Azad Education Foundation)",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹5,000-₹6,000 for minority girls in Class 9-12",
+      "briefHindi": "कक्षा 9-12 में अल्पसंख्यक लड़कियों को ₹5,000-₹6,000",
+      "benefit": "₹5,000 for Class 9-10 and ₹6,000 for Class 11-12 minority girls with marks above 50% and family income below ₹2 Lakh",
+      "benefitHindi": "कक्षा 9-10 के लिए ₹5,000 और 11-12 के लिए ₹6,000 — 50% से अधिक अंक, ₹2 लाख से कम आय",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "female",
+        "minAge": 13,
+        "maxAge": 18,
+        "maxIncome": 200000,
+        "caste": [
+          "minority"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Minority Certificate",
+        "Income Certificate",
+        "Marksheet",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Maulana Azad Foundation Portal"
+      ],
+      "apply_url": "https://bhmnsmaef.org",
+      "tags": [
+        "minority",
+        "girls",
+        "scholarship",
+        "school",
+        "education"
+      ],
+      "emoji": "📖",
+      "description": "Scholarship for meritorious minority girls studying in Class 9-12."
+    },
+    {
+      "id": "PMAYG-001",
+      "name": "PMAY-Gramin (Rural Housing)",
+      "nameHindi": "प्रधानमंत्री आवास योजना — ग्रामीण",
+      "category": "housing",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Rural Development",
+      "departmentLogo": "/logos/ministries/rural.jpg",
+      "brief": "₹1.20 Lakh (plains) / ₹1.30 Lakh (hills) for rural pucca house",
+      "briefHindi": "ग्रामीण पक्का मकान — ₹1.20 लाख (मैदान) / ₹1.30 लाख (पहाड़)",
+      "benefit": "₹1,20,000 for plains and ₹1,30,000 for hilly/difficult areas for construction of pucca house with toilet — including 90 days MGNREGA wages",
+      "benefitHindi": "पक्का मकान + शौचालय — मैदानी ₹1,20,000 / पहाड़ी ₹1,30,000 + 90 दिन मनरेगा मजदूरी",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "all",
+        "bpl": true,
+        "area": "rural",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "BPL Certificate",
+        "No House Certificate",
+        "Bank Account",
+        "Gram Sabha Recommendation"
+      ],
+      "apply_mode": [
+        "Gram Panchayat",
+        "Block Development Office",
+        "AwaasSoft Portal"
+      ],
+      "apply_url": "https://pmayg.nic.in",
+      "tags": [
+        "housing",
+        "rural",
+        "awas",
+        "makaan",
+        "gramin",
+        "BPL"
+      ],
+      "emoji": "🏡",
+      "description": "Financial assistance for construction of pucca houses for houseless rural poor."
+    },
+    {
+      "id": "PMSVANIDHI-001",
+      "name": "PM SVANidhi (Street Vendors)",
+      "nameHindi": "पीएम स्वनिधि (पथ विक्रेता)",
+      "category": "housing",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Housing & Urban Affairs",
+      "departmentLogo": "/logos/ministries/housing.jpg",
+      "brief": "₹10,000-₹50,000 micro-credit for street vendors at 7% interest subsidy",
+      "briefHindi": "पथ विक्रेताओं को 7% ब्याज सब्सिडी पर ₹10,000-₹50,000 ऋण",
+      "benefit": "Working capital loan: 1st tranche ₹10,000, 2nd tranche ₹20,000, 3rd tranche ₹50,000 — with 7% annual interest subsidy on timely repayment",
+      "benefitHindi": "कार्यशील पूंजी ऋण: ₹10,000 → ₹20,000 → ₹50,000 — समय पर भुगतान पर 7% ब्याज सब्सिडी",
+      "benefitType": "loan",
+      "eligibility": {
+        "occupation": [
+          "daily_wage",
+          "self_employed"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Certificate of Vending / Letter of Recommendation",
+        "Bank Account",
+        "Passport Photo"
+      ],
+      "apply_mode": [
+        "PM SVANidhi Portal",
+        "ULB Office",
+        "Bank Branch"
+      ],
+      "apply_url": "https://pmsvanidhi.mohua.gov.in",
+      "tags": [
+        "vendor",
+        "street",
+        "loan",
+        "micro_credit",
+        "hawker"
+      ],
+      "emoji": "🛒",
+      "description": "Affordable working capital loans for street vendors to restart livelihoods."
+    },
+    {
+      "id": "DAYNULM-001",
+      "name": "DAY-NULM (Urban Livelihoods)",
+      "nameHindi": "दीनदयाल अंत्योदय योजना — राष्ट्रीय शहरी आजीविका मिशन",
+      "category": "housing",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Housing & Urban Affairs",
+      "departmentLogo": "/logos/ministries/housing.jpg",
+      "brief": "Self-employment training + ₹2 Lakh loan for urban poor SHGs",
+      "briefHindi": "शहरी गरीब SHG को स्वरोजगार प्रशिक्षण + ₹2 लाख ऋण",
+      "benefit": "Skills training, self-employment loans up to ₹2 Lakh for SHGs, ₹10 Lakh for group enterprises — shelter for urban homeless",
+      "benefitHindi": "कौशल प्रशिक्षण, SHG को ₹2 लाख तक स्वरोजगार ऋण, समूह उद्यम ₹10 लाख — बेघरों को आश्रय",
+      "benefitType": "loan",
+      "eligibility": {
+        "occupation": [
+          "daily_wage",
+          "self_employed",
+          "unemployed"
+        ],
+        "gender": "all",
+        "area": "urban",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Income Certificate",
+        "SHG Registration",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "City Municipal Corporation",
+        "NULM Portal"
+      ],
+      "apply_url": "https://nulm.gov.in",
+      "tags": [
+        "urban",
+        "livelihood",
+        "SHG",
+        "training",
+        "loan",
+        "employment"
+      ],
+      "emoji": "🏙️",
+      "description": "Reduces urban poverty through skills training, self-employment, and shelter."
+    },
+    {
+      "id": "PMCARES-CHILDREN-001",
+      "name": "PM CARES for Children",
+      "nameHindi": "पीएम केयर्स फॉर चिल्ड्रन",
+      "category": "women",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Women & Child Development",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹10 Lakh corpus at age 23 + free education for COVID orphans",
+      "briefHindi": "COVID अनाथ बच्चों को 23 वर्ष की आयु में ₹10 लाख + मुफ्त शिक्षा",
+      "benefit": "₹10 Lakh at age 23, monthly stipend from PM CARES fund, free education from primary to professional level, free health insurance under Ayushman Bharat",
+      "benefitHindi": "23 वर्ष पर ₹10 लाख, मासिक वजीफा, प्राथमिक से पेशेवर स्तर तक मुफ्त शिक्षा, आयुष्मान भारत में मुफ्त बीमा",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "all",
+        "minAge": 0,
+        "maxAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Death Certificate of Parent(s)",
+        "Age Proof",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "District Magistrate Office",
+        "pmcaresforchildren.in"
+      ],
+      "apply_url": "https://pmcaresforchildren.in",
+      "tags": [
+        "orphan",
+        "COVID",
+        "children",
+        "education",
+        "support"
+      ],
+      "emoji": "🤲",
+      "description": "Comprehensive support for children who lost parents during the pandemic."
+    },
+    {
+      "id": "SAG-001",
+      "name": "Scheme for Adolescent Girls (SAG)",
+      "nameHindi": "किशोरी बालिकाओं के लिए योजना",
+      "category": "women",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Women & Child Development",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "Nutrition, health, education support for out-of-school girls 11-14",
+      "briefHindi": "11-14 वर्ष की स्कूल से बाहर लड़कियों को पोषण, स्वास्थ्य, शिक्षा",
+      "benefit": "Supplementary nutrition (600 cal/day + 18g protein), iron-folic acid, health check-ups, life skills education for out-of-school girls 11-14 yrs",
+      "benefitHindi": "11-14 वर्ष की स्कूल से बाहर बालिकाओं को पूरक पोषण, आयरन-फोलिक एसिड, स्वास्थ्य जांच, जीवन कौशल",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 11,
+        "maxAge": 14,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Age Proof"
+      ],
+      "apply_mode": [
+        "Anganwadi Centre",
+        "ICDS Office"
+      ],
+      "apply_url": "https://wcd.nic.in",
+      "tags": [
+        "girls",
+        "adolescent",
+        "nutrition",
+        "education",
+        "health"
+      ],
+      "emoji": "👧",
+      "description": "Empowers adolescent girls through nutrition, health, and life skills support."
+    },
+    {
+      "id": "ICDS-001",
+      "name": "ICDS (Integrated Child Dev Services)",
+      "nameHindi": "एकीकृत बाल विकास सेवाएं (ICDS)",
+      "category": "women",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Women & Child Development",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "Free supplementary nutrition for children 0-6 and pregnant women",
+      "briefHindi": "0-6 वर्ष के बच्चों और गर्भवती महिलाओं को मुफ्त पूरक पोषण",
+      "benefit": "Free supplementary nutrition, immunization, health check-ups, pre-school education for children 0-6 yrs and pregnant/lactating mothers through Anganwadi",
+      "benefitHindi": "आंगनवाड़ी में 0-6 वर्ष के बच्चों और गर्भवती/स्तनपान कराने वाली माताओं को मुफ्त पोषण, टीकाकरण, प्री-स्कूल",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all",
+        "minAge": 0,
+        "maxAge": 6,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card of Mother",
+        "Birth Certificate"
+      ],
+      "apply_mode": [
+        "Nearest Anganwadi Centre"
+      ],
+      "apply_url": "https://icds-wcd.nic.in",
+      "tags": [
+        "child",
+        "nutrition",
+        "anganwadi",
+        "immunization",
+        "preschool"
+      ],
+      "emoji": "🍼",
+      "description": "World's largest early childhood care program serving through 14 lakh Anganwadi centres."
+    },
+    {
+      "id": "KGBV-001",
+      "name": "Kasturba Gandhi Balika Vidyalaya",
+      "nameHindi": "कस्तूरबा गांधी बालिका विद्यालय",
+      "category": "women",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Education",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "Free residential schools for girls from SC/ST/OBC/minority communities",
+      "briefHindi": "SC/ST/OBC/अल्पसंख्यक लड़कियों के लिए मुफ्त आवासीय विद्यालय",
+      "benefit": "Free residential education (Class 6-12) for girls from SC/ST/OBC/minority/BPL families in educationally backward blocks",
+      "benefitHindi": "शैक्षिक रूप से पिछड़े ब्लॉक में SC/ST/OBC/अल्पसंख्यक/BPL परिवारों की बालिकाओं को कक्षा 6-12 तक मुफ्त आवासीय शिक्षा",
+      "benefitType": "service",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "female",
+        "minAge": 10,
+        "maxAge": 18,
+        "caste": [
+          "sc",
+          "st",
+          "obc",
+          "minority"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Caste/Minority Certificate",
+        "Income Certificate",
+        "Transfer Certificate"
+      ],
+      "apply_mode": [
+        "Block Education Office",
+        "District Education Office"
+      ],
+      "apply_url": "https://samagra.education.gov.in",
+      "tags": [
+        "girls",
+        "residential",
+        "school",
+        "SC",
+        "ST",
+        "OBC",
+        "free_education"
+      ],
+      "emoji": "🏫",
+      "description": "Free residential schools empowering girls from marginalized communities."
+    },
+    {
+      "id": "SCSS-001",
+      "name": "Senior Citizen Savings Scheme (SCSS)",
+      "nameHindi": "वरिष्ठ नागरिक बचत योजना",
+      "category": "financial",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Finance",
+      "departmentLogo": "/logos/ministries/finance.jpg",
+      "brief": "8.2% interest for citizens 60+ — up to ₹30 Lakh deposit",
+      "briefHindi": "60+ नागरिकों के लिए 8.2% ब्याज — ₹30 लाख तक जमा",
+      "benefit": "8.2% annual interest with quarterly payouts, maximum deposit ₹30 Lakh, 5-year maturity, tax deduction under Section 80C up to ₹1.5 Lakh",
+      "benefitHindi": "8.2% वार्षिक ब्याज (तिमाही भुगतान), ₹30 लाख तक जमा, 5 वर्ष परिपक्वता, 80C कर छूट ₹1.5 लाख तक",
+      "benefitType": "savings",
+      "eligibility": {
+        "gender": "all",
+        "minAge": 60,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "PAN Card",
+        "Age Proof",
+        "Address Proof",
+        "Passport Photos"
+      ],
+      "apply_mode": [
+        "Post Office",
+        "Authorized Bank Branch"
+      ],
+      "apply_url": "https://www.india.gov.in/senior-citizen-savings-scheme",
+      "tags": [
+        "senior",
+        "savings",
+        "investment",
+        "pension",
+        "elderly"
+      ],
+      "emoji": "👴",
+      "description": "Safe, high-yield savings instrument exclusively for senior citizens."
+    },
+    {
+      "id": "PMKVY-001",
+      "name": "PM Kaushal Vikas Yojana 4.0",
+      "nameHindi": "प्रधानमंत्री कौशल विकास योजना 4.0",
+      "category": "skill",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Skill Development & Entrepreneurship",
+      "departmentLogo": "/logos/ministries/labour.jpg",
+      "brief": "Free skill training in 600+ courses with ₹8,000 stipend",
+      "briefHindi": "600+ पाठ्यक्रमों में मुफ्त कौशल प्रशिक्षण + ₹8,000 स्टाइपेंड",
+      "benefit": "Free short-term skill training (2-6 months) in 600+ courses, ₹8,000 stipend, industry-recognized certification, placement assistance",
+      "benefitHindi": "600+ कोर्स में 2-6 माह मुफ्त कौशल प्रशिक्षण, ₹8,000 स्टाइपेंड, उद्योग प्रमाणपत्र, प्लेसमेंट सहायता",
+      "benefitType": "training",
+      "eligibility": {
+        "occupation": [
+          "student",
+          "unemployed",
+          "daily_wage"
+        ],
+        "gender": "all",
+        "minAge": 15,
+        "maxAge": 45,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account",
+        "Educational Certificate (if any)"
+      ],
+      "apply_mode": [
+        "Skill India Portal",
+        "PMKVY Training Centre"
+      ],
+      "apply_url": "https://www.pmkvyofficial.org",
+      "tags": [
+        "skill",
+        "training",
+        "kaushal",
+        "job",
+        "employment",
+        "certification"
+      ],
+      "emoji": "🛠️",
+      "description": "India's largest skill development program with industry-aligned certification."
+    },
+    {
+      "id": "NAPS-001",
+      "name": "National Apprenticeship Promotion Scheme",
+      "nameHindi": "राष्ट्रीय प्रशिक्षुता संवर्धन योजना",
+      "category": "skill",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Skill Development & Entrepreneurship",
+      "departmentLogo": "/logos/ministries/labour.jpg",
+      "brief": "₹1,500/month stipend support for apprentices + training",
+      "briefHindi": "प्रशिक्षुओं को ₹1,500/माह वजीफा + प्रशिक्षण",
+      "benefit": "Government shares 25% of stipend (up to ₹1,500/month) and covers basic training cost (up to ₹7,500) for apprentices in establishments",
+      "benefitHindi": "सरकार 25% वजीफा (₹1,500/माह तक) + मूल प्रशिक्षण लागत (₹7,500 तक) वहन करती है",
+      "benefitType": "training",
+      "eligibility": {
+        "occupation": [
+          "student",
+          "unemployed"
+        ],
+        "gender": "all",
+        "minAge": 14,
+        "maxAge": 25,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Educational Certificate",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "apprenticeshipindia.gov.in"
+      ],
+      "apply_url": "https://apprenticeshipindia.gov.in",
+      "tags": [
+        "apprentice",
+        "training",
+        "stipend",
+        "job",
+        "industry"
+      ],
+      "emoji": "🔨",
+      "description": "Promotes apprenticeship training by sharing costs with employers."
+    },
+    {
+      "id": "DAY-001",
+      "name": "Deendayal Antyodaya Yojana - NRLM",
+      "nameHindi": "दीनदयाल अंत्योदय योजना — राष्ट्रीय ग्रामीण आजीविका मिशन",
+      "category": "skill",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Rural Development",
+      "departmentLogo": "/logos/ministries/rural.jpg",
+      "brief": "SHG revolving fund ₹10,000-₹15,000 + skill training for rural women",
+      "briefHindi": "ग्रामीण महिलाओं को SHG रिवॉल्विंग फंड ₹10,000-₹15,000 + कौशल प्रशिक्षण",
+      "benefit": "Revolving fund ₹10,000-₹15,000 per SHG, Community Investment Fund up to ₹2.5 Lakh, free skill training, interest subvention on bank loans",
+      "benefitHindi": "प्रति SHG ₹10,000-₹15,000 रिवॉल्विंग फंड, ₹2.5 लाख तक सामुदायिक निवेश कोष, मुफ्त कौशल प्रशिक्षण",
+      "benefitType": "loan",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "area": "rural",
+        "bpl": true,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "SHG Registration",
+        "Bank Account",
+        "BPL Certificate"
+      ],
+      "apply_mode": [
+        "Block Development Office",
+        "District Rural Development Agency"
+      ],
+      "apply_url": "https://nrlm.gov.in",
+      "tags": [
+        "SHG",
+        "women",
+        "livelihood",
+        "rural",
+        "loan",
+        "training"
+      ],
+      "emoji": "👩‍🌾",
+      "description": "Largest women's livelihood mission organizing 10 Crore+ women into SHGs."
+    },
+    {
+      "id": "PMUJJWALA-001",
+      "name": "PM Ujjwala Yojana 2.0",
+      "nameHindi": "प्रधानमंत्री उज्ज्वला योजना 2.0",
+      "category": "energy",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Petroleum & Natural Gas",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "Free LPG connection + first refill for BPL women",
+      "briefHindi": "BPL महिलाओं को मुफ्त LPG कनेक्शन + पहला रिफिल",
+      "benefit": "Free LPG connection with deposit-free cylinder, free first refill, free stove for BPL/SC/ST/Pradhan Mantri Awas Yojana beneficiaries",
+      "benefitHindi": "BPL/SC/ST/PMAY लाभार्थी महिलाओं को मुफ्त LPG कनेक्शन, जमा-मुक्त सिलेंडर, मुफ्त पहला रिफिल, मुफ्त चूल्हा",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "bpl": true,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "BPL Ration Card",
+        "Bank Account",
+        "Passport Photo",
+        "Address Proof"
+      ],
+      "apply_mode": [
+        "Nearest LPG Distributor",
+        "CSC Center"
+      ],
+      "apply_url": "https://www.pmujjwalayojana.com",
+      "tags": [
+        "LPG",
+        "gas",
+        "ujjwala",
+        "women",
+        "cooking",
+        "fuel",
+        "BPL"
+      ],
+      "emoji": "🔥",
+      "description": "Clean cooking fuel access for BPL families to eliminate smoke-related health risks."
+    },
+    {
+      "id": "PMSURYAGHAR-001",
+      "name": "PM Surya Ghar Muft Bijli Yojana",
+      "nameHindi": "पीएम सूर्य घर मुफ्त बिजली योजना",
+      "category": "energy",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of New & Renewable Energy",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "₹78,000 subsidy on rooftop solar — 300 units free electricity/month",
+      "briefHindi": "छत पर सोलर पर ₹78,000 सब्सिडी — 300 यूनिट मुफ्त बिजली/माह",
+      "benefit": "Central subsidy: ₹30,000 for 1kW, ₹60,000 for 2kW, ₹78,000 for 3kW+ rooftop solar — 300 units free electricity per month, surplus sold to grid",
+      "benefitHindi": "केंद्रीय सब्सिडी: 1kW-₹30,000, 2kW-₹60,000, 3kW+-₹78,000 छत सोलर — 300 यूनिट/माह मुफ्त बिजली",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "gender": "all",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Electricity Bill",
+        "Bank Account",
+        "Roof Ownership Proof"
+      ],
+      "apply_mode": [
+        "pmsuryaghar.gov.in",
+        "DISCOM Office"
+      ],
+      "apply_url": "https://pmsuryaghar.gov.in",
+      "tags": [
+        "solar",
+        "electricity",
+        "bijli",
+        "rooftop",
+        "renewable",
+        "subsidy"
+      ],
+      "emoji": "☀️",
+      "description": "₹75,000 Crore scheme to install rooftop solar on 1 Crore households."
+    },
+    {
+      "id": "PMKUSUM-001",
+      "name": "PM KUSUM (Solar Pumps)",
+      "nameHindi": "पीएम कुसुम (सोलर पंप)",
+      "category": "energy",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of New & Renewable Energy",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "60% subsidy on solar pumps for farmers — replace diesel pumps",
+      "briefHindi": "किसानों को सोलर पंप पर 60% सब्सिडी — डीजल पंप की जगह",
+      "benefit": "60% subsidy (30% central + 30% state) on standalone solar pumps up to 7.5HP — farmers keep the remaining 40% (30% bank loan + 10% self)",
+      "benefitHindi": "7.5HP तक सोलर पंप पर 60% सब्सिडी (30% केंद्र + 30% राज्य) — किसान शेष 40% वहन करें",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records",
+        "Bank Account",
+        "Electricity Connection (if solarizing existing pump)"
+      ],
+      "apply_mode": [
+        "State Renewable Energy Department",
+        "mnre.gov.in"
+      ],
+      "apply_url": "https://pmkusum.mnre.gov.in",
+      "tags": [
+        "solar",
+        "pump",
+        "farmer",
+        "irrigation",
+        "kisan",
+        "renewable"
+      ],
+      "emoji": "⚡",
+      "description": "Solarizes agricultural pumps to reduce farmer electricity costs and carbon emissions."
+    },
+    {
+      "id": "UP-KSY-001",
+      "name": "Kanya Sumangala Yojana (UP)",
+      "nameHindi": "कन्या सुमंगला योजना (उत्तर प्रदेश)",
+      "category": "women",
+      "level": "state",
+      "state": "Uttar Pradesh",
+      "department": "Women & Child Development Department, UP",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹15,000 in 6 installments for girl child birth to graduation",
+      "briefHindi": "बेटी के जन्म से स्नातक तक 6 किस्तों में ₹15,000",
+      "benefit": "₹15,000 in 6 installments: ₹2,000 at birth, ₹1,000 at 1yr vaccination, ₹2,000 at Class 1, ₹2,000 at Class 6, ₹3,000 at Class 9, ₹5,000 at graduation",
+      "benefitHindi": "6 किस्तों में ₹15,000: जन्म ₹2,000, टीकाकरण ₹1,000, कक्षा 1 ₹2,000, कक्षा 6 ₹2,000, कक्षा 9 ₹3,000, स्नातक ₹5,000",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 0,
+        "maxAge": 25,
+        "maxIncome": 300000,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Birth Certificate",
+        "Aadhaar Card",
+        "Family Income Certificate",
+        "Bank Account",
+        "Passport Photo"
+      ],
+      "apply_mode": [
+        "mksy.up.gov.in",
+        "District Probation Office"
+      ],
+      "apply_url": "https://mksy.up.gov.in",
+      "tags": [
+        "girl",
+        "UP",
+        "birth",
+        "education",
+        "beti",
+        "Uttar_Pradesh"
+      ],
+      "emoji": "👧",
+      "description": "UP's flagship scheme supporting girl child from birth through graduation."
+    },
+    {
+      "id": "MH-MPJAY-001",
+      "name": "Mahatma Phule Jan Arogya Yojana (MH)",
+      "nameHindi": "महात्मा फुले जन आरोग्य योजना (महाराष्ट्र)",
+      "category": "health",
+      "level": "state",
+      "state": "Maharashtra",
+      "department": "Public Health Department, Maharashtra",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "Free cashless treatment up to ₹1.5 Lakh for BPL families in MH",
+      "briefHindi": "महाराष्ट्र में BPL परिवारों को ₹1.5 लाख तक मुफ्त कैशलेस इलाज",
+      "benefit": "Cashless treatment up to ₹1.5 Lakh per family per year for 971 surgeries at network hospitals — covers all ration card holders in Maharashtra",
+      "benefitHindi": "महाराष्ट्र में राशन कार्ड धारकों को नेटवर्क अस्पतालों में 971 सर्जरी ₹1.5 लाख/वर्ष तक कैशलेस",
+      "benefitType": "insurance",
+      "eligibility": {
+        "gender": "all",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Yellow/Orange Ration Card",
+        "Photo ID"
+      ],
+      "apply_mode": [
+        "Network Hospital",
+        "District Health Office"
+      ],
+      "apply_url": "https://www.jeevandayee.gov.in",
+      "tags": [
+        "health",
+        "Maharashtra",
+        "cashless",
+        "surgery",
+        "insurance"
+      ],
+      "emoji": "🏥",
+      "description": "Maharashtra's public health insurance covering 971 surgical procedures."
+    },
+    {
+      "id": "MH-MKB-001",
+      "name": "Majhi Kanya Bhagyashree (MH)",
+      "nameHindi": "माझी कन्या भाग्यश्री (महाराष्ट्र)",
+      "category": "women",
+      "level": "state",
+      "state": "Maharashtra",
+      "department": "Women & Child Development, Maharashtra",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹50,000 bond + insurance for girl child in MH",
+      "briefHindi": "महाराष्ट्र में बेटी के लिए ₹50,000 बॉन्ड + बीमा",
+      "benefit": "₹50,000 at girl's birth (deposited in bank), ₹1 Lakh accident insurance for mother, interest benefit at 18 years, family income < ₹7.5L",
+      "benefitHindi": "बेटी के जन्म पर ₹50,000 (बैंक में जमा), मां को ₹1 लाख दुर्घटना बीमा, 18 वर्ष पर ब्याज सहित भुगतान",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 0,
+        "maxAge": 1,
+        "maxIncome": 750000,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Birth Certificate",
+        "Aadhaar Card",
+        "Income Certificate",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Gram Panchayat / Municipal Corporation",
+        "Women & Child Development Office"
+      ],
+      "apply_url": "https://womenchild.maharashtra.gov.in",
+      "tags": [
+        "girl",
+        "Maharashtra",
+        "birth",
+        "savings",
+        "insurance"
+      ],
+      "emoji": "👶",
+      "description": "Maharashtra's girl child benefit scheme with birth deposit and insurance."
+    },
+    {
+      "id": "BR-KUY-001",
+      "name": "Mukhyamantri Kanya Utthan Yojana (Bihar)",
+      "nameHindi": "मुख्यमंत्री कन्या उत्थान योजना (बिहार)",
+      "category": "women",
+      "level": "state",
+      "state": "Bihar",
+      "department": "Education Department, Bihar",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "₹50,000 for girls graduating from Bihar — birth to graduation support",
+      "briefHindi": "बिहार से स्नातक करने वाली लड़कियों को ₹50,000 — जन्म से स्नातक तक सहायता",
+      "benefit": "₹50,000 to girls on graduation (₹25,000 for intermediate), ₹2,000 at birth, ₹1,000 for Aadhaar linkage, ₹2,000 for complete immunization",
+      "benefitHindi": "स्नातक पर ₹50,000 (इंटर ₹25,000), जन्म ₹2,000, आधार लिंकेज ₹1,000, पूर्ण टीकाकरण ₹2,000",
+      "benefitType": "cash",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "female",
+        "minAge": 0,
+        "maxAge": 25,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Marksheet",
+        "Bank Account",
+        "Photo"
+      ],
+      "apply_mode": [
+        "edudbt.bih.nic.in",
+        "District Education Office"
+      ],
+      "apply_url": "https://edudbt.bih.nic.in",
+      "tags": [
+        "Bihar",
+        "girl",
+        "graduation",
+        "education",
+        "beti"
+      ],
+      "emoji": "🎓",
+      "description": "Bihar's flagship girl child education scheme from birth to graduation."
+    },
+    {
+      "id": "WB-KANYASHREE-001",
+      "name": "Kanyashree Prakalpa (West Bengal)",
+      "nameHindi": "कन्याश्री प्रकल्प (पश्चिम बंगाल)",
+      "category": "women",
+      "level": "state",
+      "state": "West Bengal",
+      "department": "Department of Women Development, WB",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹25,000 at 18 + ₹750/year for unmarried girls in West Bengal",
+      "briefHindi": "पश्चिम बंगाल में अविवाहित लड़कियों को 18 वर्ष पर ₹25,000 + ₹750/वर्ष",
+      "benefit": "₹750 annual scholarship (K1) for girls 13-18 in school/training + ₹25,000 one-time grant (K2) at age 18 if unmarried — family income < ₹1.2L",
+      "benefitHindi": "13-18 वर्ष स्कूल लड़कियों को ₹750/वर्ष + 18 वर्ष अविवाहित पर ₹25,000 — पारिवारिक आय ₹1.2 लाख से कम",
+      "benefitType": "cash",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "female",
+        "minAge": 13,
+        "maxAge": 19,
+        "maxIncome": 120000,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "School Certificate",
+        "Income Certificate",
+        "Age Proof",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "School",
+        "District Office",
+        "kanyashree.gov.in"
+      ],
+      "apply_url": "https://www.wbkanyashree.gov.in",
+      "tags": [
+        "West_Bengal",
+        "girl",
+        "scholarship",
+        "education",
+        "unmarried"
+      ],
+      "emoji": "💐",
+      "description": "UN-awarded scheme to prevent child marriage and promote girls' education in WB."
+    },
+    {
+      "id": "TS-RYTHU-001",
+      "name": "Rythu Bandhu (Telangana)",
+      "nameHindi": "रायतु बंधु (तेलंगाना)",
+      "category": "agriculture",
+      "level": "state",
+      "state": "Telangana",
+      "department": "Agriculture Department, Telangana",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "₹10,000/acre/year for Telangana farmers — both seasons",
+      "briefHindi": "तेलंगाना किसानों को ₹10,000/एकड़/वर्ष — दोनों मौसम",
+      "benefit": "₹10,000 per acre per year (₹5,000 per season) directly to farmer bank accounts for all Telangana land-owning farmers — no income limit",
+      "benefitHindi": "तेलंगाना के सभी भूस्वामी किसानों को ₹10,000/एकड़/वर्ष (₹5,000/सीजन) सीधे बैंक में — कोई आय सीमा नहीं",
+      "benefitType": "cash",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Pattadar Passbook (Land Ownership)",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Revenue Department",
+        "Mee Seva Center"
+      ],
+      "apply_url": "https://rythubandhu.telangana.gov.in",
+      "tags": [
+        "Telangana",
+        "farmer",
+        "income_support",
+        "raithu",
+        "agriculture"
+      ],
+      "emoji": "🌾",
+      "description": "Telangana's farmer investment support of ₹10,000/acre/year for agriculture inputs."
+    },
+    {
+      "id": "AP-AMMAVODI-001",
+      "name": "Amma Vodi (Andhra Pradesh)",
+      "nameHindi": "अम्मा वोडि (आंध्र प्रदेश)",
+      "category": "scholarship",
+      "level": "state",
+      "state": "Andhra Pradesh",
+      "department": "School Education Department, AP",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "₹15,000/year for mothers sending children to school in AP",
+      "briefHindi": "AP में बच्चों को स्कूल भेजने वाली माताओं को ₹15,000/वर्ष",
+      "benefit": "₹15,000 per year to mothers/guardians of students from Class 1-12 studying in government/aided schools — direct bank transfer to mother's account",
+      "benefitHindi": "कक्षा 1-12 में सरकारी/सहायता प्राप्त स्कूलों में पढ़ने वाले छात्रों की माताओं को ₹15,000/वर्ष — मां के खाते में DBT",
+      "benefitType": "cash",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 5,
+        "maxAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card (Mother & Student)",
+        "School Certificate",
+        "Income Certificate (White Ration Card)"
+      ],
+      "apply_mode": [
+        "School",
+        "Volunteer System"
+      ],
+      "apply_url": "https://jaganannaammavodi.ap.gov.in",
+      "tags": [
+        "Andhra_Pradesh",
+        "school",
+        "mother",
+        "education",
+        "incentive"
+      ],
+      "emoji": "🎒",
+      "description": "AP's unique scheme incentivizing mothers to keep children in school."
+    },
+    {
+      "id": "KA-GRUHALAXMI-001",
+      "name": "Gruha Lakshmi (Karnataka)",
+      "nameHindi": "गृह लक्ष्मी (कर्नाटक)",
+      "category": "women",
+      "level": "state",
+      "state": "Karnataka",
+      "department": "Women & Child Development, Karnataka",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹2,000/month to women heads of households in Karnataka",
+      "briefHindi": "कर्नाटक में परिवार की मुखिया महिलाओं को ₹2,000/माह",
+      "benefit": "₹2,000 per month (₹24,000/year) to women heads of BPL/APL households with ration card — direct transfer to woman's bank account",
+      "benefitHindi": "BPL/APL राशन कार्ड धारक परिवारों की मुखिया महिलाओं को ₹2,000/माह (₹24,000/वर्ष) — महिला के बैंक खाते में",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Ration Card",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Seva Sindhu Portal",
+        "Taluk Office"
+      ],
+      "apply_url": "https://sevasindhuservices.karnataka.gov.in",
+      "tags": [
+        "Karnataka",
+        "women",
+        "monthly",
+        "household",
+        "income"
+      ],
+      "emoji": "🏡",
+      "description": "Karnataka's monthly income support for women heads of households."
+    },
+    {
+      "id": "TN-FREELAPTOP-001",
+      "name": "Free Laptop Scheme (Tamil Nadu)",
+      "nameHindi": "मुफ्त लैपटॉप योजना (तमिलनाडु)",
+      "category": "scholarship",
+      "level": "state",
+      "state": "Tamil Nadu",
+      "department": "Higher Education Department, Tamil Nadu",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "Free laptop for government school students joining college in TN",
+      "briefHindi": "TN में सरकारी स्कूल से कॉलेज जाने वाले छात्रों को मुफ्त लैपटॉप",
+      "benefit": "Free laptop with preloaded educational software for government school students enrolling in higher education (college/polytechnic/ITI) in Tamil Nadu",
+      "benefitHindi": "तमिलनाडु में उच्च शिक्षा (कॉलेज/पॉलिटेक्निक/ITI) में नामांकित सरकारी स्कूल छात्रों को मुफ्त लैपटॉप",
+      "benefitType": "asset",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 16,
+        "maxAge": 25,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Class 12 Marksheet",
+        "College Admission Proof",
+        "Community Certificate"
+      ],
+      "apply_mode": [
+        "College",
+        "District Education Office"
+      ],
+      "apply_url": "https://www.tn.gov.in",
+      "tags": [
+        "Tamil_Nadu",
+        "laptop",
+        "education",
+        "college",
+        "digital"
+      ],
+      "emoji": "💻",
+      "description": "TN's digital empowerment initiative providing laptops to college-going students."
+    },
+    {
+      "id": "MP-LADLILAXMI-001",
+      "name": "Ladli Laxmi Yojana (Madhya Pradesh)",
+      "nameHindi": "लाडली लक्ष्मी योजना (मध्य प्रदेश)",
+      "category": "women",
+      "level": "state",
+      "state": "Madhya Pradesh",
+      "department": "Women & Child Development, MP",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,43,000 to girl child from birth to 21 in MP",
+      "briefHindi": "MP में बेटी को जन्म से 21 वर्ष तक ₹1,43,000",
+      "benefit": "₹1,43,000 total: ₹6,000/year for 5 years (National Savings Certificate), ₹2,000 at Class 6, ₹4,000 at Class 9, ₹6,000 at Class 11, ₹1,00,000 at 21 (if unmarried at 18)",
+      "benefitHindi": "कुल ₹1,43,000: 5 वर्ष तक ₹6,000/वर्ष, कक्षा 6 ₹2,000, कक्षा 9 ₹4,000, कक्षा 11 ₹6,000, 21 वर्ष ₹1,00,000",
+      "benefitType": "cash",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 0,
+        "maxAge": 21,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Birth Certificate",
+        "Aadhaar Card",
+        "Bank Account",
+        "Domicile Certificate MP"
+      ],
+      "apply_mode": [
+        "Anganwadi Centre",
+        "District Women & Child Development Office"
+      ],
+      "apply_url": "https://ladlilaxmi.mp.gov.in",
+      "tags": [
+        "MP",
+        "Madhya_Pradesh",
+        "girl",
+        "birth",
+        "education",
+        "ladli"
+      ],
+      "emoji": "🌸",
+      "description": "MP's comprehensive girl child welfare scheme providing ₹1.43 Lakh from birth to 21."
+    },
+    {
+      "id": "OD-KALIA-001",
+      "name": "KALIA Yojana (Odisha)",
+      "nameHindi": "कालिया योजना (ओडिशा)",
+      "category": "agriculture",
+      "level": "state",
+      "state": "Odisha",
+      "department": "Agriculture & Farmers Empowerment Dept, Odisha",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "₹10,000/year for small & marginal farmers + ₹12,500 for landless",
+      "briefHindi": "छोटे/सीमांत किसानों को ₹10,000/वर्ष + भूमिहीनों को ₹12,500",
+      "benefit": "₹10,000/year (₹5,000/season) for cultivators, ₹12,500/year for landless farm households, ₹2 Lakh life insurance + ₹2 Lakh accident insurance",
+      "benefitHindi": "कृषकों को ₹10,000/वर्ष, भूमिहीन कृषि परिवारों को ₹12,500/वर्ष, ₹2 लाख जीवन + ₹2 लाख दुर्घटना बीमा",
+      "benefitType": "cash",
+      "eligibility": {
+        "occupation": [
+          "farmer",
+          "daily_wage"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account",
+        "Land Records (if applicable)"
+      ],
+      "apply_mode": [
+        "kalia.odisha.gov.in",
+        "Block Office"
+      ],
+      "apply_url": "https://kalia.odisha.gov.in",
+      "tags": [
+        "Odisha",
+        "farmer",
+        "income_support",
+        "landless",
+        "agriculture"
+      ],
+      "emoji": "🌾",
+      "description": "Odisha's farmer welfare scheme covering cultivators and landless agricultural families."
+    },
+    {
+      "id": "PMVISHWAKARMA-001",
+      "name": "PM Vishwakarma Yojana",
+      "nameHindi": "प्रधानमंत्री विश्वकर्मा योजना",
+      "category": "startup",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of MSME",
+      "departmentLogo": "/logos/ministries/msme.jpg",
+      "brief": "₹3 Lakh collateral-free loan at 5% + free toolkit for artisans",
+      "briefHindi": "कारीगरों को 5% पर ₹3 लाख बिना गारंटी ऋण + मुफ्त टूलकिट",
+      "benefit": "₹3 Lakh collateral-free loan at 5% interest, free toolkit (up to ₹15,000), ₹500/day training stipend, digital marketing support — for 18 traditional trades",
+      "benefitHindi": "5% ब्याज पर ₹3 लाख बिना गारंटी ऋण, ₹15,000 तक मुफ्त टूलकिट, ₹500/दिन प्रशिक्षण — 18 पारंपरिक व्यवसायों के लिए",
+      "benefitType": "loan",
+      "eligibility": {
+        "occupation": [
+          "self_employed"
+        ],
+        "gender": "all",
+        "minAge": 18,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account",
+        "Self-Declaration of Trade",
+        "Caste Certificate (optional)"
+      ],
+      "apply_mode": [
+        "CSC Center",
+        "pmvishwakarma.gov.in"
+      ],
+      "apply_url": "https://pmvishwakarma.gov.in",
+      "tags": [
+        "artisan",
+        "craftsman",
+        "loan",
+        "toolkit",
+        "vishwakarma",
+        "handloom"
+      ],
+      "emoji": "🔨",
+      "description": "End-to-end support for traditional artisans and craftspeople across 18 trades."
+    },
+    {
+      "id": "DIGILOCKER-001",
+      "name": "DigiLocker",
+      "nameHindi": "डिजिलॉकर",
+      "category": "digital",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Electronics & IT",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "Free cloud storage for government-issued documents — Aadhaar-linked",
+      "briefHindi": "सरकारी दस्तावेजों का मुफ्त क्लाउड स्टोरेज — आधार से जुड़ा",
+      "benefit": "Free digital locker for all citizens — store Aadhaar, PAN, driving licence, marksheets, certificates issued by government in verified digital format",
+      "benefitHindi": "सभी नागरिकों के लिए मुफ्त डिजिटल लॉकर — आधार, PAN, लाइसेंस, मार्कशीट, प्रमाणपत्र डिजिटल रूप में",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Mobile Number linked to Aadhaar"
+      ],
+      "apply_mode": [
+        "digilocker.gov.in",
+        "DigiLocker App"
+      ],
+      "apply_url": "https://digilocker.gov.in",
+      "tags": [
+        "digital",
+        "documents",
+        "locker",
+        "Aadhaar",
+        "paperless"
+      ],
+      "emoji": "📱",
+      "description": "India's official cloud-based document storage and verification platform."
+    },
+    {
+      "id": "ONORC-001",
+      "name": "One Nation One Ration Card (ONORC)",
+      "nameHindi": "एक राष्ट्र एक राशन कार्ड",
+      "category": "food",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Consumer Affairs, Food & Public Distribution",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "Get ration from any PDS shop across India with single ration card",
+      "briefHindi": "एक ही राशन कार्ड से पूरे भारत में किसी भी PDS दुकान से राशन",
+      "benefit": "Portability of ration card — any NFSA beneficiary can lift subsidized foodgrains from any Fair Price Shop in India using existing ration card + Aadhaar",
+      "benefitHindi": "राशन कार्ड की पोर्टेबिलिटी — कोई भी NFSA लाभार्थी भारत में किसी भी उचित मूल्य दुकान से सब्सिडी वाला अनाज ले सकता है",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all",
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Ration Card",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Any Fair Price Shop (PDS)"
+      ],
+      "apply_url": "https://nfsa.gov.in/portal/onorc",
+      "tags": [
+        "ration",
+        "food",
+        "PDS",
+        "migrant",
+        "portable"
+      ],
+      "emoji": "🍚",
+      "description": "Enables migrant workers to access subsidized food from any PDS shop across India."
+    },
+    {
+      "id": "IGNOAPS-001",
+      "name": "Indira Gandhi National Old Age Pension",
+      "nameHindi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन",
+      "category": "senior",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Rural Development",
+      "departmentLogo": "/logos/ministries/rural.jpg",
+      "brief": "₹200-₹500/month pension for BPL elderly 60+",
+      "briefHindi": "60+ BPL बुजुर्गों को ₹200-₹500/माह पेंशन",
+      "benefit": "₹200/month for age 60-79 and ₹500/month for 80+ BPL citizens — states often top-up with additional amounts (total ₹500-₹2,000/month)",
+      "benefitHindi": "60-79 वर्ष के BPL नागरिकों को ₹200/माह, 80+ को ₹500/माह — राज्य अक्सर अतिरिक्त राशि जोड़ते हैं (कुल ₹500-₹2,000/माह)",
+      "benefitType": "pension",
+      "eligibility": {
+        "gender": "all",
+        "minAge": 60,
+        "bpl": true,
+        "caste": [
+          "all"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "BPL Certificate",
+        "Age Proof",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "Gram Panchayat",
+        "Block Office",
+        "District Social Welfare Office"
+      ],
+      "apply_url": "https://nsap.nic.in",
+      "tags": [
+        "pension",
+        "elderly",
+        "senior",
+        "old_age",
+        "BPL"
+      ],
+      "emoji": "👴",
+      "description": "Central government pension for BPL elderly citizens aged 60 and above."
+    },
+    {
+      "id": "VDVY-001",
+      "name": "Pradhan Mantri Van Dhan Vikas Yojana",
+      "nameHindi": "प्रधानमंत्री वन धन विकास योजना",
+      "category": "tribal",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Tribal Affairs",
+      "departmentLogo": "/logos/ministries/tribal.jpg",
+      "brief": "Value addition, processing & livelihood clusters for tribal forest gatherers",
+      "briefHindi": "आदिवासी वनोपज संग्राहकों के लिए प्रसंस्करण और आजीविका केंद्र",
+      "benefit": "₹15 Lakh per Van Dhan Vikas Kendra for training, equipment, value addition of Minor Forest Produce (MFP) benefiting 300 tribal forest gatherers",
+      "benefitHindi": "प्रत्येक वन धन विकास केंद्र को ₹15 लाख — 300 वनोपज संग्राहकों को प्रशिक्षण, मशीनरी व मूल्य संवर्धन सहायता",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "caste": [
+          "ST"
+        ],
+        "occupation": [
+          "tribal_gatherer",
+          "artisan",
+          "farmer"
+        ],
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "ST Caste Certificate",
+        "Bank Passbook",
+        "Van Dhan SHG Membership"
+      ],
+      "apply_mode": [
+        "TRIFED Regional Office",
+        "District Forest Office",
+        "Gram Panchayat"
+      ],
+      "apply_url": "https://trifed.tribal.gov.in",
+      "tags": [
+        "tribal",
+        "forest",
+        "van_dhan",
+        "trifed",
+        "ST",
+        "livelihood"
+      ],
+      "emoji": "🌲",
+      "description": "Promotes value addition and sustainable livelihood for forest-dwelling tribal communities through Van Dhan Kendras."
+    },
+    {
+      "id": "EMRS-001",
+      "name": "Eklavya Model Residential Schools (EMRS)",
+      "nameHindi": "एकलव्य आदर्श आवासीय विद्यालय",
+      "category": "tribal",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Tribal Affairs",
+      "departmentLogo": "/logos/ministries/tribal.jpg",
+      "brief": "100% free quality CBSE residential schooling with boarding for ST students (Class 6-12)",
+      "briefHindi": "एसटी विद्यार्थियों के लिए कक्षा 6-12 तक 100% मुफ्त सीबीएसई आवासीय शिक्षा",
+      "benefit": "Completely free boarding, lodging, uniforms, books, computers & high-quality CBSE education with coaching for competitive exams (JEE/NEET)",
+      "benefitHindi": "पूर्णतः निःशुल्क आवासीय सीबीएसई शिक्षा, भोजन, वर्दी, पुस्तकें एवं जेईई/नीट प्रतियोगी परीक्षाओं की कोचिंग",
+      "benefitType": "service",
+      "eligibility": {
+        "caste": [
+          "ST"
+        ],
+        "gender": "all",
+        "minAge": 10,
+        "maxAge": 18
+      },
+      "documents": [
+        "ST Certificate",
+        "Previous Class Marks Card",
+        "Aadhaar Card",
+        "Transfer Certificate"
+      ],
+      "apply_mode": [
+        "EMRS Portal",
+        "District Tribal Development Office"
+      ],
+      "apply_url": "https://emrs.tribal.gov.in",
+      "tags": [
+        "tribal",
+        "education",
+        "residential_school",
+        "ST",
+        "free_education",
+        "eklavya"
+      ],
+      "emoji": "🏫",
+      "description": "Flagship central scheme providing high-quality residential education to Scheduled Tribe students in remote tribal areas."
+    },
+    {
+      "id": "ST-POSTMATRIC-001",
+      "name": "Post-Matric Scholarship for ST Students",
+      "nameHindi": "अनुसूचित जनजाति के छात्रों के लिए पोस्ट-मैट्रिक छात्रवृत्ति",
+      "category": "tribal",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Tribal Affairs",
+      "departmentLogo": "/logos/ministries/tribal.jpg",
+      "brief": "Full tuition fee reimbursement + monthly maintenance allowance for ST students",
+      "briefHindi": "एसटी विद्यार्थियों को पूरी ट्यूशन फीस प्रतिपूर्ति और मासिक रखरखाव भत्ता",
+      "benefit": "100% compulsory non-refundable fees reimbursed + ₹1,200/month for hostellers and ₹550/month for day scholars pursuing Class 11 to PhD",
+      "benefitHindi": "100% शिक्षण शुल्क प्रतिपूर्ति + छात्रावास हेतु ₹1,200/माह एवं गैर-छात्रावास हेतु ₹550/माह भत्ता",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "caste": [
+          "ST"
+        ],
+        "gender": "all",
+        "minAge": 15,
+        "maxIncome": 250000
+      },
+      "documents": [
+        "ST Certificate",
+        "Income Certificate (< ₹2.5L)",
+        "Aadhaar Card",
+        "Bank Account",
+        "Admission Fee Receipt"
+      ],
+      "apply_mode": [
+        "National Scholarship Portal (NSP)",
+        "State Tribal Welfare Portal"
+      ],
+      "apply_url": "https://scholarships.gov.in",
+      "tags": [
+        "tribal",
+        "scholarship",
+        "ST",
+        "post_matric",
+        "higher_education"
+      ],
+      "emoji": "🎓",
+      "description": "Centrally sponsored scholarship scheme providing full financial assistance to ST students pursuing post-matriculation studies."
+    },
+    {
+      "id": "NFST-001",
+      "name": "National Fellowship and Scholarship for ST Students",
+      "nameHindi": "एसटी छात्रों के लिए राष्ट्रीय फेलोशिप और उच्च शिक्षा छात्रवृत्ति",
+      "category": "tribal",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Tribal Affairs",
+      "departmentLogo": "/logos/ministries/tribal.jpg",
+      "brief": "₹31,000-₹35,000/month fellowship for ST scholars pursuing M.Phil/Ph.D.",
+      "briefHindi": "एम.फिल और पीएचडी कर रहे एसटी शोधार्थियों को ₹31,000-₹35,000/माह फेलोशिप",
+      "benefit": "JRF ₹31,000/month and SRF ₹35,000/month + contingency grant of ₹20,000/year for ST scholars doing full-time Ph.D./M.Phil",
+      "benefitHindi": "जेआरएफ ₹31,000/माह तथा एसआरएफ ₹35,000/माह + ₹20,000/वर्ष आकस्मिक अनुदान",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "caste": [
+          "ST"
+        ],
+        "gender": "all",
+        "minAge": 21,
+        "maxAge": 36,
+        "maxIncome": 600000
+      },
+      "documents": [
+        "ST Certificate",
+        "M.Phil/Ph.D. Admission Letter",
+        "Master's Degree Marks Card",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "National Overseas/Fellowship Portal",
+        "NSP Portal"
+      ],
+      "apply_url": "https://fellowship.tribal.gov.in",
+      "tags": [
+        "tribal",
+        "fellowship",
+        "phd",
+        "research",
+        "ST",
+        "higher_education"
+      ],
+      "emoji": "🔬",
+      "description": "Direct fellowship awarded to Scheduled Tribe scholars for pursuing research in premier universities."
+    },
+    {
+      "id": "PM-JUGA-001",
+      "name": "Pradhan Mantri Janjatiya Unnat Gram Abhiyan",
+      "nameHindi": "प्रधानमंत्री जनजातीय उन्नत ग्राम अभियान",
+      "category": "tribal",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Tribal Affairs",
+      "departmentLogo": "/logos/ministries/tribal.jpg",
+      "brief": "Comprehensive saturation of infrastructure & welfare in 63,000 tribal villages",
+      "briefHindi": "63,000 आदिवासी गांवों में बुनियादी ढांचे और कल्याणकारी योजनाओं की पूर्णता",
+      "benefit": "Pucca road connectivity, clean tap water, mobile network towers, solar electricity, health wellness centres & livelihood support across 5 Crore tribal citizens",
+      "benefitHindi": "5 करोड़ आदिवासी नागरिकों के लिए पक्की सड़क, नल से जल, मोबाइल कनेक्टिविटी, सौर ऊर्जा व स्वास्थ्य केंद्र",
+      "benefitType": "service",
+      "eligibility": {
+        "caste": [
+          "ST"
+        ],
+        "area": "rural",
+        "gender": "all"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "ST Certificate",
+        "Gram Panchayat Certificate"
+      ],
+      "apply_mode": [
+        "Gram Sabha",
+        "Block Development Office",
+        "District Tribal Office"
+      ],
+      "apply_url": "https://tribal.nic.in",
+      "tags": [
+        "tribal",
+        "infrastructure",
+        "village_development",
+        "ST",
+        "connectivity"
+      ],
+      "emoji": "🏔️",
+      "description": "Massive national initiative covering 63,000 tribal-majority villages with all essential government amenities."
+    },
+    {
+      "id": "PMRF-001",
+      "name": "Prime Minister's Research Fellowship (PMRF)",
+      "nameHindi": "प्रधानमंत्री रिसर्च फेलोशिप",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Education",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "₹70,000-₹80,000/month fellowship + ₹2 Lakh/yr grant for direct Ph.D. at IITs/IISc",
+      "briefHindi": "आईआईटी/आईआईएससी में डायरेक्ट पीएचडी हेतु ₹70,000-₹80,000/माह फेलोशिप + ₹2 लाख/वर्ष अनुदान",
+      "benefit": "₹70,000/month (Years 1-2), ₹75,000/month (Year 3), ₹80,000/month (Years 4-5) plus research grant of ₹2,00,000 per year",
+      "benefitHindi": "प्रथम दो वर्ष ₹70,000/माह, तीसरे वर्ष ₹75,000/माह, चौथे-पांचवे वर्ष ₹80,000/माह एवं ₹2 लाख/वर्ष शोध अनुदान",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "gender": "all",
+        "minAge": 20,
+        "maxAge": 35
+      },
+      "documents": [
+        "GATE Score Card / Top 5% Rank in Qualifying Degree",
+        "Research Proposal",
+        "Aadhaar Card",
+        "Degree Certificate"
+      ],
+      "apply_mode": [
+        "PMRF Portal",
+        "Host Nodal Institute"
+      ],
+      "apply_url": "https://www.pmrf.in",
+      "tags": [
+        "fellowship",
+        "phd",
+        "research",
+        "iit",
+        "iisc",
+        "stem"
+      ],
+      "emoji": "🧪",
+      "description": "Prestigious fellowship designed for attracting top academic talent into doctoral research in Science and Technology."
+    },
+    {
+      "id": "SC-TOPCLASS-001",
+      "name": "Top Class Education Scheme for SC Students",
+      "nameHindi": "अनुसूचित जाति के छात्रों के लिए श्रेष्ठ शिक्षा योजना",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Social Justice & Empowerment",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "Full tuition fees + living allowance for SC students admitted to IITs, IIMs, AIIMS, NLUs",
+      "briefHindi": "आईआईटी, आईआईएम, एम्स और एनएलयू में प्रवेशित एससी छात्रों की पूरी फीस और जीवन निर्वाह भत्ता",
+      "benefit": "Full non-refundable tuition fees reimbursed + ₹86,000 living expenses per year + ₹45,000 one-time computer grant + ₹5,000/yr book allowance",
+      "benefitHindi": "पूरी ट्यूशन फीस + ₹86,000/वर्ष जीवन यापन भत्ता + ₹45,000 कंप्यूटर सहायता + ₹5,000/वर्ष पुस्तक भत्ता",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "caste": [
+          "SC"
+        ],
+        "gender": "all",
+        "minAge": 17,
+        "maxIncome": 800000
+      },
+      "documents": [
+        "SC Caste Certificate",
+        "Income Certificate (< ₹8 Lakh)",
+        "Institute Admission Letter",
+        "Fee Receipt",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "National Scholarship Portal"
+      ],
+      "apply_url": "https://scholarships.gov.in",
+      "tags": [
+        "scholarship",
+        "SC",
+        "iit",
+        "iim",
+        "aiims",
+        "top_class",
+        "dalit"
+      ],
+      "emoji": "🏛️",
+      "description": "Covers the entire financial cost of higher education for meritorious SC students enrolled in premier institutions."
+    },
+    {
+      "id": "BEGUM-HAZRAT-001",
+      "name": "Begum Hazrat Mahal National Scholarship",
+      "nameHindi": "बेगम हज़रत महल राष्ट्रीय छात्रवृत्ति",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Social Justice & Empowerment",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹5,000 to ₹6,000 annual scholarship for meritorious minority schoolgirls (Class 9-12)",
+      "briefHindi": "अल्पसंख्यक समुदाय की मेधावी छात्राओं (कक्षा 9-12) को ₹5,000 से ₹6,000 वार्षिक छात्रवृत्ति",
+      "benefit": "₹5,000/year for Class 9 & 10; ₹6,000/year for Class 11 & 12 to support schooling expenses of minority girls",
+      "benefitHindi": "कक्षा 9 व 10 हेतु ₹5,000/वर्ष तथा कक्षा 11 व 12 हेतु ₹6,000/वर्ष सीधे बैंक खाते में",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 13,
+        "maxAge": 19,
+        "maxIncome": 200000
+      },
+      "documents": [
+        "Income Certificate (< ₹2 Lakh)",
+        "Minority Community Certificate",
+        "Previous Year Marksheet (min 50%)",
+        "Bank Passbook"
+      ],
+      "apply_mode": [
+        "National Scholarship Portal"
+      ],
+      "apply_url": "https://scholarships.gov.in",
+      "tags": [
+        "scholarship",
+        "minority",
+        "girls",
+        "education",
+        "muslim",
+        "christian",
+        "sikh"
+      ],
+      "emoji": "📚",
+      "description": "Financial assistance for meritorious minority girl students studying in Classes 9th to 12th."
+    },
+    {
+      "id": "AICTE-PRAGATI-001",
+      "name": "AICTE Pragati Scholarship for Girls",
+      "nameHindi": "एआईसीटीई प्रगति छात्रवृत्ति (बालिकाओं के लिए)",
+      "category": "scholarship",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Education",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "₹50,000/year scholarship for female students admitted to technical degree or diploma courses",
+      "briefHindi": "तकनीकी डिग्री या डिप्लोमा में प्रवेशित बालिकाओं को ₹50,000 प्रति वर्ष छात्रवृत्ति",
+      "benefit": "₹50,000 per annum for every year of study towards college fee payment, computer, books & equipment purchase (up to 4 years)",
+      "benefitHindi": "कॉलेज फीस, कंप्यूटर व पाठ्य सामग्री हेतु ₹50,000 प्रति वर्ष (अधिकतम 4 वर्ष तक)",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "gender": "female",
+        "occupation": [
+          "student"
+        ],
+        "minAge": 17,
+        "maxIncome": 800000
+      },
+      "documents": [
+        "AICTE Approved College Admission Letter",
+        "Family Income Certificate (< ₹8 Lakh)",
+        "Class 10/12 Marksheet",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "National Scholarship Portal"
+      ],
+      "apply_url": "https://scholarships.gov.in",
+      "tags": [
+        "scholarship",
+        "girls",
+        "engineering",
+        "technical",
+        "aicte",
+        "women_in_tech"
+      ],
+      "emoji": "👩‍💻",
+      "description": "Provides financial aid to girl students pursuing technical education across all AICTE-approved institutions in India."
+    },
+    {
+      "id": "WWH-001",
+      "name": "Working Women Hostel Scheme (Sakhi Niwas)",
+      "nameHindi": "सखी निवास (कामकाजी महिला छात्रावास)",
+      "category": "women",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Women & Child Development",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "Safe, subsidized urban accommodation with daycare creche for employed women",
+      "briefHindi": "शहरी कामकाजी महिलाओं के लिए सुरक्षित, रियायती आवास और शिशु गृह सुविधा",
+      "benefit": "Clean, secure and highly subsidized hostel living in metropolitan & tier-2/3 cities with daycare facilities for children up to 5 years",
+      "benefitHindi": "महानगरों एवं छोटे शहरों में सुरक्षा व सीसीटीवी युक्त रियायती आवास एवं 5 वर्ष तक के बच्चों के लिए डे-केयर क्रेच",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "female",
+        "occupation": [
+          "working_woman"
+        ],
+        "minAge": 18,
+        "maxIncome": 600000
+      },
+      "documents": [
+        "Employment Proof / Salary Slip",
+        "Aadhaar Card",
+        "ID Proof",
+        "Passport Photos"
+      ],
+      "apply_mode": [
+        "District Women & Child Development Office",
+        "Hostel Management Agency"
+      ],
+      "apply_url": "https://wcd.nic.in",
+      "tags": [
+        "women",
+        "hostel",
+        "working_women",
+        "accommodation",
+        "safety",
+        "creche"
+      ],
+      "emoji": "🏢",
+      "description": "Provides safe, conveniently located accommodation for working women, single mothers, and job trainees living away from their hometowns."
+    },
+    {
+      "id": "MSSC-001",
+      "name": "Mahila Samman Savings Certificate (MSSC)",
+      "nameHindi": "महिला सम्मान बचत प्रमाण पत्र",
+      "category": "women",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Finance",
+      "departmentLogo": "/logos/ministries/finance.jpg",
+      "brief": "Guaranteed 7.5% annual interest for 2-year deposit up to ₹2 Lakh for women/girls",
+      "briefHindi": "महिलाओं व बालिकाओं के लिए 2 वर्ष की जमा पर 7.5% सुनिश्चित वार्षिक ब्याज (अधिकतम ₹2 लाख)",
+      "benefit": "Fixed 7.5% annual interest compounded quarterly, partial withdrawal up to 40% allowed after 1 year, zero market risk backed by Govt of India",
+      "benefitHindi": "7.5% सुरक्षित वार्षिक ब्याज, 1 वर्ष बाद 40% तक निकासी की सुविधा, पूर्णतः सरकारी सुरक्षा",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 1
+      },
+      "documents": [
+        "Aadhaar Card",
+        "PAN Card",
+        "KYC Form",
+        "Passport Photos"
+      ],
+      "apply_mode": [
+        "Any Post Office",
+        "Public Sector Banks"
+      ],
+      "apply_url": "https://www.indiapost.gov.in",
+      "tags": [
+        "women",
+        "savings",
+        "investment",
+        "finance",
+        "high_interest",
+        "post_office"
+      ],
+      "emoji": "💰",
+      "description": "Government-backed high-yield small savings scheme exclusively for women and girl children."
+    },
+    {
+      "id": "PMMSY-001",
+      "name": "Pradhan Mantri Matsya Sampada Yojana",
+      "nameHindi": "प्रधानमंत्री मत्स्य संपदा योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "40% to 60% subsidy for fish farming, biofloc, pond construction & boats",
+      "briefHindi": "मछली पालन, बायोफ्लॉक, तालाब निर्माण और नावों के लिए 40% से 60% सब्सिडी",
+      "benefit": "Government subsidy of 40% (General) and 60% (SC/ST/Women) on aquaculture projects up to ₹25 Lakh, including insulated vehicles and cold storages",
+      "benefitHindi": "मछली पालन, आइस बॉक्स, वाहन व बायोफ्लॉक तालाब हेतु 40% (सामान्य) व 60% (महिला/एससी/एसटी) सरकारी सब्सिडी",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "fisherman",
+          "farmer",
+          "entrepreneur"
+        ],
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Pond / Land Lease Documents",
+        "Detailed Project Report",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "District Fisheries Office",
+        "PMMSY Portal"
+      ],
+      "apply_url": "https://pmmsy.dof.gov.in",
+      "tags": [
+        "fisheries",
+        "aquaculture",
+        "subsidy",
+        "fish_farming",
+        "matsya",
+        "kisan"
+      ],
+      "emoji": "🐟",
+      "description": "Flagship program aimed at modernizing fisheries infrastructure, enhancing fish productivity and boosting fisherfolk income."
+    },
+    {
+      "id": "NHM-001",
+      "name": "Mission for Integrated Development of Horticulture (MIDH)",
+      "nameHindi": "एकीकृत बागवानी विकास मिशन",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "Up to 50% capital subsidy for greenhouses, orchards, cold storage & mushroom cultivation",
+      "briefHindi": "पॉलीहाउस, फलदार बाग, कोल्ड स्टोरेज और मशरूम उत्पादन हेतु 50% तक पूंजीगत सब्सिडी",
+      "benefit": "50% grant assistance for polyhouses/greenhouses, high-density fruit orchards, drip irrigation setups and pack-houses up to ₹30 Lakh per unit",
+      "benefitHindi": "पॉलीहाउस, फलदार बागवानी, मशरूम फार्म व पैक-हाउस स्थापित करने पर 50% तक वित्तीय अनुदान",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer",
+          "horticulturist"
+        ],
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Title / 7/12 Records",
+        "Water Source Proof",
+        "Project Quotation"
+      ],
+      "apply_mode": [
+        "District Horticulture Officer",
+        "State Horticulture Mission"
+      ],
+      "apply_url": "https://midh.gov.in",
+      "tags": [
+        "horticulture",
+        "polyhouse",
+        "farming",
+        "subsidy",
+        "fruits",
+        "vegetables"
+      ],
+      "emoji": "🍎",
+      "description": "Holistic development scheme covering fruits, vegetables, root crops, spices, and floriculture with generous infrastructure subsidies."
+    },
+    {
+      "id": "NIKSHAY-001",
+      "name": "Ni-kshay Poshan Yojana (TB Nutrition Support)",
+      "nameHindi": "निक्षय पोषण योजना (टीबी पोषण सहायता)",
+      "category": "health",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Health & Family Welfare",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹500 to ₹1,000/month direct cash assistance for nutrition during TB treatment",
+      "briefHindi": "टीबी उपचार के दौरान पोषण हेतु ₹500 से ₹1,000 प्रति माह प्रत्यक्ष नकद सहायता",
+      "benefit": "Direct Bank Transfer of ₹500 to ₹1,000 per month directly into the patient's bank account for each month of DOTS tuberculosis treatment",
+      "benefitHindi": "टीबी के सम्पूर्ण इलाज के दौरान पोषण आहार हेतु ₹500-₹1,000 प्रति माह सीधा बैंक खाते में",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "TB Notification Number from DOTS Centre",
+        "Bank Account Details"
+      ],
+      "apply_mode": [
+        "Government Primary Health Centre (PHC)",
+        "DOTS Centre",
+        "Ni-kshay Portal"
+      ],
+      "apply_url": "https://nikshay.in",
+      "tags": [
+        "health",
+        "tb",
+        "nutrition",
+        "nikshay",
+        "dbt",
+        "free_medicine"
+      ],
+      "emoji": "🫁",
+      "description": "Nutritional financial support program for all notified tuberculosis patients undergoing medical treatment in India."
+    },
+    {
+      "id": "PMEBUS-001",
+      "name": "PM-eBus Sewa Scheme",
+      "nameHindi": "पीएम ई-बस सेवा योजना",
+      "category": "transport",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Road Transport & Highways",
+      "departmentLogo": "/logos/ministries/transport.jpg",
+      "brief": "10,000 electric AC city buses across 169 tier-2/3 cities with affordable fares",
+      "briefHindi": "169 छोटे-बड़े शहरों में 10,000 वातानुकूलित इलेक्ट्रिक सिटी बसें किफायती किराए पर",
+      "benefit": "Eco-friendly, zero-emission air-conditioned city transit with concessional fares for students, women, senior citizens and digital ticketing",
+      "benefitHindi": "छात्रों, महिलाओं और वरिष्ठ नागरिकों हेतु रियायती पास के साथ आरामदायक वातानुकूलित इलेक्ट्रिक बस सेवा",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "Aadhaar Card / Student ID for concessional bus passes"
+      ],
+      "apply_mode": [
+        "City Municipal Transport Depots",
+        "State Roadways App"
+      ],
+      "apply_url": "https://mohua.gov.in",
+      "tags": [
+        "transport",
+        "electric_bus",
+        "ebus",
+        "green_mobility",
+        "city_bus",
+        "commute"
+      ],
+      "emoji": "🚌",
+      "description": "Deploys 10,000 green electric buses on public-private partnership models in cities lacking organized public transport."
+    },
+    {
+      "id": "UP-KANYASUMANGALA-001",
+      "name": "Mukhyamantri Kanya Sumangala Yojana",
+      "nameHindi": "मुख्यमंत्री कन्या सुमंगला योजना (उत्तर प्रदेश)",
+      "category": "women",
+      "level": "state",
+      "state": "Uttar Pradesh",
+      "department": "Women & Child Development, Uttar Pradesh",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹25,000 phased cash assistance from birth to graduation for girl child in UP",
+      "briefHindi": "बालिका के जन्म से लेकर स्नातक तक ₹25,000 की चरणबद्ध वित्तीय सहायता",
+      "benefit": "Direct cash deposits across 6 developmental milestones: ₹5,000 at birth, ₹2,000 on vaccination, ₹3,000 at Class 1, ₹3,000 at Class 6, ₹5,000 at Class 9, ₹7,000 at Degree admission",
+      "benefitHindi": "6 चरणों में कुल ₹25,000: जन्म पर ₹5,000, टीकाकरण पर ₹2,000, कक्षा 1, 6 व 9 में प्रवेश पर और डिग्री/डिप्लोमा पर ₹7,000",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "maxIncome": 300000,
+        "minAge": 0,
+        "maxAge": 25
+      },
+      "documents": [
+        "Aadhaar Card of Parents & Girl",
+        "Birth Certificate",
+        "UP Domicile Certificate",
+        "Income Certificate (< ₹3L)",
+        "Bank Passbook"
+      ],
+      "apply_mode": [
+        "MKSY Portal",
+        "CSC Center",
+        "District Probation Office"
+      ],
+      "apply_url": "https://mksy.up.gov.in",
+      "tags": [
+        "up",
+        "uttar_pradesh",
+        "girl_child",
+        "kanya",
+        "education",
+        "cash_transfer"
+      ],
+      "emoji": "👧",
+      "description": "Uttar Pradesh government's signature scheme to empower daughters through staggered monetary support till graduation."
+    },
+    {
+      "id": "UP-ABHYUDAYA-001",
+      "name": "Mukhyamantri Abhyudaya Yojana (Free Coaching)",
+      "nameHindi": "मुख्यमंत्री अभ्युदय योजना (निःशुल्क कोचिंग)",
+      "category": "scholarship",
+      "level": "state",
+      "state": "Uttar Pradesh",
+      "department": "Social Welfare Department, Uttar Pradesh",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "Free high-end offline coaching & digital tablets for UPSC, UPPSC, JEE, NEET in UP",
+      "briefHindi": "आईएएस, पीसीएस, जेईई और नीट की निःशुल्क कोचिंग और मुफ्त डिजिटल टैबलेट",
+      "benefit": "Free classroom coaching by IAS/IPS officers and subject mentors, library access, online test series, and free tablet distribution for meritorious students",
+      "benefitHindi": "आईएएस/आईपीएस अधिकारियों व शीर्ष शिक्षकों द्वारा मुफ्त क्लासरूम कोचिंग, डिजिटल स्टडी मटेरियल व फ्री टैबलेट",
+      "benefitType": "service",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "minAge": 16,
+        "maxAge": 35
+      },
+      "documents": [
+        "UP Domicile Certificate",
+        "Aadhaar Card",
+        "High School / Graduation Marksheets",
+        "Passport Photo"
+      ],
+      "apply_mode": [
+        "Abhyudaya Portal",
+        "Divisional Commissioner Office"
+      ],
+      "apply_url": "https://abhyuday.up.gov.in",
+      "tags": [
+        "up",
+        "uttar_pradesh",
+        "coaching",
+        "upsc",
+        "neet",
+        "jee",
+        "free_education",
+        "tablet"
+      ],
+      "emoji": "📖",
+      "description": "Provides free competitive examination coaching to underprivileged aspirants across all 75 districts of Uttar Pradesh."
+    },
+    {
+      "id": "UP-DIGISHAKTI-001",
+      "name": "Swami Vivekanand Yuva Sashaktikaran (UP Free Smartphone)",
+      "nameHindi": "स्वामी विवेकानन्द युवा सशक्तिकरण योजना (मुफ्त स्मार्टफोन)",
+      "category": "digital",
+      "level": "state",
+      "state": "Uttar Pradesh",
+      "department": "Department of IT & Electronics, Uttar Pradesh",
+      "departmentLogo": "/logos/ministries/digital.jpg",
+      "brief": "Free 5G smartphones/tablets for final-year college & diploma students in UP",
+      "briefHindi": "यूपी के उच्च शिक्षा, तकनीकी एवं डिप्लोमा विद्यार्थियों को मुफ्त 5G स्मार्टफोन/टैबलेट",
+      "benefit": "Completely free branded 5G smartphone/tablet preloaded with educational content, competitive exam materials and job portal apps (zero cost)",
+      "benefitHindi": "निःशुल्क ब्रांडेड स्मार्टफोन/टैबलेट — शैक्षिक ऐप्स व रोजगार पोर्टल की सुविधाओं से युक्त",
+      "benefitType": "asset",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "minAge": 18,
+        "maxAge": 30
+      },
+      "documents": [
+        "College Enrollment / Fee Receipt",
+        "UP Domicile Certificate",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "College / University DigiShakti Nodal Center"
+      ],
+      "apply_url": "https://digishakti.up.gov.in",
+      "tags": [
+        "up",
+        "uttar_pradesh",
+        "smartphone",
+        "tablet",
+        "student",
+        "digital_india"
+      ],
+      "emoji": "📱",
+      "description": "Distributes free digital devices to millions of university, polytechnic, and ITI students to bridge the digital divide."
+    },
+    {
+      "id": "MH-MJPJAY-001",
+      "name": "Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY)",
+      "nameHindi": "महात्मा ज्योतिराव फुले जन आरोग्य योजना (महाराष्ट्र)",
+      "category": "health",
+      "level": "state",
+      "state": "Maharashtra",
+      "department": "Public Health Department, Maharashtra",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹5 Lakh completely cashless medical treatment per family across 1,000+ surgeries in MH",
+      "briefHindi": "महाराष्ट्र के सभी परिवारों को ₹5 लाख तक का पूर्णतः कैशलेस अस्पताल उपचार",
+      "benefit": "Universal health cover up to ₹5,00,000 per family per year covering 1,356 secondary and tertiary hospital procedures in empanelled private and govt hospitals",
+      "benefitHindi": "1,356 प्रकार की जटिल बीमारियों व ऑपरेशनों के लिए प्रति परिवार प्रति वर्ष ₹5 लाख का कैशलेस उपचार",
+      "benefitType": "insurance",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "Ration Card (Yellow/Orange/White)",
+        "Aadhaar Card / Voter ID",
+        "Maharashtra Domicile Proof"
+      ],
+      "apply_mode": [
+        "Hospital Arogyamitra Counter at any Network Hospital"
+      ],
+      "apply_url": "https://www.jeevandayee.gov.in",
+      "tags": [
+        "maharashtra",
+        "health",
+        "insurance",
+        "cashless",
+        "hospital",
+        "surgery"
+      ],
+      "emoji": "🏥",
+      "description": "Comprehensive universal health protection scheme of the Government of Maharashtra guaranteeing cashless treatment."
+    },
+    {
+      "id": "MH-LADKIBAHIN-001",
+      "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+      "nameHindi": "मुख्यमंत्री माझी लाड़की बहीण योजना (महाराष्ट्र)",
+      "category": "women",
+      "level": "state",
+      "state": "Maharashtra",
+      "department": "Women & Child Development, Maharashtra",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,500 monthly direct bank transfer for women aged 21-65 in Maharashtra",
+      "briefHindi": "महाराष्ट्र की 21-65 वर्ष की पात्र महिलाओं को ₹1,500 प्रति माह सीधा बैंक खाते में",
+      "benefit": "Direct Bank Transfer of ₹1,500 every month (₹18,000 per year) directly to the Aadhaar-linked bank accounts of women with family income under ₹2.5 Lakh",
+      "benefitHindi": "हर महीने ₹1,500 (सालाना ₹18,000) सीधा बैंक खाते में महिलाओं के आर्थिक स्वावलंबन हेतु",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 21,
+        "maxAge": 65,
+        "maxIncome": 250000
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Passbook (Aadhaar linked)",
+        "Ration Card",
+        "Maharashtra Domicile Certificate / 15yr Voter ID"
+      ],
+      "apply_mode": [
+        "Nari Shakti Doot Mobile App",
+        "Anganwadi Center",
+        "Setu Suvidha Kendra"
+      ],
+      "apply_url": "https://ladakibahin.maharashtra.gov.in",
+      "tags": [
+        "maharashtra",
+        "women",
+        "dbt",
+        "cash_transfer",
+        "monthly_income",
+        "ladki_bahin"
+      ],
+      "emoji": "👩",
+      "description": "Direct financial independence initiative providing monthly sustenance assistance to married, widowed, and destitute women."
+    },
+    {
+      "id": "MH-RAMAIAWAS-001",
+      "name": "Ramai Awas Yojana (Gharkul Scheme)",
+      "nameHindi": "रमाई आवास योजना (घरकुल योजना - महाराष्ट्र)",
+      "category": "housing",
+      "level": "state",
+      "state": "Maharashtra",
+      "department": "Social Justice & Special Assistance, Maharashtra",
+      "departmentLogo": "/logos/ministries/housing.jpg",
+      "brief": "₹1.30 Lakh to ₹2.50 Lakh financial subsidy for pucca house to SC/Neo-Buddhist families",
+      "briefHindi": "अनुसूचित जाति व नवबौद्ध परिवारों को पक्का मकान बनाने हेतु ₹1.30 लाख से ₹2.50 लाख अनुदान",
+      "benefit": "Financial grant of ₹1.30 Lakh (rural) to ₹2.50 Lakh (urban/municipal) in multiple construction stages for permanent house construction",
+      "benefitHindi": "ग्रामीण क्षेत्रों में ₹1.30 लाख तथा नगर पालिका/महानगर में ₹2.50 लाख तक पक्का घर अनुदान",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "caste": [
+          "SC"
+        ],
+        "bpl": true,
+        "maxIncome": 100000
+      },
+      "documents": [
+        "SC / Neo-Buddhist Caste Certificate",
+        "Income Certificate",
+        "Land / Plot Ownership Documents",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Gram Panchayat / Panchayat Samiti",
+        "Municipal Corporation Office"
+      ],
+      "apply_url": "https://sjsa.maharashtra.gov.in",
+      "tags": [
+        "maharashtra",
+        "housing",
+        "sc",
+        "dalit",
+        "ramai_awas",
+        "gharkul",
+        "pucca_house"
+      ],
+      "emoji": "🏡",
+      "description": "Dedicated housing scheme for shelterless Scheduled Caste and Neo-Buddhist families living in rural and urban areas of Maharashtra."
+    },
+    {
+      "id": "RJ-PALANHAR-001",
+      "name": "Palanhar Yojana (Child Foster Assistance)",
+      "nameHindi": "पालनहार योजना (राजस्थान)",
+      "category": "social_welfare",
+      "level": "state",
+      "state": "Rajasthan",
+      "department": "Social Justice & Empowerment, Rajasthan",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹1,500 to ₹2,500/month stipend for foster care & schooling of orphan/destitute children in RJ",
+      "briefHindi": "अनाथ व निराश्रित बच्चों के पालन-पोषण व शिक्षा हेतु ₹1,500 से ₹2,500 प्रति माह पेंशन",
+      "benefit": "Monthly assistance: ₹1,500/month for children aged 0-6 years and ₹2,500/month for school-going children aged 6-18 years + ₹2,000 annual cloth/shoe allowance",
+      "benefitHindi": "0-6 वर्ष के बच्चों को ₹1,500/माह, 6-18 वर्ष तक के बच्चों को ₹2,500/माह + ₹2,000 वार्षिक पोशाक भत्ता",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "maxAge": 18,
+        "maxIncome": 120000
+      },
+      "documents": [
+        "Jan Aadhaar Card",
+        "Orphan / Parent Disability / Widow Certificate",
+        "School Enrollment Certificate",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "E-Mitra Center",
+        "SJMS Portal Rajasthan"
+      ],
+      "apply_url": "https://sje.rajasthan.gov.in",
+      "tags": [
+        "rajasthan",
+        "orphan",
+        "palanhar",
+        "child_welfare",
+        "monthly_stipend",
+        "school"
+      ],
+      "emoji": "🧒",
+      "description": "Pioneering institutional-free foster child protection scheme ensuring orphans and children of disabled/widow parents receive family care and schooling."
+    },
+    {
+      "id": "RJ-ANUPRATI-001",
+      "name": "Mukhyamantri Anuprati Coaching Yojana",
+      "nameHindi": "मुख्यमंत्री अनुप्रति कोचिंग योजना (राजस्थान)",
+      "category": "scholarship",
+      "level": "state",
+      "state": "Rajasthan",
+      "department": "Social Justice & Empowerment, Rajasthan",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "100% free coaching in top institutes + ₹40,000/yr hostel stipend for UPSC, NEET, CLAT in RJ",
+      "briefHindi": "आईएएस, आरएएस, नीट, क्लैट की नामी कोचिंग संस्थानों में 100% मुफ्त तैयारी + ₹40,000/वर्ष छात्रावास भत्ता",
+      "benefit": "Full fees paid directly to premier coaching institutes for UPSC, RAS, IIT-JEE, NEET, CLAT, CA, REET + ₹40,000 annual stipend for outstation students",
+      "benefitHindi": "शीर्ष कोचिंग संस्थानों की सम्पूर्ण फीस राज्य सरकार द्वारा देय + बाहरी छात्रों को ₹40,000 प्रति वर्ष भोजन/आवास भत्ता",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "maxIncome": 800000,
+        "occupation": [
+          "student"
+        ],
+        "minAge": 16,
+        "maxAge": 32
+      },
+      "documents": [
+        "Jan Aadhaar Card",
+        "Class 10 & 12 Marksheets",
+        "Caste / EWS Certificate",
+        "Income Certificate"
+      ],
+      "apply_mode": [
+        "SSO Rajasthan Portal",
+        "E-Mitra"
+      ],
+      "apply_url": "https://sje.rajasthan.gov.in",
+      "tags": [
+        "rajasthan",
+        "coaching",
+        "upsc",
+        "neet",
+        "jee",
+        "free_education",
+        "anuprati"
+      ],
+      "emoji": "📚",
+      "description": "Merit-based competitive exam coaching program in Rajasthan covering 30,000 underprivileged students annually."
+    },
+    {
+      "id": "TN-PUDHUMAIPENN-001",
+      "name": "Pudhumai Penn Scheme (Moovalur Ramamirtham Ammaiyar)",
+      "nameHindi": "पुधुमई पेन्न योजना (तमिलनाडु)",
+      "category": "women",
+      "level": "state",
+      "state": "Tamil Nadu",
+      "department": "Social Welfare & Women Empowerment, Tamil Nadu",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,000/month directly to girl students of govt schools pursuing higher education in TN",
+      "briefHindi": "सरकारी स्कूल से पढ़कर कॉलेज जाने वाली छात्राओं को ₹1,000 प्रति माह उच्च शिक्षा प्रोत्साहन",
+      "benefit": "Direct Bank Transfer of ₹1,000 every single month until graduation / diploma / ITI completion with zero breaks",
+      "benefitHindi": "डिग्री, डिप्लोमा या इंजीनियरिंग की पूरी अवधि के दौरान ₹1,000 प्रति माह सीधा बैंक खाते में",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "occupation": [
+          "student"
+        ],
+        "minAge": 17,
+        "maxAge": 25
+      },
+      "documents": [
+        "Class 6 to 12 Govt School Certificate",
+        "College ID / Admission Card",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "apply_mode": [
+        "College Principal / Nodal Officer",
+        "Pudhumai Penn Portal"
+      ],
+      "apply_url": "https://pudhumaippenn.tn.gov.in",
+      "tags": [
+        "tamil_nadu",
+        "women",
+        "higher_education",
+        "monthly_stipend",
+        "college_girls",
+        "tn"
+      ],
+      "emoji": "👩‍🎓",
+      "description": "Drastically increases female college enrollment across Tamil Nadu by replacing marriage dowry culture with monthly college education allowances."
+    },
+    {
+      "id": "TN-MAGALIRURIMAI-001",
+      "name": "Kalaignar Magalir Urimai Thogai (Basic Income for Women)",
+      "nameHindi": "कलैग्नार महिला अधिकार योजना (तमिलनाडु बुनियादी आय)",
+      "category": "women",
+      "level": "state",
+      "state": "Tamil Nadu",
+      "department": "Special Programme Implementation, Tamil Nadu",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,000/month universal basic income for 1.15 Crore women heads of families in TN",
+      "briefHindi": "तमिलनाडु की 1.15 करोड़ महिला मुखियाओं को ₹1,000 प्रति माह सुनिश्चित बुनियादी आय",
+      "benefit": "Guaranteed monthly cash transfer of ₹1,000 on the 15th of every calendar month directly to women bank accounts across 1.15 Crore households",
+      "benefitHindi": "हर महीने की 15 तारीख को ₹1,000 सीधा बैंक खाते में महिलाओं के श्रम के सम्मान में",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 21,
+        "maxIncome": 250000
+      },
+      "documents": [
+        "Smart Ration Card",
+        "Aadhaar Card",
+        "Electricity Consumer Number",
+        "Bank Account Details"
+      ],
+      "apply_mode": [
+        "E-Sevai Centers",
+        "Ration Shop Special Camps"
+      ],
+      "apply_url": "https://kmut.tn.gov.in",
+      "tags": [
+        "tamil_nadu",
+        "women",
+        "universal_basic_income",
+        "dbt",
+        "magalir_urimai",
+        "tn"
+      ],
+      "emoji": "🪙",
+      "description": "One of the world's largest basic income programs recognizing the uncompensated domestic labour of 1.15 Crore women."
+    },
+    {
+      "id": "TN-CMCHIS-001",
+      "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+      "nameHindi": "मुख्यमंत्री व्यापक स्वास्थ्य बीमा योजना (तमिलनाडु)",
+      "category": "health",
+      "level": "state",
+      "state": "Tamil Nadu",
+      "department": "Health & Family Welfare, Tamil Nadu",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹5 Lakh cashless health cover per family per year in 1,600+ network hospitals in TN",
+      "briefHindi": "तमिलनाडु में प्रति परिवार ₹5 लाख का कैशलेस उपचार (1,600+ निजी व सरकारी अस्पताल)",
+      "benefit": "Cashless coverage for 1,513 medical & surgical treatments, 52 diagnostic tests, and 8 high-end complex procedures up to ₹5 Lakh/family/year",
+      "benefitHindi": "1,513 प्रकार की सर्जरी, जांच व कैंसर/हार्ट इलाज हेतु प्रति वर्ष ₹5 लाख का कैशलेस बीमा",
+      "benefitType": "insurance",
+      "eligibility": {
+        "maxIncome": 120000,
+        "gender": "all"
+      },
+      "documents": [
+        "Smart Ration Card",
+        "Income Certificate (< ₹1.2L)",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "District Collector Office CMCHIS Kiosk",
+        "Network Hospitals"
+      ],
+      "apply_url": "https://www.cmchistn.com",
+      "tags": [
+        "tamil_nadu",
+        "health",
+        "insurance",
+        "cashless",
+        "cmchis",
+        "tn"
+      ],
+      "emoji": "🏥",
+      "description": "Tamil Nadu's flagship comprehensive health insurance program partnering with over 1,600 elite hospitals."
+    },
+    {
+      "id": "BR-KANYAUTTHAN-001",
+      "name": "Mukhyamantri Kanya Utthan Yojana",
+      "nameHindi": "मुख्यमंत्री कन्या उत्थान योजना (बिहार)",
+      "category": "women",
+      "level": "state",
+      "state": "Bihar",
+      "department": "Social Welfare Department, Bihar",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹54,100 cumulative grant from birth till graduation for every girl in Bihar",
+      "briefHindi": "बिहार की बालिकाओं को जन्म से स्नातक डिग्री तक कुल ₹54,100 की प्रोत्साहन राशि",
+      "benefit": "Staggered cash rewards: ₹2,000 at birth, ₹1,000 at 1 yr, ₹2,000 at 2 yr, ₹10,000 on passing Class 10 (1st div), ₹25,000 on Class 12, and ₹50,000 on completing Graduation",
+      "benefitHindi": "जन्म पर ₹2,000, टीकाकरण पर ₹3,000, मैट्रिक पर ₹10,000, इंटरमीडिएट पर ₹25,000 और स्नातक उत्तीर्ण करने पर ₹50,000 एकमुश्त",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 0,
+        "maxAge": 26
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Birth Certificate / Degree Marksheet",
+        "Bihar Domicile Certificate",
+        "Bank Account Passbook"
+      ],
+      "apply_mode": [
+        "Medhasoft Portal",
+        "Anganwadi Center",
+        "College Portal"
+      ],
+      "apply_url": "https://medhasoft.bih.nic.in",
+      "tags": [
+        "bihar",
+        "girl_child",
+        "kanya_utthan",
+        "scholarship",
+        "graduation",
+        "dbt"
+      ],
+      "emoji": "👩‍🎓",
+      "description": "Bihar's universal girl empowerment scheme providing cumulative incentives from infancy through college graduation."
+    },
+    {
+      "id": "BR-STUDENTCREDIT-001",
+      "name": "Bihar Student Credit Card Scheme (MNSSBY)",
+      "nameHindi": "बिहार स्टूडेंट क्रेडिट कार्ड योजना",
+      "category": "scholarship",
+      "level": "state",
+      "state": "Bihar",
+      "department": "Education Department, Bihar",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "Collateral-free education loan up to ₹4 Lakh at 1% (women/PwD) & 4% interest in Bihar",
+      "briefHindi": "उच्च शिक्षा हेतु ₹4 लाख तक का बिना गारंटी लोन — केवल 1% से 4% साधारण ब्याज पर",
+      "benefit": "Guaranteed educational loan up to ₹4,00,000 covering tuition, hostel, laptop and books for 40+ professional courses; repayment begins 1 year after course completion",
+      "benefitHindi": "बीटेक, एमबीबीएस, बीएससी, डिप्लोमा हेतु ₹4 लाख तक ऋण — पढ़ाई खत्म होने के 1 साल बाद आसान किस्तों में वापसी",
+      "benefitType": "loan",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "minAge": 17,
+        "maxAge": 25
+      },
+      "documents": [
+        "Admission Letter / Fee Prospectus",
+        "10th & 12th Marksheets",
+        "Aadhaar Card of Student & Co-Applicant",
+        "Bihar Domicile"
+      ],
+      "apply_mode": [
+        "District Registration and Counselling Centre (DRCC)",
+        "MNSSBY Portal"
+      ],
+      "apply_url": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+      "tags": [
+        "bihar",
+        "student_loan",
+        "education_loan",
+        "higher_education",
+        "credit_card",
+        "drcc"
+      ],
+      "emoji": "💳",
+      "description": "Part of Bihar's 7 Nischay initiative guaranteeing credit to youth to pursue higher education without mortgage or guarantor."
+    },
+    {
+      "id": "BR-CYCLE-001",
+      "name": "Mukhyamantri Balak / Balika Cycle Yojana",
+      "nameHindi": "मुख्यमंत्री बालक/बालिका साइकिल योजना (बिहार)",
+      "category": "transport",
+      "level": "state",
+      "state": "Bihar",
+      "department": "Education Department, Bihar",
+      "departmentLogo": "/logos/ministries/transport.jpg",
+      "brief": "₹3,000 cash grant to every Class 9 student in Bihar to purchase a new bicycle",
+      "briefHindi": "बिहार के कक्षा 9वीं में नामांकित सभी छात्र-छात्राओं को साइकिल खरीदने हेतु ₹3,000 नकद",
+      "benefit": "Direct Bank Transfer of ₹3,000 into the student's account upon reaching Class 9 in any government secondary school to prevent dropouts caused by long distance commutes",
+      "benefitHindi": "कक्षा 9वीं के हर छात्र-छात्रा को स्कूल आने-जाने हेतु नई साइकिल खरीदने के लिए ₹3,000 की राशि",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "minAge": 13,
+        "maxAge": 16
+      },
+      "documents": [
+        "Class 9 School Enrollment Certificate",
+        "Student Aadhaar Card",
+        "Bank Account Passbook"
+      ],
+      "apply_mode": [
+        "Government High School Principal / Headmaster"
+      ],
+      "apply_url": "https://state.bihar.gov.in/educationbihar",
+      "tags": [
+        "bihar",
+        "bicycle",
+        "cycle_yojana",
+        "student",
+        "commute",
+        "school_retention"
+      ],
+      "emoji": "🚲",
+      "description": "Globally acclaimed initiative that transformed girl student retention in rural secondary schools throughout Bihar."
+    },
+    {
+      "id": "WB-SWASTHYASATHI-001",
+      "name": "Swasthya Sathi Scheme",
+      "nameHindi": "स्वास्थ्य साथी योजना (पश्चिम बंगाल)",
+      "category": "health",
+      "level": "state",
+      "state": "West Bengal",
+      "department": "Health & Family Welfare, West Bengal",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹5 Lakh cashless health cover per family in name of the female head of family in WB",
+      "briefHindi": "महिला मुखिया के नाम पर प्रति परिवार ₹5 लाख का संपूर्ण कैशलेस स्वास्थ्य बीमा",
+      "benefit": "Smart health card issued exclusively in the name of the eldest woman of the household offering ₹5 Lakh per annum cashless secondary and tertiary hospitalisation",
+      "benefitHindi": "घर की सबसे वरिष्ठ महिला के नाम पर जारी स्मार्ट कार्ड से 2,000 से अधिक अस्पतालों में ₹5 लाख तक का कैशलेस इलाज",
+      "benefitType": "insurance",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "Ration Card (Khadya Sathi)",
+        "Aadhaar Card",
+        "Duare Sarkar Registration"
+      ],
+      "apply_mode": [
+        "Duare Sarkar Camps",
+        "Swasthya Sathi Portal"
+      ],
+      "apply_url": "https://swasthyasathi.gov.in",
+      "tags": [
+        "west_bengal",
+        "health",
+        "insurance",
+        "cashless",
+        "swasthya_sathi",
+        "duare_sarkar"
+      ],
+      "emoji": "🩺",
+      "description": "Pioneering paperless health coverage scheme empowering women as the primary cardholder for the entire family."
+    },
+    {
+      "id": "WB-LAKSHMIRBHANDAR-001",
+      "name": "Lakshmir Bhandar Scheme",
+      "nameHindi": "लक्ष्मी भंडार योजना (पश्चिम बंगाल)",
+      "category": "women",
+      "level": "state",
+      "state": "West Bengal",
+      "department": "Women & Child Development, West Bengal",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,000/mo (General) & ₹1,200/mo (SC/ST) assured monthly income for adult women in WB",
+      "briefHindi": "सामान्य महिलाओं को ₹1,000/माह तथा एससी/एसटी महिलाओं को ₹1,200/माह प्रत्यक्ष सहायता",
+      "benefit": "Direct Bank Transfer of ₹1,000/month for General category women and ₹1,200/month for SC/ST women aged 25-60 years directly into their bank accounts",
+      "benefitHindi": "25-60 वर्ष की सामान्य महिलाओं को ₹1,000/माह एवं अनुसूचित जाति/जनजाति की महिलाओं को ₹1,200/माह",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 25,
+        "maxAge": 60
+      },
+      "documents": [
+        "Swasthya Sathi Card",
+        "Aadhaar Card",
+        "Caste Certificate (if SC/ST)",
+        "Bank Account (Aadhaar linked)"
+      ],
+      "apply_mode": [
+        "Duare Sarkar Outreach Camps",
+        "Block Development Office"
+      ],
+      "apply_url": "https://wb.gov.in",
+      "tags": [
+        "west_bengal",
+        "women",
+        "dbt",
+        "lakshmir_bhandar",
+        "monthly_income",
+        "duare_sarkar"
+      ],
+      "emoji": "🪔",
+      "description": "Flagship social security program extending monthly financial dignity to over 2 Crore women across West Bengal."
+    },
+    {
+      "id": "MP-LADLIBEHNA-001",
+      "name": "Mukhyamantri Ladli Behna Yojana",
+      "nameHindi": "मुख्यमंत्री लाड़ली बहना योजना (मध्य प्रदेश)",
+      "category": "women",
+      "level": "state",
+      "state": "Madhya Pradesh",
+      "department": "Women & Child Development, Madhya Pradesh",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,250 monthly direct cash transfer for women aged 21-60 in Madhya Pradesh",
+      "briefHindi": "मध्य प्रदेश की 21-60 वर्ष की महिलाओं को ₹1,250 प्रति माह सीधा बैंक खाते में",
+      "benefit": "Guaranteed monthly cash transfer of ₹1,250 (₹15,000 annually) transferred on the 10th of every month into Aadhaar-linked DBT bank accounts",
+      "benefitHindi": "हर महीने की 10 तारीख को ₹1,250 सीधा बैंक खाते में महिलाओं के स्वास्थ्य व पोषण सुधार हेतु",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 21,
+        "maxAge": 60,
+        "maxIncome": 250000
+      },
+      "documents": [
+        "Samagra ID (Family & Member)",
+        "Aadhaar Card",
+        "Aadhaar-Linked Bank Account with DBT Active"
+      ],
+      "apply_mode": [
+        "Gram Panchayat / Ward Office Camp",
+        "Ladli Behna Portal"
+      ],
+      "apply_url": "https://cmladlibahna.mp.gov.in",
+      "tags": [
+        "madhya_pradesh",
+        "women",
+        "dbt",
+        "ladli_behna",
+        "monthly_income",
+        "mp"
+      ],
+      "emoji": "🧕",
+      "description": "Direct welfare transfer program providing vital economic autonomy to more than 1.25 Crore women in Madhya Pradesh."
+    },
+    {
+      "id": "MP-SAMBAL-001",
+      "name": "Mukhya Mantri Jan Kalyan (Sambal 2.0)",
+      "nameHindi": "मुख्यमंत्री जन कल्याण (संबल 2.0 योजना - मध्य प्रदेश)",
+      "category": "social_welfare",
+      "level": "state",
+      "state": "Madhya Pradesh",
+      "department": "Labour Department, Madhya Pradesh",
+      "departmentLogo": "/logos/ministries/labour.jpg",
+      "brief": "Complete social security: maternity aid, free electricity, accidental cover up to ₹4 Lakh in MP",
+      "briefHindi": "असंगठित श्रमिकों को ₹4 लाख दुर्घटना सहायता, ₹16,000 प्रसूति सहायता और बिजली माफी",
+      "benefit": "₹4,00,000 for accidental death, ₹2,00,000 for natural death, ₹16,000 maternity assistance, ₹5,000 funeral assistance, and free college tuition for children of unorganized workers",
+      "benefitHindi": "दुर्घटना मृत्यु पर ₹4 लाख, सामान्य मृत्यु पर ₹2 लाख, प्रसूति पर ₹16,000 व बच्चों की उच्च शिक्षा की पूरी फीस माफी",
+      "benefitType": "insurance",
+      "eligibility": {
+        "occupation": [
+          "unorganized_worker",
+          "laborer"
+        ],
+        "minAge": 18,
+        "maxAge": 60
+      },
+      "documents": [
+        "Samagra ID",
+        "Aadhaar Card",
+        "Bank Account",
+        "Unorganized Worker Self-Declaration"
+      ],
+      "apply_mode": [
+        "Sambal Portal",
+        "MP Online",
+        "Gram Panchayat / Ward Office"
+      ],
+      "apply_url": "https://sambal.mp.gov.in",
+      "tags": [
+        "madhya_pradesh",
+        "labour",
+        "social_security",
+        "sambal",
+        "accidental_insurance",
+        "unorganized"
+      ],
+      "emoji": "👷",
+      "description": "Cradle-to-grave social security umbrella for millions of unorganized workers throughout Madhya Pradesh."
+    },
+    {
+      "id": "KA-GRUHALAKSHMI-001",
+      "name": "Gruha Lakshmi Scheme",
+      "nameHindi": "गृह लक्ष्मी योजना (कर्नाटक)",
+      "category": "women",
+      "level": "state",
+      "state": "Karnataka",
+      "department": "Women & Child Development, Karnataka",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹2,000 monthly cash assistance to woman head of household in Karnataka",
+      "briefHindi": "कर्नाटक में परिवार की महिला मुखिया को ₹2,000 प्रति माह प्रत्यक्ष वित्तीय सहायता",
+      "benefit": "Direct Bank Transfer of ₹2,000 per month (₹24,000 annually) directly deposited into the woman head of household's bank account for BPL, APL and Antyodaya cardholders",
+      "benefitHindi": "हर महीने ₹2,000 (सालाना ₹24,000) महिला मुखिया के बैंक खाते में सीधा अंतरण",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18
+      },
+      "documents": [
+        "Ration Card (BPL/APL/AAY)",
+        "Aadhaar Card of Woman & Husband",
+        "Bank Passbook with Aadhaar Seeding"
+      ],
+      "apply_mode": [
+        "Karnataka One / Bangalore One / Grama One Centers",
+        "Seva Sindhu Portal"
+      ],
+      "apply_url": "https://sevasindhuservices.karnataka.gov.in",
+      "tags": [
+        "karnataka",
+        "women",
+        "dbt",
+        "gruha_lakshmi",
+        "monthly_income",
+        "karnataka_guarantees"
+      ],
+      "emoji": "👩‍🦳",
+      "description": "One of Karnataka's 5 Guarantees providing unconditional financial support to over 1.2 Crore household matriarchs."
+    },
+    {
+      "id": "KA-YUVANIDHI-001",
+      "name": "Yuva Nidhi Scheme (Unemployment Allowance)",
+      "nameHindi": "युवा निधि योजना (कर्नाटक बेरोजगारी भत्ता)",
+      "category": "skill",
+      "level": "state",
+      "state": "Karnataka",
+      "department": "Skill Development, Entrepreneurship & Livelihood, Karnataka",
+      "departmentLogo": "/logos/ministries/msme.jpg",
+      "brief": "₹3,000/mo for unemployed graduates & ₹1,500/mo for diploma holders in Karnataka",
+      "briefHindi": "कर्नाटक के बेरोजगार स्नातकों को ₹3,000/माह तथा डिप्लोमा धारकों को ₹1,500/माह भत्ता",
+      "benefit": "Financial assistance of ₹3,000/month for degree holders and ₹1,500/month for diploma holders for up to 2 years while seeking employment or during skill training",
+      "benefitHindi": "नौकरी मिलने या 2 वर्ष की अवधि तक स्नातकों को ₹3,000/माह एवं डिप्लोमा धारकों को ₹1,500/माह बेरोजगारी भत्ता",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "occupation": [
+          "unemployed_graduate"
+        ],
+        "minAge": 21,
+        "maxAge": 29
+      },
+      "documents": [
+        "Degree / Diploma Certificate & Marks Cards",
+        "Aadhaar Card",
+        "Karnataka Domicile Proof",
+        "Unemployment Declaration"
+      ],
+      "apply_mode": [
+        "Seva Sindhu Portal",
+        "Karnataka One Centers"
+      ],
+      "apply_url": "https://sevasindhu.karnataka.gov.in",
+      "tags": [
+        "karnataka",
+        "youth",
+        "unemployment_allowance",
+        "graduates",
+        "yuva_nidhi",
+        "stipend"
+      ],
+      "emoji": "🎓",
+      "description": "Supports educated youth in Karnataka during their job search with a dignified living allowance and free skill development."
+    },
+    {
+      "id": "KA-SHAKTI-001",
+      "name": "Shakti Scheme (Free Bus Travel for Women)",
+      "nameHindi": "शक्ति योजना (महिलाओं के लिए मुफ्त बस यात्रा - कर्नाटक)",
+      "category": "transport",
+      "level": "state",
+      "state": "Karnataka",
+      "department": "Transport Department, Karnataka",
+      "departmentLogo": "/logos/ministries/transport.jpg",
+      "brief": "100% free travel in ordinary state buses across all of Karnataka for women & transgenders",
+      "briefHindi": "कर्नाटक में महिलाओं व उभयलिंगियों के लिए राज्य परिवहन निगम की बसों में 100% मुफ्त यात्रा",
+      "benefit": "Free travel across all KSRTC, BMTC, NWKRTC, and KKRTC non-luxury state buses anywhere within Karnataka borders without ticketing charges",
+      "benefitHindi": "केएसआरटीसी व बीएमटीसी की साधारण व एक्सप्रेस बसों में शून्य किराए पर पूरे कर्नाटक में असीमित यात्रा",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "female"
+      },
+      "documents": [
+        "Aadhaar Card / Voter ID / Govt ID proving Karnataka Domicile"
+      ],
+      "apply_mode": [
+        "Directly aboard bus with Conductor",
+        "Seva Sindhu Shakti Smart Card"
+      ],
+      "apply_url": "https://transport.karnataka.gov.in",
+      "tags": [
+        "karnataka",
+        "women",
+        "free_bus",
+        "transport",
+        "shakti",
+        "commute",
+        "mobility"
+      ],
+      "emoji": "🚌",
+      "description": "Revolutionized female workforce participation in Karnataka by eliminating public commuting expenses entirely."
+    },
+    {
+      "id": "KL-LIFEMISSION-001",
+      "name": "LIFE Mission Housing Scheme",
+      "nameHindi": "लाइफ मिशन आवास योजना (केरल)",
+      "category": "housing",
+      "level": "state",
+      "state": "Kerala",
+      "department": "Local Self Government Department, Kerala",
+      "departmentLogo": "/logos/ministries/housing.jpg",
+      "brief": "₹4 Lakh subsidy for homeless families + modern apartment complexes in Kerala",
+      "briefHindi": "केरल में बेघर परिवारों को पक्के घर हेतु ₹4 लाख अनुदान अथवा आधुनिक फ्लैट",
+      "benefit": "Grant of ₹4,00,000 in 4 instalments for construction of a 400+ sq.ft pucca house, or free allotment of a modern housing flat with community hall for landless families",
+      "benefitHindi": "घर बनाने हेतु ₹4 लाख का 4 किस्तों में अनुदान, अथवा भूमिहीन परिवारों को बहुमंजिला आवासीय कॉम्प्लेक्स में मुफ्त फ्लैट",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "bpl": true,
+        "maxIncome": 100000
+      },
+      "documents": [
+        "Ration Card",
+        "Aadhaar Card",
+        "Land Title / Possession Certificate (if applicable)",
+        "BPL Proof"
+      ],
+      "apply_mode": [
+        "Grama Panchayat / Municipality Office",
+        "LIFE Mission Portal"
+      ],
+      "apply_url": "https://lifemission.kerala.gov.in",
+      "tags": [
+        "kerala",
+        "housing",
+        "life_mission",
+        "homeless",
+        "pucca_house",
+        "kl"
+      ],
+      "emoji": "🏠",
+      "description": "Kerala's flagship mission ensuring safe, permanent, and dignifying shelter for every homeless family in the state."
+    },
+    {
+      "id": "KL-KASP-001",
+      "name": "Karunya Arogya Suraksha Padhathi (KASP)",
+      "nameHindi": "कारुण्या आरोग्य सुरक्षा पद्धति (केरल स्वास्थ्य योजना)",
+      "category": "health",
+      "level": "state",
+      "state": "Kerala",
+      "department": "Health & Family Welfare, Kerala",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹5 Lakh per family per year cashless treatment + Karunya benevolent dialysis assistance",
+      "briefHindi": "केरल में प्रति परिवार प्रति वर्ष ₹5 लाख का कैशलेस उपचार + डायलिसिस व कैंसर पर विशेष सहायता",
+      "benefit": "Cashless secondary and tertiary healthcare up to ₹5,00,000 per family per year in 700+ empanelled hospitals, plus special relief for kidney dialysis, haemophilia and oncology",
+      "benefitHindi": "700+ अस्पतालों में ₹5 लाख तक का कैशलेस इलाज तथा डायलिसिस, कैंसर व हीमोफीलिया के मरीजों को विशेष वित्तीय सुरक्षा",
+      "benefitType": "insurance",
+      "eligibility": {
+        "maxIncome": 300000,
+        "gender": "all"
+      },
+      "documents": [
+        "KASP Health Card / Aadhaar Card",
+        "Ration Card",
+        "Income Certificate"
+      ],
+      "apply_mode": [
+        "KASP Kiosks in Govt Medical Colleges & Taluk Hospitals"
+      ],
+      "apply_url": "https://sha.kerala.gov.in",
+      "tags": [
+        "kerala",
+        "health",
+        "karunya",
+        "cashless",
+        "dialysis",
+        "kasp",
+        "insurance"
+      ],
+      "emoji": "🏥",
+      "description": "Comprehensive public health financing scheme integrating AB-PMJAY with state Karunya benevolent medical grants."
+    },
+    {
+      "id": "GJ-KISANSURYODAYA-001",
+      "name": "Kisan Suryodaya Yojana",
+      "nameHindi": "किसान सूर्योदय योजना (गुजरात)",
+      "category": "energy",
+      "level": "state",
+      "state": "Gujarat",
+      "department": "Energy & Petrochemicals, Gujarat",
+      "departmentLogo": "/logos/ministries/energy.jpg",
+      "brief": "Guaranteed 3-phase daytime electricity (5 AM - 9 PM) for farm irrigation across Gujarat",
+      "briefHindi": "गुजरात के किसानों को सिंचाई हेतु दिन के समय (सुबह 5 से रात 9) 3-फेज निर्बाध बिजली",
+      "benefit": "Guaranteed daytime high-power electricity supply for agricultural borewells and pump sets eliminating dangerous night-time irrigation work in snake/wild animal infested fields",
+      "benefitHindi": "किसानों को रात के अंधेरे व जहरीले जीवों के भय से मुक्ति — दिन के उजाले में 8 घंटे सुनिश्चित 3-फेज कृषि बिजली",
+      "benefitType": "service",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ]
+      },
+      "documents": [
+        "7/12 Land Records",
+        "Agricultural Power Consumer Number",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "UGVCL / DGVCL / MGVCL / PGVCL Electricity Substation"
+      ],
+      "apply_url": "https://gujaratindia.gov.in",
+      "tags": [
+        "gujarat",
+        "energy",
+        "farmer",
+        "irrigation",
+        "electricity",
+        "kisan_suryodaya",
+        "khedut"
+      ],
+      "emoji": "⚡",
+      "description": "Transformative energy initiative delivering day-time electricity for agricultural irrigation across 4,000+ Gujarat villages."
+    },
+    {
+      "id": "GJ-MANAVGARIMA-001",
+      "name": "Manav Garima Yojana",
+      "nameHindi": "मानव गरिमा योजना (गुजरात)",
+      "category": "startup",
+      "level": "state",
+      "state": "Gujarat",
+      "department": "Social Justice & Empowerment, Gujarat",
+      "departmentLogo": "/logos/ministries/msme.jpg",
+      "brief": "Free professional toolkits worth up to ₹25,000 for 28 self-employment vocations in Gujarat",
+      "briefHindi": "गुजरात के 28 प्रकार के कारीगरों को ₹25,000 तक के आधुनिक टूलकिट 100% मुफ्त",
+      "benefit": "100% free distribution of branded modern toolkits (tailoring machines, plumbing kits, carpentry tools, beauty parlour kits, electrical testing equipment) without loans or repayment",
+      "benefitHindi": "दर्जी मशीन, प्लंबर किट, ब्यूटी पार्लर उपकरण, बढ़ई व इलेक्ट्रीशियन किट पूर्णतः मुफ्त वितरण",
+      "benefitType": "asset",
+      "eligibility": {
+        "caste": [
+          "SC",
+          "OBC",
+          "EWS"
+        ],
+        "minAge": 18,
+        "maxAge": 60,
+        "maxIncome": 150000
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Caste Certificate",
+        "Ration Card",
+        "Annual Income Certificate (< ₹1.5L in rural / ₹1.5L in urban)"
+      ],
+      "apply_mode": [
+        "e-Samaj Kalyan Portal (esamajkalyan.gujarat.gov.in)"
+      ],
+      "apply_url": "https://esamajkalyan.gujarat.gov.in",
+      "tags": [
+        "gujarat",
+        "self_employment",
+        "toolkits",
+        "artisan",
+        "manav_garima",
+        "free_tools"
+      ],
+      "emoji": "🧰",
+      "description": "Empowers underprivileged micro-entrepreneurs and artisans with free high-grade occupational tools to establish self-reliant livelihoods."
+    },
+    {
+      "id": "TS-RYTHUBANDHU-001",
+      "name": "Rythu Bandhu (Farmer Investment Support)",
+      "nameHindi": "रायथू बंधु योजना (तेलंगाना किसान निवेश सहायता)",
+      "category": "agriculture",
+      "level": "state",
+      "state": "Telangana",
+      "department": "Agriculture Department, Telangana",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "₹10,000 per acre per year direct cash for agricultural seeds & fertilizers in Telangana",
+      "briefHindi": "तेलंगाना में प्रति एकड़ प्रति वर्ष ₹10,000 बीज-खाद निवेश सहायता (सीधा बैंक खाते में)",
+      "benefit": "Direct Bank Transfer of ₹5,000/acre each for Kharif and Rabi seasons (total ₹10,000/acre/year) with no upper limit on acreage for all landowning farmers",
+      "benefitHindi": "खरीफ व रबी दोनों फसलों के लिए ₹5,000-₹5,000 प्रति एकड़ सीधा बैंक खाते में बिना किसी बिचौलिए के",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "occupation": [
+          "farmer"
+        ]
+      },
+      "documents": [
+        "Dharani Pattadar Passbook",
+        "Aadhaar Card",
+        "Bank Account Passbook"
+      ],
+      "apply_mode": [
+        "Agriculture Extension Officer (AEO)",
+        "Rythu Bandhu Portal"
+      ],
+      "apply_url": "https://rythubandhu.telangana.gov.in",
+      "tags": [
+        "telangana",
+        "farmer",
+        "dbt",
+        "rythu_bandhu",
+        "kisan",
+        "crop_investment",
+        "ts"
+      ],
+      "emoji": "🌾",
+      "description": "The pioneer direct input support model in India that inspired national welfare schemes like PM-KISAN."
+    },
+    {
+      "id": "TS-KALYANALAKSHMI-001",
+      "name": "Kalyana Lakshmi & Shaadi Mubarak",
+      "nameHindi": "कल्याण लक्ष्मी और शादी मुबारक (तेलंगाना)",
+      "category": "women",
+      "level": "state",
+      "state": "Telangana",
+      "department": "Backward Classes & Minority Welfare, Telangana",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,00,116 one-time marriage assistance for brides from underprivileged families in TS",
+      "briefHindi": "तेलंगाना में गरीब परिवारों की कन्याओं के विवाह हेतु ₹1,00,116 की एकमुश्त आर्थिक सहायता",
+      "benefit": "One-time financial grant of ₹1,00,116 directly credited into the unmarried bride's mother's bank account before marriage ceremony to eradicate debt traps",
+      "benefitHindi": "विवाह से पूर्व कन्या की माता के बैंक खाते में ₹1,00,116 की सीधी राशि अंतरित",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "maxIncome": 200000
+      },
+      "documents": [
+        "Bride & Groom Aadhaar Cards",
+        "Age Proof (18+ for bride, 21+ for groom)",
+        "Marriage Invitation Card",
+        "Mother's Bank Account"
+      ],
+      "apply_mode": [
+        "Telangana ePass Portal",
+        "MeeSeva Centers"
+      ],
+      "apply_url": "https://telanganaepass.cgg.gov.in",
+      "tags": [
+        "telangana",
+        "marriage_grant",
+        "women",
+        "kalyana_lakshmi",
+        "shaadi_mubarak",
+        "ts"
+      ],
+      "emoji": "💍",
+      "description": "Massive social relief program protecting low-income families from predatory moneylenders at the time of daughter's marriage."
+    },
+    {
+      "id": "AP-AAROGYASRI-001",
+      "name": "Dr. YSR Aarogyasri Health Scheme",
+      "nameHindi": "डॉ वाईएसआर आरोग्यश्री स्वास्थ्य योजना (आंध्र प्रदेश)",
+      "category": "health",
+      "level": "state",
+      "state": "Andhra Pradesh",
+      "department": "Health, Medical & Family Welfare, Andhra Pradesh",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹25 Lakh cashless healthcare for 3,257 procedures in top AP, Hyderabad & Chennai hospitals",
+      "briefHindi": "आंध्र प्रदेश, हैदराबाद व चेन्नई के अस्पतालों में 3,257 प्रक्रियाओं हेतु ₹25 लाख का कैशलेस इलाज",
+      "benefit": "Universal health security covering 3,257 treatments completely free up to ₹25 Lakh per family per year, plus ₹225/day post-operative recuperative allowance (Aarogya Aasara)",
+      "benefitHindi": "प्रति परिवार ₹25 लाख का निःशुल्क कैशलेस अस्पताल इलाज + अस्पताल से छुट्टी के बाद ₹225/दिन विश्राम भत्ता",
+      "benefitType": "insurance",
+      "eligibility": {
+        "maxIncome": 500000,
+        "gender": "all"
+      },
+      "documents": [
+        "Aarogyasri Card / Rice Card",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Aarogyamitra Desk at any Network Hospital",
+        "Grama Ward Sachivalayam"
+      ],
+      "apply_url": "https://www.aarogyasri.ap.gov.in",
+      "tags": [
+        "andhra_pradesh",
+        "health",
+        "cashless",
+        "aarogyasri",
+        "surgery",
+        "hospital",
+        "ap"
+      ],
+      "emoji": "🏥",
+      "description": "Andhra Pradesh's extensive medical safety net extending cashless care for over 3,200 procedures across three southern states."
+    },
+    {
+      "id": "OD-BSKY-001",
+      "name": "Biju Swasthya Kalyan Yojana (BSKY)",
+      "nameHindi": "बीजू स्वास्थ्य कल्याण योजना (ओडिशा)",
+      "category": "health",
+      "level": "state",
+      "state": "Odisha",
+      "department": "Health & Family Welfare, Odisha",
+      "departmentLogo": "/logos/ministries/health.jpg",
+      "brief": "₹5 Lakh for family and ₹10 Lakh for women members cashless treatment in 800+ hospitals in OD",
+      "briefHindi": "परिवार हेतु ₹5 लाख एवं महिला सदस्यों हेतु ₹10 लाख का कैशलेस स्वास्थ्य उपचार",
+      "benefit": "Cashless secondary and tertiary care up to ₹5,00,000 per family and an enhanced ₹10,00,000 for women members per year across 800+ premier empanelled hospitals in India",
+      "benefitHindi": "प्रति परिवार ₹5 लाख तथा महिलाओं के लिए ₹10 लाख तक का पूर्णतः कैशलेस अस्पताल इलाज",
+      "benefitType": "insurance",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "BSKY Nabin Card / NFSA Ration Card",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Swasthyamitra Counter at Network Hospital",
+        "Mo Seva Kendra"
+      ],
+      "apply_url": "https://bsky.odisha.gov.in",
+      "tags": [
+        "odisha",
+        "health",
+        "cashless",
+        "bsky",
+        "women_health",
+        "insurance"
+      ],
+      "emoji": "🏥",
+      "description": "Odisha's state-funded universal health model prioritizing female healthcare with double coverage limits."
+    },
+    {
+      "id": "PB-AASHIRWAD-001",
+      "name": "Punjab Aashirwad Scheme (Shagun Scheme)",
+      "nameHindi": "पंजाब आशीर्वाद योजना (शगुन योजना)",
+      "category": "women",
+      "level": "state",
+      "state": "Punjab",
+      "department": "Social Justice, Empowerment & Minorities, Punjab",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹51,000 direct grant for marriage of daughters from SC, BC & BPL families in Punjab",
+      "briefHindi": "पंजाब में अनुसूचित जाति, पिछड़ा वर्ग व बीपीएल परिवारों की कन्याओं के विवाह पर ₹51,000 शगुन",
+      "benefit": "Direct Bank Transfer of ₹51,000 credited directly into the bank account of the bride or her parents before or on the wedding day",
+      "benefitHindi": "विवाह के समय ₹51,000 की एकमुश्त वित्तीय सहायता सीधे कन्या अथवा माता-पिता के बैंक खाते में",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "maxIncome": 32790
+      },
+      "documents": [
+        "Punjab Domicile Proof",
+        "Caste / BPL Certificate",
+        "Aadhaar Card",
+        "Age Proof (18+)",
+        "Marriage Card"
+      ],
+      "apply_mode": [
+        "District Social Justice Office",
+        "Sewa Kendra Punjab"
+      ],
+      "apply_url": "https://punjab.gov.in",
+      "tags": [
+        "punjab",
+        "marriage_grant",
+        "shagun",
+        "aashirwad",
+        "women",
+        "dbt"
+      ],
+      "emoji": "✨",
+      "description": "Financial assistance provided by the Government of Punjab to underprivileged families for the wedding of their daughters."
+    },
+    {
+      "id": "HR-HAPPY-001",
+      "name": "Haryana HAPPY Scheme (Free Roadways Bus Travel)",
+      "nameHindi": "हरियाणा हैप्पी योजना (मुफ्त रोडवेज बस यात्रा)",
+      "category": "transport",
+      "level": "state",
+      "state": "Haryana",
+      "department": "Transport Department, Haryana",
+      "departmentLogo": "/logos/ministries/transport.jpg",
+      "brief": "1,000 km free annual bus travel in Haryana Roadways for Antyodaya families (income < ₹1L)",
+      "briefHindi": "₹1 लाख से कम आय वाले परिवारों को हरियाणा रोडवेज बसों में हर साल 1,000 किमी मुफ्त यात्रा",
+      "benefit": "Smart mobility card loaded with 1,000 km of 100% free bus travel every year on all Haryana Roadways ordinary and semi-deluxe routes",
+      "benefitHindi": "स्मार्ट मोबिलिटी कार्ड द्वारा परिवार के प्रत्येक सदस्य को सालाना 1,000 किमी तक मुफ्त रोडवेज बस सफर",
+      "benefitType": "service",
+      "eligibility": {
+        "maxIncome": 100000
+      },
+      "documents": [
+        "Parivar Pehchan Patra (PPP Family ID)",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Haryana Roadways Bus Depot Kiosk",
+        "Saral Haryana Portal"
+      ],
+      "apply_url": "https://saralharyana.gov.in",
+      "tags": [
+        "haryana",
+        "free_bus",
+        "happy_card",
+        "transport",
+        "ppp",
+        "antyodaya"
+      ],
+      "emoji": "🚌",
+      "description": "Haryana Antyodaya Parivar Parivahan Yojana providing 1,000 km free travel to economically weaker citizens."
+    },
+    {
+      "id": "PMVVY-001",
+      "name": "Pradhan Mantri Vaya Vandana Yojana",
+      "nameHindi": "प्रधानमंत्री वय वंदना योजना",
+      "category": "senior",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Finance",
+      "departmentLogo": "/logos/ministries/finance.jpg",
+      "brief": "Guaranteed 7.4% monthly pension for 10 years managed through LIC for seniors",
+      "briefHindi": "एलआईसी द्वारा संचालित वरिष्ठ नागरिकों के लिए 10 वर्ष तक सुनिश्चित 7.4% मासिक पेंशन",
+      "benefit": "Regular monthly pension of up to ₹9,250 per month for 10 years on investment up to ₹15 Lakh, with full return of purchase price at maturity",
+      "benefitHindi": "10 वर्षों के लिए ₹9,250/माह तक सुनिश्चित पेंशन तथा परिपक्वता पर पूरी जमा राशि वापस",
+      "benefitType": "pension",
+      "eligibility": {
+        "minAge": 60,
+        "gender": "all"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "PAN Card",
+        "Age Proof",
+        "Bank Account Details"
+      ],
+      "apply_mode": [
+        "LIC Branches",
+        "LIC Online Portal"
+      ],
+      "apply_url": "https://licindia.in",
+      "tags": [
+        "senior",
+        "lic",
+        "pension",
+        "vaya_vandana",
+        "guaranteed_income"
+      ],
+      "emoji": "🏦",
+      "description": "Pension scheme for seniors operated exclusively through the Life Insurance Corporation of India (LIC)."
+    },
+    {
+      "id": "NBHM-001",
+      "name": "National Beekeeping & Honey Mission (Sweet Revolution)",
+      "nameHindi": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "Up to 80% subsidy on beehives, colonies and honey extraction equipment",
+      "briefHindi": "मधुमक्खी बक्से, कालोनियों और शहद प्रसंस्करण उपकरणों पर 80% तक सब्सिडी",
+      "benefit": "Financial assistance up to 80% on cost of 50 bee boxes & colonies (cost ₹2 Lakh, subsidy ₹1.60 Lakh) + training and guaranteed buyback support",
+      "benefitHindi": "50 मधुमक्खी बक्सों व कालोनियों पर 80% (₹1.60 लाख) तक की भारी सब्सिडी",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer",
+          "beekeeper",
+          "tribal_gatherer"
+        ],
+        "minAge": 18,
+        "gender": "all"
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land / Yard Proof",
+        "Training Certificate (if any)",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "National Bee Board Portal",
+        "District Horticulture Officer"
+      ],
+      "apply_url": "https://nbb.gov.in",
+      "tags": [
+        "beekeeping",
+        "honey",
+        "agriculture",
+        "subsidy",
+        "sweet_revolution",
+        "allied_agri"
+      ],
+      "emoji": "🐝",
+      "description": "Promotes scientific beekeeping to augment farmers' income and enhance crop pollination and yield."
+    },
+    {
+      "id": "BR-UDYAMI-001",
+      "name": "Mukhyamantri Udyami Yojana (Bihar)",
+      "nameHindi": "मुख्यमंत्री उद्यमी योजना (बिहार)",
+      "category": "startup",
+      "level": "state",
+      "state": "Bihar",
+      "department": "Industries Department, Bihar",
+      "departmentLogo": "/logos/ministries/msme.jpg",
+      "brief": "₹10 Lakh financial package (50% grant + 50% interest-free loan) to set up small industry in Bihar",
+      "briefHindi": "बिहार में नया उद्योग शुरू करने हेतु ₹10 लाख — ₹5 लाख अनुदान (माफ) + ₹5 लाख ब्याज मुक्त ऋण",
+      "benefit": "Total ₹10,00,000 package: ₹5 Lakh 100% non-repayable grant + ₹5 Lakh interest-free loan (0% for SC/ST/Women, 1% for BC/EBC/Youth) repayable in 84 easy installments",
+      "benefitHindi": "₹5 लाख की पूरी सरकारी माफी (सब्सिडी) और शेष ₹5 लाख 84 आसान किस्तों में 0% से 1% साधारण ब्याज पर",
+      "benefitType": "loan",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 50,
+        "occupation": [
+          "entrepreneur",
+          "unemployed"
+        ]
+      },
+      "documents": [
+        "10+2 / Intermediate Marksheet",
+        "Bihar Domicile Certificate",
+        "Caste Certificate",
+        "Aadhaar Card",
+        "Current Bank Account",
+        "PAN Card"
+      ],
+      "apply_mode": [
+        "Udyami Bihar Portal"
+      ],
+      "apply_url": "https://udyami.bihar.gov.in",
+      "tags": [
+        "bihar",
+        "startup",
+        "entrepreneurship",
+        "udyami",
+        "loan",
+        "grant",
+        "subsidy"
+      ],
+      "emoji": "🏭",
+      "description": "Bihar's landmark enterprise creation scheme creating tens of thousands of micro-factories and processing units."
+    },
+    {
+      "id": "WB-RUPASHREE-001",
+      "name": "Rupashree Prakalpa (West Bengal)",
+      "nameHindi": "रूपाश्री प्रकल्प (पश्चिम बंगाल)",
+      "category": "women",
+      "level": "state",
+      "state": "West Bengal",
+      "department": "Women & Child Development, West Bengal",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹25,000 one-time cash grant for marriage of adult daughters from low-income families in WB",
+      "briefHindi": "पश्चिम बंगाल में आर्थिक रूप से कमजोर परिवारों की बेटियों के विवाह हेतु ₹25,000 का अनुदान",
+      "benefit": "One-time Direct Bank Transfer of ₹25,000 directly credited into the prospective bride's bank account before her wedding date to mitigate dowry pressures",
+      "benefitHindi": "विवाह से पूर्व कन्या के स्वयं के बैंक खाते में ₹25,000 की सीधी नकद सहायता",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 18,
+        "maxIncome": 150000
+      },
+      "documents": [
+        "Age Proof (18+ for bride, 21+ for groom)",
+        "Marriage Invitation Card / Notice",
+        "Family Income Certificate (< ₹1.5L)",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Block Development Office (BDO)",
+        "Municipality Sub-Divisional Office"
+      ],
+      "apply_url": "https://wbrupashree.gov.in",
+      "tags": [
+        "west_bengal",
+        "marriage_grant",
+        "rupashree",
+        "women",
+        "dbt",
+        "wb"
+      ],
+      "emoji": "💍",
+      "description": "Financial grant scheme for adult daughters of low-income families in West Bengal on their wedding day."
+    },
+    {
+      "id": "MP-SEEKHOKAMAO-001",
+      "name": "Mukhyamantri Seekho Kamao Yojana (MMSKY)",
+      "nameHindi": "मुख्यमंत्री सीखो कमाओ योजना (मध्य प्रदेश)",
+      "category": "skill",
+      "level": "state",
+      "state": "Madhya Pradesh",
+      "department": "Technical Education & Skill Development, Madhya Pradesh",
+      "departmentLogo": "/logos/ministries/msme.jpg",
+      "brief": "₹8,000 to ₹10,000/month stipend while learning industry skills in top MP companies",
+      "briefHindi": "मध्य प्रदेश में कंपनियों में कौशल सीखते हुए ₹8,000 से ₹10,000 प्रति माह वजीफा",
+      "benefit": "On-the-job technical training across 703 courses with direct monthly DBT stipend: ₹8,000/mo (Class 12), ₹8,500/mo (ITI), ₹9,000/mo (Diploma) and ₹10,000/mo (Degree)",
+      "benefitHindi": "12वीं पास को ₹8,000/माह, आईटीआई को ₹8,500, डिप्लोमा को ₹9,000 तथा डिग्री को ₹10,000/माह",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 29,
+        "occupation": [
+          "student",
+          "unemployed"
+        ]
+      },
+      "documents": [
+        "Samagra ID",
+        "Aadhaar Card",
+        "Educational Marksheets",
+        "MP Domicile Certificate"
+      ],
+      "apply_mode": [
+        "MMSKY Portal (mmsky.mp.gov.in)"
+      ],
+      "apply_url": "https://mmsky.mp.gov.in",
+      "tags": [
+        "madhya_pradesh",
+        "skill",
+        "stipend",
+        "seekho_kamao",
+        "internship",
+        "mp"
+      ],
+      "emoji": "🛠️",
+      "description": "Earn-while-you-learn employment training program with direct bank payments across private industries in MP."
+    },
+    {
+      "id": "GJ-VAHLIDIKRI-001",
+      "name": "Vahli Dikri Yojana (Dear Daughter Scheme)",
+      "nameHindi": "व्हाली दीकरी योजना (गुजरात)",
+      "category": "women",
+      "level": "state",
+      "state": "Gujarat",
+      "department": "Women & Child Development, Gujarat",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹1,10,000 cumulative grant from school entry to adulthood for girl child in Gujarat",
+      "briefHindi": "गुजरात की बालिकाओं को कक्षा 1 से 18 वर्ष की आयु तक कुल ₹1,10,000 की वित्तीय सहायता",
+      "benefit": "₹4,000 at admission to Class 1, ₹6,000 at Class 9 admission, and ₹1,00,000 on turning 18 for higher education or marriage (applicable for first 2 girls of family)",
+      "benefitHindi": "कक्षा 1 में ₹4,000, 9वीं में ₹6,000 और 18 वर्ष पूर्ण होने पर उच्च शिक्षा या विवाह हेतु ₹1 लाख",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 0,
+        "maxAge": 18,
+        "maxIncome": 200000
+      },
+      "documents": [
+        "Birth Certificate of Girl Child",
+        "Gujarat Domicile Proof",
+        "Income Certificate (< ₹2L)",
+        "Aadhaar Card of Parents"
+      ],
+      "apply_mode": [
+        "Anganwadi Center",
+        "e-Samaj Kalyan Portal"
+      ],
+      "apply_url": "https://wcd.gujarat.gov.in",
+      "tags": [
+        "gujarat",
+        "girl_child",
+        "vahli_dikri",
+        "education",
+        "khedut",
+        "wcd_gujarat"
+      ],
+      "emoji": "👧",
+      "description": "Incentivizes girl child survival and education in Gujarat with substantial milestone-based savings grants."
+    },
+    {
+      "id": "TS-DALITBANDHU-001",
+      "name": "Dalit Bandhu Scheme (Telangana)",
+      "nameHindi": "दलित बंधु योजना (तेलंगाना)",
+      "category": "startup",
+      "level": "state",
+      "state": "Telangana",
+      "department": "Scheduled Castes Development, Telangana",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹10 Lakh 100% direct grant (no loan, no repayment) for SC families to start businesses in TS",
+      "briefHindi": "दलित परिवारों को उद्यम शुरू करने हेतु ₹10 लाख का 100% अनुदान (बिना बैंक ऋण व बिना वापसी)",
+      "benefit": "Direct financial grant of ₹10,00,000 per eligible Scheduled Caste family deposited into a dedicated bank account for starting any enterprise, transport, retail or manufacturing business",
+      "benefitHindi": "प्रति एससी परिवार ₹10 लाख की एकमुश्त अनुदान राशि — बिना किसी बैंक गारंटी या पुनर्भुगतान के",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "caste": [
+          "SC"
+        ],
+        "minAge": 18
+      },
+      "documents": [
+        "SC Caste Certificate",
+        "Food Security Card / Ration Card",
+        "Aadhaar Card",
+        "Detailed Business Proposal"
+      ],
+      "apply_mode": [
+        "District Collectorate",
+        "Dalit Bandhu Portal"
+      ],
+      "apply_url": "https://dalitbandhu.telangana.gov.in",
+      "tags": [
+        "telangana",
+        "dalit",
+        "sc",
+        "entrepreneurship",
+        "dalit_bandhu",
+        "grant",
+        "ts"
+      ],
+      "emoji": "🚀",
+      "description": "Groundbreaking financial empowerment scheme granting ₹10 Lakh outright capital to Scheduled Caste families to become business owners."
+    },
+    {
+      "id": "AP-CHEYUTHA-001",
+      "name": "YSR Cheyutha Scheme (Andhra Pradesh)",
+      "nameHindi": "वाईएसआर चेयुता योजना (आंध्र प्रदेश)",
+      "category": "women",
+      "level": "state",
+      "state": "Andhra Pradesh",
+      "department": "Social Welfare Department, Andhra Pradesh",
+      "departmentLogo": "/logos/ministries/women.jpg",
+      "brief": "₹75,000 over 4 years (₹18,750/year) for women aged 45-60 from SC, ST, BC, Minorities in AP",
+      "briefHindi": "एससी, एसटी, बीसी और अल्पसंख्यक वर्ग की 45-60 वर्ष की महिलाओं को 4 साल में ₹75,000",
+      "benefit": "Direct Bank Transfer of ₹18,750 per year for 4 continuous years (total ₹75,000) coupled with technical support from ITC, Amul, P&G for sustainable livelihood businesses",
+      "benefitHindi": "सालाना ₹18,750 (4 साल में ₹75,000) सीधा बैंक खाते में अमूल/आईटीसी से किराना व डेयरी व्यापार हेतु",
+      "benefitType": "cash_transfer",
+      "eligibility": {
+        "gender": "female",
+        "minAge": 45,
+        "maxAge": 60,
+        "caste": [
+          "SC",
+          "ST",
+          "OBC",
+          "minority"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Caste Certificate",
+        "Age Proof (45-60)",
+        "Rice Card / Ration Card",
+        "Bank Account Passbook"
+      ],
+      "apply_mode": [
+        "Grama / Ward Sachivalayam",
+        "Navasakam Portal"
+      ],
+      "apply_url": "https://navasakam.ap.gov.in",
+      "tags": [
+        "andhra_pradesh",
+        "women",
+        "dbt",
+        "cheyutha",
+        "livelihood",
+        "dairy",
+        "ap"
+      ],
+      "emoji": "👩‍🌾",
+      "description": "Financial and entrepreneurial assistance for middle-aged women belonging to marginalized social categories."
+    },
+    {
+      "id": "KL-SNEHAPOORVAM-001",
+      "name": "Snehapoorvam Scheme (Kerala)",
+      "nameHindi": "स्नेहपूर्वम योजना (केरल अनाथ बाल सहायता)",
+      "category": "scholarship",
+      "level": "state",
+      "state": "Kerala",
+      "department": "Social Justice Department, Kerala",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "₹300 to ₹1,000/month scholarship for children who lost father/mother and live with relatives",
+      "briefHindi": "माता-पिता को खो चुके और रिश्तेदारों के साथ रह रहे बच्चों को ₹300 से ₹1,000/माह छात्रवृत्ति",
+      "benefit": "Monthly financial aid from Class 1 through degree: ₹300/mo (Class 1-5), ₹500/mo (Class 6-10), ₹750/mo (Class 11-12) and ₹1,000/mo (Degree/Professional) to ensure children never abandon studies",
+      "benefitHindi": "कक्षा 1 से कॉलेज तक ₹300 से ₹1,000 प्रति माह नियमित छात्रवृत्ति सीधे बैंक खाते में",
+      "benefitType": "scholarship",
+      "eligibility": {
+        "maxAge": 21,
+        "bpl": true
+      },
+      "documents": [
+        "Death Certificate of Parents",
+        "BPL Certificate / Card",
+        "School / College Bonafide Certificate",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "School Headmaster",
+        "Kerala Social Security Mission (KSSM)"
+      ],
+      "apply_url": "https://socialsecuritymission.gov.in",
+      "tags": [
+        "kerala",
+        "orphan",
+        "scholarship",
+        "snehapoorvam",
+        "child_welfare",
+        "bpl"
+      ],
+      "emoji": "🤝",
+      "description": "Compassionate welfare safety net of Kerala Social Security Mission preventing destitute orphans from falling out of formal schooling."
+    },
+    {
+      "id": "SMILE-001",
+      "name": "SMILE Scheme (Support for Marginalized Individuals)",
+      "nameHindi": "स्माइल योजना (हाशिए पर रहने वाले व्यक्तियों की आजीविका सहायता)",
+      "category": "social_welfare",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Social Justice & Empowerment",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "Rehabilitation, skill training, and medical cover for transgender persons and destitute",
+      "briefHindi": "किन्नर समुदाय व भिक्षावृत्ति में संलग्न व्यक्तियों का पुनर्वास एवं निःशुल्क कौशल प्रशिक्षण",
+      "benefit": "Skill development training with ₹1,000/month stipend, composite healthcare cover under PM-JAY, and micro-enterprise loans up to ₹5 Lakh",
+      "benefitHindi": "मुफ्त कौशल प्रशिक्षण + ₹1,000/माह वजीफा तथा ₹5 लाख तक का रियायती ऋण",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Transgender Certificate / Identity Card (if applicable)",
+        "Bank Passbook"
+      ],
+      "apply_mode": [
+        "National Portal for Transgender Persons",
+        "District Social Welfare Office"
+      ],
+      "apply_url": "https://transgender.dosje.gov.in",
+      "tags": [
+        "smile",
+        "transgender",
+        "marginalized",
+        "social_justice",
+        "rehabilitation"
+      ],
+      "emoji": "🤝",
+      "description": "Umbrella scheme for comprehensive rehabilitation and livelihood assistance for marginalized individuals."
+    },
+    {
+      "id": "NAMASTE-001",
+      "name": "NAMASTE Scheme (National Sanitation Workers Mission)",
+      "nameHindi": "नमस्ते योजना (राष्ट्रीय सफाई कर्मचारी आजीविका मिशन)",
+      "category": "social_welfare",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Social Justice & Empowerment",
+      "departmentLogo": "/logos/ministries/social_justice.jpg",
+      "brief": "Up to ₹5 Lakh capital subsidy for sanitation workers to buy mechanized cleaning equipment",
+      "briefHindi": "सफाई कर्मचारियों को आधुनिक सीवर सफाई मशीन खरीदने हेतु ₹5 लाख तक की पूंजीगत सब्सिडी",
+      "benefit": "Capital subsidy up to 50% (max ₹5 Lakh) for buying mechanized cleaning vehicles, free PPE safety kits, and health insurance under PM-JAY",
+      "benefitHindi": "सफाई मशीन/वाहन खरीदने पर 50% तक (अधिकतम ₹5 लाख) सरकारी सब्सिडी व आयुष्मान सुरक्षा",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "sanitation_worker",
+          "laborer"
+        ],
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Sanitation Worker Enumeration Certificate",
+        "Bank Account"
+      ],
+      "apply_mode": [
+        "NSKFDC Portal",
+        "Urban Local Body / Municipality"
+      ],
+      "apply_url": "https://nskfdc.nic.in",
+      "tags": [
+        "namaste",
+        "sanitation",
+        "sewer",
+        "safai_karamchari",
+        "subsidy"
+      ],
+      "emoji": "🛡️",
+      "description": "Ensures zero human entry into sewers by providing mechanized cleaning equipment with generous subsidies."
+    },
+    {
+      "id": "PM-POSHAN-001",
+      "name": "PM POSHAN Shakti Nirman (Hot Cooked Meals)",
+      "nameHindi": "पीएम पोषण शक्ति निर्माण योजना (गर्म पौष्टिक भोजन)",
+      "category": "food",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Education",
+      "departmentLogo": "/logos/ministries/education.jpg",
+      "brief": "100% free daily hot cooked nutritious meals for all students from Balvatika to Class 8",
+      "briefHindi": "बालवाटिका से कक्षा 8 तक के सभी विद्यार्थियों को 100% मुफ्त गर्म पौष्टिक दोपहर का भोजन",
+      "benefit": "Free wholesome hot meals providing 450-700 calories and 12-20g protein daily on every school working day for 12 Crore school children",
+      "benefitHindi": "कक्षा 1 से 8 तक के प्रत्येक विद्यार्थी को स्कूल में प्रतिदिन मुफ्त गर्म व पौष्टिक भोजन",
+      "benefitType": "in_kind",
+      "eligibility": {
+        "occupation": [
+          "student"
+        ],
+        "minAge": 5,
+        "maxAge": 14
+      },
+      "documents": [
+        "Government School Enrollment"
+      ],
+      "apply_mode": [
+        "Direct enrollment in any Government or Government-Aided School"
+      ],
+      "apply_url": "https://pmposhan.education.gov.in",
+      "tags": [
+        "pm_poshan",
+        "midday_meal",
+        "school",
+        "children",
+        "nutrition",
+        "food"
+      ],
+      "emoji": "🍲",
+      "description": "National school feeding program enhancing enrollment, attendance, and nutritional status of primary students."
+    },
+    {
+      "id": "NLM-001",
+      "name": "National Livestock Mission (NLM)",
+      "nameHindi": "राष्ट्रीय पशुधन मिशन",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "50% capital subsidy up to ₹50 Lakh for goat, sheep, poultry and piggery farms",
+      "briefHindi": "बकरी, भेड़, मुर्गी और सुअर पालन फार्म स्थापित करने पर 50% तक (₹50 लाख तक) सब्सिडी",
+      "benefit": "Direct 50% capital subsidy (up to ₹50 Lakh for poultry, ₹50 Lakh for sheep/goat breeding farms, and ₹25 Lakh for fodder seed processing)",
+      "benefitHindi": "पशुपालन फार्म और हैचरी शुरू करने पर लागत का 50% (अधिकतम ₹50 लाख) सीधा बैंक अनुदान",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer",
+          "entrepreneur"
+        ],
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Ownership / Long Lease Agreement",
+        "Project DPR",
+        "Bank Loan Sanction Letter"
+      ],
+      "apply_mode": [
+        "NLM Portal (nlm.udyamimitra.in)",
+        "District Animal Husbandry Office"
+      ],
+      "apply_url": "https://nlm.udyamimitra.in",
+      "tags": [
+        "livestock",
+        "poultry",
+        "goat_farming",
+        "animal_husbandry",
+        "subsidy"
+      ],
+      "emoji": "🐐",
+      "description": "Financial assistance and capital subsidies for sustainable development of poultry, sheep, goat, and piggery entrepreneurship."
+    },
+    {
+      "id": "DEDS-001",
+      "name": "Dairy Entrepreneurship Development Scheme (DEDS)",
+      "nameHindi": "डेयरी उद्यमिता विकास योजना",
+      "category": "agriculture",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Agriculture & Farmers Welfare",
+      "departmentLogo": "/logos/ministries/agriculture.jpg",
+      "brief": "25% to 33.33% back-ended capital subsidy via NABARD for dairy farm units",
+      "briefHindi": "नाबार्ड के माध्यम से 2 से 10 दुधारू पशुओं की डेयरी खोलने पर 25% से 33% बैक-एंडेड सब्सिडी",
+      "benefit": "25% capital subsidy (General) up to ₹1.25 Lakh and 33.33% subsidy (SC/ST) up to ₹1.67 Lakh for setting up small modern dairy farms (up to 10 animals)",
+      "benefitHindi": "दुधारू पशु, मिल्किंग मशीन व गोबर गैस हेतु 25% (सामान्य) व 33.33% (एससी/एसटी) नाबार्ड सब्सिडी",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "farmer",
+          "dairy_farmer",
+          "entrepreneur"
+        ],
+        "gender": "all",
+        "minAge": 18
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Passbook",
+        "Land / Shed Proof",
+        "Caste Certificate (if SC/ST)"
+      ],
+      "apply_mode": [
+        "Commercial Banks / Regional Rural Banks (RRBs)",
+        "NABARD"
+      ],
+      "apply_url": "https://www.nabard.org",
+      "tags": [
+        "dairy",
+        "milk",
+        "cow",
+        "buffalo",
+        "nabard",
+        "deds",
+        "subsidy"
+      ],
+      "emoji": "🐄",
+      "description": "Promotes setting up of modern dairy farms for clean milk production with back-ended capital subsidy from NABARD."
+    },
+    {
+      "id": "PMDEVINE-001",
+      "name": "Prime Minister Development Initiative for North East (PM-DevINE)",
+      "nameHindi": "पूर्वोत्तर क्षेत्र विकास पहल (पीएम-डिवाइन)",
+      "category": "social_welfare",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Development of North Eastern Region",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "100% central funding for infrastructure and livelihood empowerment in North East states",
+      "briefHindi": "पूर्वोत्तर भारत के 8 राज्यों में आजीविका, स्वास्थ्य व युवा रोजगार हेतु 100% केंद्रीय अनुदान",
+      "benefit": "Dedicated infrastructure projects, bamboo processing clusters, youth incubation, and rural entrepreneurship programs across Assam, Meghalaya, Manipur, Mizoram, Nagaland, Tripura, Arunachal & Sikkim",
+      "benefitHindi": "पूर्वोत्तर राज्यों के युवाओं व किसानों के लिए आजीविका क्लस्टर, बांस उद्योग व कौशल विकास",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "North East Domicile Proof",
+        "Aadhaar Card"
+      ],
+      "apply_mode": [
+        "DoNER Ministry Portal",
+        "State Planning Board"
+      ],
+      "apply_url": "https://mdoner.gov.in",
+      "tags": [
+        "northeast",
+        "assam",
+        "meghalaya",
+        "livelihood",
+        "pm_devine",
+        "infrastructure"
+      ],
+      "emoji": "🌄",
+      "description": "High-impact central scheme filling developmental gaps and promoting livelihoods in all eight North Eastern states."
+    },
+    {
+      "id": "UDAN-001",
+      "name": "UDAN (Ude Desh Ka Aam Nagrik - Regional Connectivity)",
+      "nameHindi": "उड़ान योजना (उड़े देश का आम नागरिक)",
+      "category": "transport",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Civil Aviation",
+      "departmentLogo": "/logos/ministries/transport.jpg",
+      "brief": "Capped affordable flight airfares (₹2,500/hour) connecting 500+ unserved regional routes",
+      "briefHindi": "छोटे शहरों के लिए किफायती हवाई यात्रा — 1 घंटे की उड़ान का किराया अधिकतम ₹2,500 निर्धारित",
+      "benefit": "Air travel made affordable for common citizens with fare capped at ₹2,500 per seat per hour of flying on regional routes connecting tier-2 & tier-3 cities",
+      "benefitHindi": "छोटे शहरों से बड़े महानगरों तक किफायती टिकट दर पर रियायती हवाई सेवा",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "Government Photo ID Card / Aadhaar Card"
+      ],
+      "apply_mode": [
+        "Airline Ticketing Portals (UDAN Fare Quota)",
+        "Airport Counters"
+      ],
+      "apply_url": "https://www.civilaviation.gov.in",
+      "tags": [
+        "udan",
+        "aviation",
+        "flight",
+        "affordable_travel",
+        "regional_connectivity"
+      ],
+      "emoji": "✈️",
+      "description": "Regional airport development and air connectivity program making flying accessible to common citizens across India."
+    },
+    {
+      "id": "PRASHAD-001",
+      "name": "PRASHAD Scheme (Pilgrimage & Heritage Tourism)",
+      "nameHindi": "प्रसाद योजना (तीर्थयात्रा कायाकल्प और आध्यात्मिक संवर्धन अभियान)",
+      "category": "social_welfare",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Tourism",
+      "departmentLogo": "/logos/ministries/india_emblem.jpg",
+      "brief": "World-class amenities, clean restrooms, drinking water, and e-carts for senior pilgrims",
+      "briefHindi": "तीर्थस्थलों पर वरिष्ठ नागरिकों व तीर्थयात्रियों हेतु मुफ्त ई-कार्ट, स्वच्छ पेयजल व विश्राम गृह",
+      "benefit": "Integrated development of pilgrimage sites providing battery-operated carts for elderly and disabled pilgrims, clean rest houses, and tourist facilitation centers",
+      "benefitHindi": "वरिष्ठ व दिव्यांग तीर्थयात्रियों हेतु बैटरी चालित निःशुल्क गाड़ियां, शेल्टर और सुगम मार्ग",
+      "benefitType": "service",
+      "eligibility": {
+        "gender": "all"
+      },
+      "documents": [
+        "No documents required — open to all public"
+      ],
+      "apply_mode": [
+        "Public facilities directly available at designated pilgrimage shrines across India"
+      ],
+      "apply_url": "https://tourism.gov.in",
+      "tags": [
+        "prashad",
+        "pilgrimage",
+        "elderly",
+        "senior",
+        "heritage",
+        "amenities"
+      ],
+      "emoji": "🛕",
+      "description": "Holistic infrastructure enhancement at revered pilgrimage destinations facilitating safe and comfortable pilgrimage."
+    },
+    {
+      "id": "SAGARMALA-001",
+      "name": "Sagarmala Coastal Community Development",
+      "nameHindi": "सागरमाला तटीय समुदाय विकास कार्यक्रम",
+      "category": "skill",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of Ports, Shipping and Waterways",
+      "departmentLogo": "/logos/ministries/transport.jpg",
+      "brief": "Free maritime, fisheries, and logistics skill training with placement for coastal youth",
+      "briefHindi": "तटीय क्षेत्रों के युवाओं को बंदरगाह, लॉजिस्टिक्स व समुद्री व्यापार में 100% मुफ्त कौशल प्रशिक्षण",
+      "benefit": "Free job-linked vocational training in port operations, maritime seafaring, and cold-chain aquaculture logistics, with placement assurance in maritime companies",
+      "benefitHindi": "समुद्र तटीय युवाओं को उच्च वेतन वाली नौकरियों हेतु मरीन व लॉजिस्टिक्स ट्रेनिंग व प्लेसमेंट",
+      "benefitType": "service",
+      "eligibility": {
+        "occupation": [
+          "student",
+          "unemployed",
+          "fisherman"
+        ],
+        "minAge": 18,
+        "maxAge": 35
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Class 10/12 Marksheet",
+        "Coastal Domicile Certificate"
+      ],
+      "apply_mode": [
+        "Sagarmala Skill Centres",
+        "National Port Authority Training Wings"
+      ],
+      "apply_url": "https://sagarmala.gov.in",
+      "tags": [
+        "sagarmala",
+        "coastal",
+        "maritime",
+        "shipping",
+        "fisheries",
+        "skill_training"
+      ],
+      "emoji": "⚓",
+      "description": "Skill development and economic upliftment initiative specifically designed for coastal fishing communities."
+    },
+    {
+      "id": "PMMITRA-001",
+      "name": "PM MITRA Mega Textile Parks Scheme",
+      "nameHindi": "पीएम मित्र मेगा टेक्सटाइल पार्क योजना",
+      "category": "startup",
+      "level": "central",
+      "state": "all",
+      "department": "Ministry of MSME",
+      "departmentLogo": "/logos/ministries/msme.jpg",
+      "brief": "Subsidized factory space, power and training for handloom weavers and textile startups",
+      "briefHindi": "बुनकरों व कपड़ा उद्यमियों को विश्वस्तरीय कार्यशालाएं, सस्ती बिजली और प्रशिक्षण सहायता",
+      "benefit": "Plug-and-play modern industrial sheds, zero electricity duty for 5 years, subsidized capital credit for textile machinery, creating 1 lakh jobs per park",
+      "benefitHindi": "कपड़ा व हथकरघा इकाइयों हेतु रेडी-टू-यूज शेड, सस्ती बिजली और मशीनरी पर ऋण सहायता",
+      "benefitType": "subsidy",
+      "eligibility": {
+        "occupation": [
+          "artisan",
+          "entrepreneur",
+          "weaver"
+        ],
+        "minAge": 18,
+        "gender": "all"
+      },
+      "documents": [
+        "Udyam Registration Certificate",
+        "Aadhaar Card",
+        "PAN Card",
+        "Project Proposal"
+      ],
+      "apply_mode": [
+        "PM MITRA SPV Office",
+        "State Industrial Development Corporation"
+      ],
+      "apply_url": "https://texmin.nic.in",
+      "tags": [
+        "textiles",
+        "handloom",
+        "weaver",
+        "pm_mitra",
+        "msme",
+        "manufacturing"
+      ],
+      "emoji": "🧵",
+      "description": "Creates state-of-the-art integrated textile parks providing world-class infrastructure to handloom weavers and apparel makers."
     }
   ]
 }

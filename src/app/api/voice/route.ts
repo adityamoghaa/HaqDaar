@@ -23,11 +23,18 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Invalid JSON payload" }, { status: 400 });
     }
 
-    const { audioBase64, mimeType = "audio/webm", history = [], language = "hi" } = body || {};
+    const {
+      audioBase64,
+      mimeType = "audio/webm",
+      history = [],
+      language = "hi",
+      profile = {},
+      text: fallbackTextInput,
+    } = body || {};
 
-    if (!audioBase64) {
+    if (!audioBase64 && !fallbackTextInput) {
       return NextResponse.json(
-        { error: "audioBase64 field is required" },
+        { error: "audioBase64 or text field is required" },
         { status: 400 }
       );
     }
@@ -40,8 +47,19 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const knownProfileEntries = Object.entries(profile || {}).filter(
+      ([k, v]) => v !== null && v !== undefined && v !== "" && k !== "raw_text"
+    );
+    const knownProfileStr =
+      knownProfileEntries.length > 0
+        ? knownProfileEntries.map(([k, v]) => `${k}: ${v}`).join(", ")
+        : "None yet";
+
     const voicePrompt = `You are HaqDaar, an empathetic Indian government scheme guide.
 Listen carefully to the citizen's recorded audio message.
+
+ALREADY KNOWN DEMOGRAPHIC FACTS ABOUT THIS CITIZEN IN THIS SESSION:
+${knownProfileStr}
 
 Your task:
 1. Accurately transcribe what the citizen said in their language (Hindi, English, Hinglish, Tamil, Bengali, Marathi, etc.)
@@ -56,6 +74,10 @@ Your task:
    - raw_text: summary of citizen's situation
 3. Provide a warm, conversational audio reply directly addressing their situation in their spoken language.
 4. Set "ready_to_match": true if you have occupation + (state OR income), else false.
+5. MANDATORY RULES:
+   - Do NOT re-ask for details already known!
+   - In your output profile object, retain and merge all previously known facts.
+   - If citizen corrects an already known detail, update it warmly.
 
 Return valid JSON strictly matching this schema:
 {
@@ -194,6 +216,12 @@ Return valid JSON strictly matching this schema:
         } catch {}
       }
     }
+
+    // Merge previous known profile so facts are never lost
+    outputObj.profile = {
+      ...(profile || {}),
+      ...(outputObj.profile || {}),
+    };
 
     // Synthesize Neural Audio for output message
     let audioOutputBase64: string | null = null;

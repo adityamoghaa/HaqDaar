@@ -1,8 +1,8 @@
 // Gemini AI client — centralized configuration with retry logic & streaming support
 import { GoogleGenAI } from "@google/genai";
 
-export const GEMINI_MODEL = "gemini-2.5-flash";
-export const LIVE_MODEL = "gemini-2.5-flash";
+export const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+export const LIVE_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 
 function getApiKey(): string {
   const key = process.env.GEMINI_API_KEY;

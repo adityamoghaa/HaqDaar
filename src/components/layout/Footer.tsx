@@ -33,25 +33,40 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/schemes" className="hover:text-white transition-colors">
-                  All Central & State Schemes (46+)
+                  All Central & State Schemes (155)
+                </Link>
+              </li>
+              <li>
+                <Link href="/compare" className="hover:text-white transition-colors text-orange-400/90 font-medium">
+                  ⚖️ Compare Schemes Side-by-Side
+                </Link>
+              </li>
+              <li>
+                <Link href="/dashboard" className="hover:text-white transition-colors text-emerald-400/90 font-medium">
+                  📁 My Welfare Vault & Tracker
+                </Link>
+              </li>
+              <li>
+                <Link href="/csc-locator" className="hover:text-white transition-colors">
+                  📍 CSC / Jan Seva Kendra Locator
+                </Link>
+              </li>
+              <li>
+                <Link href="/impact" className="hover:text-white transition-colors">
+                  📊 National Impact & Benefit Calculator
                 </Link>
               </li>
               <li>
                 <Link href="/chat" className="hover:text-white transition-colors">
-                  Conversational Eligibility Check
+                  💬 Conversational Eligibility Check
                 </Link>
               </li>
               <li>
                 <Link href="/voice" className="hover:text-white transition-colors flex items-center gap-1.5">
-                  Gemini Live Voice Assistant
+                  🎙️ Gemini Live Voice Assistant
                   <span className="px-1.5 py-0.5 rounded text-[10px] bg-orange-500/20 text-orange-400 font-semibold">
                     Live
                   </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/results" className="hover:text-white transition-colors">
-                  Scheme Recommendations
                 </Link>
               </li>
             </ul>

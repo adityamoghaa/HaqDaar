@@ -10,6 +10,7 @@ export interface Scheme {
   level: string;
   state: string;
   department: string;
+  departmentLogo?: string;
   brief: string;
   briefHindi: string;
   benefit: string;
